@@ -1,6 +1,3 @@
-# hello world1
-# hello world
-# hook-test!!!!!22dddd
 # hook-test!!!!!22
 # hook-test!!!!!
 # hook-test!!!!!
