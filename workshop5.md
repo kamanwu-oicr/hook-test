@@ -294,5 +294,3 @@ course-outline:
     PPT: ""
     PDF: ""
     YouTube: ""
-
----
