@@ -1,4 +1,3 @@
-## NNN9
 ## NNN8
 ## NNN7
 ## NNN6
