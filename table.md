@@ -33,15 +33,15 @@
 |Core | routerUser | DELETE | /admin/user | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |									
 |Core | routerUser | GET | /admin/user/profile | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |												
 |Core | routerUser | PUT | /admin/user/profile | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
-|Core | routerUser | PUT | /admin/user/email |															
-|Core | routerUser | PUT | /admin/user/password |														
-|Core | routerUser | POST | /admin/user/export |																		
-|Core | routerUser | POST | /admin/user/search |																	
-|Core | routerUser | POST | /admin/user/switch |																	
-|Core | routerUser | GET | /admin/user/role/list |													
-|Core | routerUser | POST | /admin/user/role |																
-|Core | routerUser | PUT | /admin/user/role |																
-|Core | routerUser | GET | /admin/user/role |													
-|Core | routerUser | DELETE | /admin/user/role |		
-|Core | routerUser | GET | /admin/user/role/download |		
-|Core | routerUser | POST | /admin/group/cud/search |
+|Core | routerUser | PUT | /admin/user/email | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |															
+|Core | routerUser | PUT | /admin/user/password | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerUser | POST | /admin/user/export | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |																		
+|Core | routerUser | POST | /admin/user/search | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |																	
+|Core | routerUser | POST | /admin/user/switch | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |																	
+|Core | routerUser | GET | /admin/user/role/list | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |												
+|Core | routerUser | POST | /admin/user/role | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerUser | PUT | /admin/user/role | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |														
+|Core | routerUser | GET | /admin/user/role | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerUser | DELETE | /admin/user/role | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerUser | GET | /admin/user/role/download | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |	
+|Core | routerUser | POST | /admin/group/cud/search | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
