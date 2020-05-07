@@ -1,17 +1,17 @@
-| Module | File | Method | Path | Comment | administrator | operator | form administrator | P-admin | P-owner | P-operator | P-requisitioner | P-administrator | P-accessioners | P-lab user | P-signout | 
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|Core | routerUser | POST | /user/session |																
-|Core | routerUser | GET | /user/session |																					
-|Core | routerUser | DELETE | /user/session |																	
-|Core | routerUser | PUT | /user/session |													
-|Core | routerUser | POST | /user/session/upgrade |	
-|Core | routerUser | GET | /user/user |
-|Core | routerUser | POST | /user/user/1 |																	
-|Core | routerUser | POST | /user/user/2 |																					
-|Core | routerUser | POST | /user/user/3 |	
-|Core | routerUser | POST | /user/user/gdpr |																		
-|Core | routerUser | POST | /user/user/consent |																			
-|Core | routerUser | POST | /user/user/consent/mail |																		
+| Module | File | Method | Path | anonymous | authenticated| administrator | operator | form administrator | P-admin | P-owner | P-operator | P-requisitioner | P-administrator | P-accessioners | P-lab user | P-signout | Comment |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|Core | routerUser | POST | /user/session |	Y | 															
+|Core | routerUser | GET | /user/session | Y |																				
+|Core | routerUser | DELETE | /user/session | Y |																	
+|Core | routerUser | PUT | /user/session | N | Y |												
+|Core | routerUser | POST | /user/session/upgrade |	N | Y |
+|Core | routerUser | GET | /user/user | Y |
+|Core | routerUser | POST | /user/user/1 | Y |																	
+|Core | routerUser | POST | /user/user/2 | Y |																				
+|Core | routerUser | POST | /user/user/3 | Y |
+|Core | routerUser | POST | /user/user/gdpr | N | Y |																	
+|Core | routerUser | POST | /user/user/consent | N | Y |																			
+|Core | routerUser | POST | /user/user/consent/mail | N | Y |																		
 |Core | routerUser | PUT | /user/user |							
 |Core | routerUser | GET | /user/user/profile |	
 |Core | routerUser | PUT | /user/user/profile |
@@ -25,8 +25,7 @@
 |Core | routerUser | POST | /user/user/email/update/mail |								
 |Core | routerUser | POST | /user/user/email/update/cancel |								
 |Core | routerUser | GET | /user/user/email/update |									
-|Core | routerUser | PUT | /user/user/email/update |
-|Core | routerUser | GET | /user/case |														
+|Core | routerUser | PUT | /user/user/email/update |										
 |Core | routerUser | GET | /admin/user/list |									
 |Core | routerUser | POST | /admin/user |										
 |Core | routerUser | PUT | /admin/user |											
@@ -43,5 +42,6 @@
 |Core | routerUser | POST | /admin/user/role |																
 |Core | routerUser | PUT | /admin/user/role |																
 |Core | routerUser | GET | /admin/user/role |													
-|Core | routerUser | DELETE | /admin/user/role |																	
-|Core | routerUser | POST | /admin/group/cud/search |																			
+|Core | routerUser | DELETE | /admin/user/role |		
+|Core | routerUser | GET | /admin/user/role/download |		
+|Core | routerUser | POST | /admin/group/cud/search |
