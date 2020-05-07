@@ -12,27 +12,27 @@
 |Core | routerUser | POST | /user/user/gdpr | N | Y |																	
 |Core | routerUser | POST | /user/user/consent | N | Y |																			
 |Core | routerUser | POST | /user/user/consent/mail | N | Y |																		
-|Core | routerUser | PUT | /user/user |							
-|Core | routerUser | GET | /user/user/profile |	
-|Core | routerUser | PUT | /user/user/profile |
-|Core | routerUser | POST | /user/user/delete |
-|Core | routerUser | POST | /user/user/export |
-|Core | routerUser | POST | /user/user/password/mail |													
-|Core | routerUser | GET | /user/user/password/reset |										
-|Core | routerUser | PUT | /user/user/password |
-|Core | routerUser | PUT | /user/user/password/update |															
-|Core | routerUser | POST | /user/user/email/update/request |								
-|Core | routerUser | POST | /user/user/email/update/mail |								
-|Core | routerUser | POST | /user/user/email/update/cancel |								
-|Core | routerUser | GET | /user/user/email/update |									
-|Core | routerUser | PUT | /user/user/email/update |										
-|Core | routerUser | GET | /admin/user/list |									
-|Core | routerUser | POST | /admin/user |										
-|Core | routerUser | PUT | /admin/user |											
-|Core | routerUser | GET | /admin/user |
-|Core | routerUser | DELETE | /admin/user |										
-|Core | routerUser | GET | /admin/user/profile |												
-|Core | routerUser | PUT | /admin/user/profile |													
+|Core | routerUser | PUT | /user/user | N | Y |					
+|Core | routerUser | GET | /user/user/profile | N | Y |	
+|Core | routerUser | PUT | /user/user/profile | N | Y |
+|Core | routerUser | POST | /user/user/delete | N | Y |
+|Core | routerUser | POST | /user/user/export | N | Y |
+|Core | routerUser | POST | /user/user/password/mail | N | Y |													
+|Core | routerUser | GET | /user/user/password/reset | N | Y |										
+|Core | routerUser | PUT | /user/user/password | N | Y |
+|Core | routerUser | PUT | /user/user/password/update | N | Y |														
+|Core | routerUser | POST | /user/user/email/update/request | N | Y |							
+|Core | routerUser | POST | /user/user/email/update/mail | N | Y |					
+|Core | routerUser | POST | /user/user/email/update/cancel | N | Y |							
+|Core | routerUser | GET | /user/user/email/update | N | Y |							
+|Core | routerUser | PUT | /user/user/email/update | N | Y |								
+|Core | routerUser | GET | /admin/user/list | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerUser | POST | /admin/user | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |										
+|Core | routerUser | PUT | /admin/user | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerUser | GET | /admin/user | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerUser | DELETE | /admin/user | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |									
+|Core | routerUser | GET | /admin/user/profile | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |												
+|Core | routerUser | PUT | /admin/user/profile | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
 |Core | routerUser | PUT | /admin/user/email |															
 |Core | routerUser | PUT | /admin/user/password |														
 |Core | routerUser | POST | /admin/user/export |																		
