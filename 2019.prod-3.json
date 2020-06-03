@@ -1,5 +1,5 @@
 {
-    "_id" : ObjectId("5c3f3c6befeb9300190b3ed3"),
+    "_id" : ObjectId("5c081a840a122401e83d248f"),
     "lang" : [ 
         "en"
     ],
@@ -52,202 +52,7 @@
                             "title" : "SELECT THE WORKSHOPS YOU WOULD LIKE TO APPLY TO"
                         }
                     },
-                    "children" : [ 
-                        {
-                            "type" : "question-group",
-                            "id" : "s-8d6ed0f0-19ac-11e9-ba25-193bee39461b",
-                            "values" : {
-                                "en" : {
-                                    "title" : "Introduction to R",
-                                    "description" : "<strong>2 days</strong>: May 13 - May 14, 2019 - Toronto, ON",
-                                    "eventStatusText" : {
-                                        "open" : "",
-                                        "close" : "",
-                                        "full" : "Your submission will be added to the waitlist for the workshop. Alternatively, you may fill out our <a href=\"/workshops/waitlist/#/?q-8d719010-19ac-11e9-ba25-193bee39461b=true&q-8d7623f0-19ac-11e9-ba25-193bee39461b=true\">waitlist form</a>."
-                                    }
-                                }
-                            },
-                            "children" : [ 
-                                "q-8d719010-19ac-11e9-ba25-193bee39461b", 
-                                "q-8d7623f0-19ac-11e9-ba25-193bee39461b"
-                            ],
-                            "variable" : "wsId_5c3f5d02efeb9300190b4113",
-                            "showIf" : [],
-                            "permissions" : {},
-                            "groupType" : "event",
-                            "eventStatus" : "close"
-                        }, 
-                        {
-                            "type" : "question-group",
-                            "id" : "s-cd3dcec0-19ac-11e9-ba25-193bee39461b",
-                            "values" : {
-                                "en" : {
-                                    "title" : "Exploratory Analysis of Biological Data using R",
-                                    "description" : "<strong>2 days</strong>: May 15 - May 16, 2019 - Toronto, ON",
-                                    "eventStatusText" : {
-                                        "open" : "",
-                                        "close" : "",
-                                        "full" : "Your submission will be added to the waitlist for the workshop. Alternatively, you may fill out our <a href=\"/workshops/waitlist/#/?q-cd419f50-19ac-11e9-ba25-193bee39461b=true&q-cd465a40-19ac-11e9-ba25-193bee39461b=true\">waitlist form</a>."
-                                    }
-                                }
-                            },
-                            "children" : [ 
-                                "q-cd419f50-19ac-11e9-ba25-193bee39461b", 
-                                "q-cd465a40-19ac-11e9-ba25-193bee39461b"
-                            ],
-                            "variable" : "wsId_5c3f5d6defeb9300190b4153",
-                            "showIf" : [],
-                            "permissions" : {},
-                            "groupType" : "event",
-                            "eventStatus" : "close"
-                        }, 
-                        {
-                            "type" : "question-group",
-                            "id" : "s-e74d24e0-19ad-11e9-ba25-193bee39461b",
-                            "values" : {
-                                "en" : {
-                                    "title" : "Informatics and Statistics for Metabolomics",
-                                    "description" : "<strong>2 days</strong>: May 27 - May 28, 2019 - Edmonton, AB",
-                                    "eventStatusText" : {
-                                        "open" : "",
-                                        "close" : "",
-                                        "full" : "Your submission will be added to the waitlist for the workshop. Alternatively, you may fill out our <a href=\"/workshops/waitlist/#/?q-e7508040-19ad-11e9-ba25-193bee39461b=true&q-e7556240-19ad-11e9-ba25-193bee39461b=true\">waitlist form</a>."
-                                    }
-                                }
-                            },
-                            "children" : [ 
-                                "q-e7508040-19ad-11e9-ba25-193bee39461b", 
-                                "q-e7556240-19ad-11e9-ba25-193bee39461b"
-                            ],
-                            "variable" : "wsId_5c3f5f47efeb9300190b41e0",
-                            "showIf" : [],
-                            "permissions" : {},
-                            "groupType" : "event",
-                            "eventStatus" : "close"
-                        }, 
-                        {
-                            "type" : "question-group",
-                            "id" : "s-7f42f810-19ae-11e9-ba25-193bee39461b",
-                            "values" : {
-                                "en" : {
-                                    "title" : "Bioinformatics for Cancer Genomics",
-                                    "description" : "<strong>5 days</strong>: June 3 - June 7, 2019 - Toronto, ON",
-                                    "eventStatusText" : {
-                                        "open" : "",
-                                        "close" : "",
-                                        "full" : "Your submission will be added to the waitlist for the workshop. Alternatively, you may fill out our <a href=\"/workshops/waitlist/#/?q-7f478bf0-19ae-11e9-ba25-193bee39461b=true&q-7f4c6df0-19ae-11e9-ba25-193bee39461b=true\">waitlist form</a>."
-                                    }
-                                }
-                            },
-                            "children" : [ 
-                                "q-7f478bf0-19ae-11e9-ba25-193bee39461b", 
-                                "q-7f4c6df0-19ae-11e9-ba25-193bee39461b"
-                            ],
-                            "variable" : "wsId_5c3f6046efeb9300190b4248",
-                            "showIf" : [],
-                            "permissions" : {},
-                            "groupType" : "event",
-                            "eventStatus" : "close"
-                        }, 
-                        {
-                            "type" : "question-group",
-                            "id" : "s-c60f34c0-19ae-11e9-ba25-193bee39461b",
-                            "values" : {
-                                "en" : {
-                                    "title" : "Informatics for RNA-seq Analysis",
-                                    "description" : "<strong>3 days</strong>: June 11 - June 13, 2019 - Toronto, ON",
-                                    "eventStatusText" : {
-                                        "open" : "",
-                                        "close" : "",
-                                        "full" : "Your submission will be added to the waitlist for the workshop. Alternatively, you may fill out our <a href=\"/workshops/waitlist/#/?q-c6121af0-19ae-11e9-ba25-193bee39461b=true&q-c6161290-19ae-11e9-ba25-193bee39461b=true\">waitlist form</a>."
-                                    }
-                                }
-                            },
-                            "children" : [ 
-                                "q-c6121af0-19ae-11e9-ba25-193bee39461b", 
-                                "q-c6161290-19ae-11e9-ba25-193bee39461b"
-                            ],
-                            "variable" : "wsId_5c3f60bcefeb9300190b427c",
-                            "showIf" : [],
-                            "permissions" : {},
-                            "groupType" : "event",
-                            "eventStatus" : "close",
-                            "reviewSections" : "",
-                            "displayStateDates" : []
-                        }, 
-                        {
-                            "type" : "question-group",
-                            "id" : "s-f3b6acf0-19ae-11e9-ba25-193bee39461b",
-                            "values" : {
-                                "en" : {
-                                    "title" : "Epigenomic Data Analysis",
-                                    "description" : "<strong>2 days</strong>: June 18 - June 19, 2019 - Montreal, QC",
-                                    "eventStatusText" : {
-                                        "open" : "",
-                                        "close" : "",
-                                        "full" : "Your submission will be added to the waitlist for the workshop. Alternatively, you may fill out our <a href=\"/workshops/waitlist/#/?q-f3b94500-19ae-11e9-ba25-193bee39461b=true&q-f3bd8ac0-19ae-11e9-ba25-193bee39461b=true\">waitlist form</a>."
-                                    }
-                                }
-                            },
-                            "children" : [ 
-                                "q-f3b94500-19ae-11e9-ba25-193bee39461b", 
-                                "q-f3bd8ac0-19ae-11e9-ba25-193bee39461b"
-                            ],
-                            "variable" : "wsId_5c3f6109efeb9300190b42b0",
-                            "showIf" : [],
-                            "permissions" : {},
-                            "groupType" : "event",
-                            "eventStatus" : "close"
-                        }, 
-                        {
-                            "type" : "question-group",
-                            "id" : "s-440dff50-19af-11e9-ba25-193bee39461b",
-                            "values" : {
-                                "en" : {
-                                    "title" : "Informatics on High Throughput Sequencing Data",
-                                    "description" : "<strong>2 days</strong>: June 20 - June 21, 2019 - Montreal, QC",
-                                    "eventStatusText" : {
-                                        "open" : "",
-                                        "close" : "",
-                                        "full" : "Your submission will be added to the waitlist for the workshop. Alternatively, you may fill out our <a href=\"/workshops/waitlist/#/?q-44110c90-19af-11e9-ba25-193bee39461b=true&q-441663c0-19af-11e9-ba25-193bee39461b=true\">waitlist form</a>."
-                                    }
-                                }
-                            },
-                            "children" : [ 
-                                "q-44110c90-19af-11e9-ba25-193bee39461b", 
-                                "q-441663c0-19af-11e9-ba25-193bee39461b"
-                            ],
-                            "variable" : "wsId_5c3f6190efeb9300190b42e4",
-                            "showIf" : [],
-                            "permissions" : {},
-                            "groupType" : "event",
-                            "eventStatus" : "close"
-                        }, 
-                        {
-                            "type" : "question-group",
-                            "id" : "s-144e3900-19b0-11e9-ba25-193bee39461b",
-                            "values" : {
-                                "en" : {
-                                    "title" : "Pathway and Network Analysis of -Omics Data",
-                                    "description" : "<strong>3 days</strong>: June 26 - June 28, 2019 - Toronto, ON",
-                                    "eventStatusText" : {
-                                        "open" : "",
-                                        "close" : "",
-                                        "full" : "Your submission will be added to the waitlist for the workshop. Alternatively, you may fill out our <a href=\"/workshops/waitlist/#/?q-14516d50-19b0-11e9-ba25-193bee39461b=true&q-14564f50-19b0-11e9-ba25-193bee39461b=true\">waitlist form</a>."
-                                    }
-                                }
-                            },
-                            "children" : [ 
-                                "q-14516d50-19b0-11e9-ba25-193bee39461b", 
-                                "q-14564f50-19b0-11e9-ba25-193bee39461b"
-                            ],
-                            "variable" : "wsId_5c3f62edefeb9300190b434c",
-                            "showIf" : [],
-                            "permissions" : {},
-                            "groupType" : "event",
-                            "eventStatus" : "close"
-                        }
-                    ],
+                    "children" : [],
                     "variable" : "workshop_list",
                     "permissions" : {},
                     "groupType" : "eventlist",
@@ -318,6 +123,9 @@
                     ],
                     "reviewer" : [ 
                         ""
+                    ],
+                    "admin" : [ 
+                        "write"
                     ]
                 },
                 "reopen" : {
@@ -350,6 +158,9 @@
                     ],
                     "reviewer" : [ 
                         ""
+                    ],
+                    "admin" : [ 
+                        "write"
                     ]
                 },
                 "refundRequest" : {
@@ -571,6 +382,9 @@
                     ],
                     "reviewer" : [ 
                         ""
+                    ],
+                    "admin" : [ 
+                        "write"
                     ]
                 },
                 "refundRequest" : {
@@ -645,8 +459,8 @@
                 }
             },
             "children" : [ 
-                "q-9c048280-6214-11e9-9a3e-2917bd688423", 
-                "q-babc95a0-6214-11e9-9a3e-2917bd688423", 
+                "q-bffa8cd0-9ebc-11ea-82ec-0fbdfb62d579", 
+                "q-d8011010-9ebc-11ea-82ec-0fbdfb62d579", 
                 "q-af8d7120-ee8a-11e8-8175-e91f69660aa8", 
                 "q-3a8c9ed0-ee87-11e8-8175-e91f69660aa8", 
                 {
@@ -829,6 +643,9 @@
                     ],
                     "reviewer" : [ 
                         ""
+                    ],
+                    "admin" : [ 
+                        "write"
                     ]
                 },
                 "refundRequest" : {
@@ -963,6 +780,9 @@
                     ],
                     "reviewer" : [ 
                         ""
+                    ],
+                    "admin" : [ 
+                        "write"
                     ]
                 },
                 "reopen" : {
@@ -995,6 +815,9 @@
                     ],
                     "reviewer" : [ 
                         ""
+                    ],
+                    "admin" : [ 
+                        "write"
                     ]
                 },
                 "refundRequest" : {
@@ -1390,6 +1213,9 @@
                     ],
                     "reviewer" : [ 
                         "write"
+                    ],
+                    "admin" : [ 
+                        "write"
                     ]
                 },
                 "reopen" : {
@@ -1422,6 +1248,9 @@
                     ],
                     "reviewer" : [ 
                         ""
+                    ],
+                    "admin" : [ 
+                        "write"
                     ]
                 },
                 "refundRequest" : {
@@ -3301,326 +3130,6 @@
             "id" : "q-e58a6cb0-02f8-11e9-8c26-010e2a8bc588"
         }, 
         {
-            "parent" : "s-8d6ed0f0-19ac-11e9-ba25-193bee39461b",
-            "type" : "fee",
-            "variable" : "wsFeeEarly_5c3f5d02efeb9300190b4113",
-            "values" : {
-                "en" : {
-                    "title" : "Early Registration",
-                    "taxes" : "HST",
-                    "price" : "475",
-                    "start_date" : "2019-01-16T05:00:00.000Z",
-                    "end_date" : "2019-04-16T04:00:00.000Z",
-                    "cid" : "c-8d71b720-19ac-11e9-ba25-193bee39461b",
-                    "name" : "q-8d719010-19ac-11e9-ba25-193bee39461b.value",
-                    "variable" : "wsFeeEarly_5c3f5d02efeb9300190b4113"
-                }
-            },
-            "children" : [],
-            "id" : "q-8d719010-19ac-11e9-ba25-193bee39461b",
-            "permissions" : {}
-        }, 
-        {
-            "parent" : "s-8d6ed0f0-19ac-11e9-ba25-193bee39461b",
-            "type" : "fee",
-            "variable" : "wsFeeLate_5c3f5d02efeb9300190b4113",
-            "values" : {
-                "en" : {
-                    "title" : "Late Registration",
-                    "taxes" : "HST",
-                    "price" : "675",
-                    "start_date" : "2019-04-17T04:00:00.000Z",
-                    "end_date" : "2019-05-13T15:34:10.000Z",
-                    "cid" : "c-8d7623f1-19ac-11e9-ba25-193bee39461b",
-                    "name" : "q-8d7623f0-19ac-11e9-ba25-193bee39461b.value",
-                    "variable" : "wsFeeLate_5c3f5d02efeb9300190b4113"
-                }
-            },
-            "children" : [],
-            "id" : "q-8d7623f0-19ac-11e9-ba25-193bee39461b",
-            "permissions" : {}
-        }, 
-        {
-            "parent" : "s-cd3dcec0-19ac-11e9-ba25-193bee39461b",
-            "type" : "fee",
-            "variable" : "wsFeeEarly_5c3f5d6defeb9300190b4153",
-            "values" : {
-                "en" : {
-                    "title" : "Early Registration",
-                    "taxes" : "HST",
-                    "price" : "475",
-                    "start_date" : "2019-01-16T05:00:00.000Z",
-                    "end_date" : "2019-04-16T04:00:00.000Z",
-                    "cid" : "c-cd419f51-19ac-11e9-ba25-193bee39461b",
-                    "name" : "q-cd419f50-19ac-11e9-ba25-193bee39461b.value",
-                    "variable" : "wsFeeEarly_5c3f5d6defeb9300190b4153"
-                }
-            },
-            "children" : [],
-            "id" : "q-cd419f50-19ac-11e9-ba25-193bee39461b",
-            "permissions" : {}
-        }, 
-        {
-            "parent" : "s-cd3dcec0-19ac-11e9-ba25-193bee39461b",
-            "type" : "fee",
-            "variable" : "wsFeeLate_5c3f5d6defeb9300190b4153",
-            "values" : {
-                "en" : {
-                    "title" : "Late Registration",
-                    "taxes" : "HST",
-                    "price" : "675",
-                    "start_date" : "2019-04-17T04:00:00.000Z",
-                    "end_date" : "2019-05-15T15:35:58.000Z",
-                    "cid" : "c-cd465a41-19ac-11e9-ba25-193bee39461b",
-                    "name" : "q-cd465a40-19ac-11e9-ba25-193bee39461b.value",
-                    "variable" : "wsFeeLate_5c3f5d6defeb9300190b4153"
-                }
-            },
-            "children" : [],
-            "id" : "q-cd465a40-19ac-11e9-ba25-193bee39461b",
-            "permissions" : {}
-        }, 
-        {
-            "parent" : "s-e74d24e0-19ad-11e9-ba25-193bee39461b",
-            "type" : "fee",
-            "variable" : "wsFeeEarly_5c3f5f47efeb9300190b41e0",
-            "values" : {
-                "en" : {
-                    "title" : "Early Registration",
-                    "taxes" : "HST",
-                    "price" : "475",
-                    "start_date" : "2019-01-16T05:00:00.000Z",
-                    "end_date" : "2019-04-16T04:00:00.000Z",
-                    "cid" : "c-e7508041-19ad-11e9-ba25-193bee39461b",
-                    "name" : "q-e7508040-19ad-11e9-ba25-193bee39461b.value",
-                    "variable" : "wsFeeEarly_5c3f5f47efeb9300190b41e0"
-                }
-            },
-            "children" : [],
-            "id" : "q-e7508040-19ad-11e9-ba25-193bee39461b",
-            "permissions" : {}
-        }, 
-        {
-            "parent" : "s-e74d24e0-19ad-11e9-ba25-193bee39461b",
-            "type" : "fee",
-            "variable" : "wsFeeLate_5c3f5f47efeb9300190b41e0",
-            "values" : {
-                "en" : {
-                    "title" : "Late Registration",
-                    "taxes" : "HST",
-                    "price" : "675",
-                    "start_date" : "2019-04-17T04:00:00.000Z",
-                    "end_date" : "2019-05-27T04:00:00.000Z",
-                    "cid" : "c-e7556241-19ad-11e9-ba25-193bee39461b",
-                    "name" : "q-e7556240-19ad-11e9-ba25-193bee39461b.value",
-                    "variable" : "wsFeeLate_5c3f5f47efeb9300190b41e0"
-                }
-            },
-            "children" : [],
-            "id" : "q-e7556240-19ad-11e9-ba25-193bee39461b",
-            "permissions" : {}
-        }, 
-        {
-            "parent" : "s-7f42f810-19ae-11e9-ba25-193bee39461b",
-            "type" : "fee",
-            "variable" : "wsFeeEarly_5c3f6046efeb9300190b4248",
-            "values" : {
-                "en" : {
-                    "title" : "Early Registration",
-                    "taxes" : "HST",
-                    "price" : "950",
-                    "start_date" : "2019-01-16T05:00:00.000Z",
-                    "end_date" : "2019-04-16T04:00:00.000Z",
-                    "cid" : "c-7f478bf1-19ae-11e9-ba25-193bee39461b",
-                    "name" : "q-7f478bf0-19ae-11e9-ba25-193bee39461b.value",
-                    "variable" : "wsFeeEarly_5c3f6046efeb9300190b4248"
-                }
-            },
-            "children" : [],
-            "id" : "q-7f478bf0-19ae-11e9-ba25-193bee39461b",
-            "permissions" : {}
-        }, 
-        {
-            "parent" : "s-7f42f810-19ae-11e9-ba25-193bee39461b",
-            "type" : "fee",
-            "variable" : "wsFeeLate_5c3f6046efeb9300190b4248",
-            "values" : {
-                "en" : {
-                    "title" : "Late Registration",
-                    "taxes" : "HST",
-                    "price" : "1150",
-                    "start_date" : "2019-04-17T04:00:00.000Z",
-                    "end_date" : "2019-06-03T04:00:00.000Z",
-                    "cid" : "c-7f4c6df1-19ae-11e9-ba25-193bee39461b",
-                    "name" : "q-7f4c6df0-19ae-11e9-ba25-193bee39461b.value",
-                    "variable" : "wsFeeLate_5c3f6046efeb9300190b4248"
-                }
-            },
-            "children" : [],
-            "id" : "q-7f4c6df0-19ae-11e9-ba25-193bee39461b",
-            "permissions" : {}
-        }, 
-        {
-            "parent" : "s-c60f34c0-19ae-11e9-ba25-193bee39461b",
-            "type" : "fee",
-            "variable" : "wsFeeEarly_5c3f60bcefeb9300190b427c",
-            "values" : {
-                "en" : {
-                    "title" : "Early Registration",
-                    "taxes" : "HST",
-                    "price" : "700",
-                    "start_date" : "2019-01-16T05:00:00.000Z",
-                    "end_date" : "2019-04-16T04:00:00.000Z",
-                    "cid" : "c-c6121af1-19ae-11e9-ba25-193bee39461b",
-                    "name" : "q-c6121af0-19ae-11e9-ba25-193bee39461b.value",
-                    "variable" : "wsFeeEarly_5c3f60bcefeb9300190b427c"
-                }
-            },
-            "children" : [],
-            "id" : "q-c6121af0-19ae-11e9-ba25-193bee39461b",
-            "permissions" : {}
-        }, 
-        {
-            "parent" : "s-c60f34c0-19ae-11e9-ba25-193bee39461b",
-            "type" : "fee",
-            "variable" : "wsFeeLate_5c3f60bcefeb9300190b427c",
-            "values" : {
-                "en" : {
-                    "title" : "Late Registration",
-                    "taxes" : "HST",
-                    "price" : "900",
-                    "start_date" : "2019-04-17T04:00:00.000Z",
-                    "end_date" : "2019-06-11T04:00:00.000Z",
-                    "cid" : "c-c61639a0-19ae-11e9-ba25-193bee39461b",
-                    "name" : "q-c6161290-19ae-11e9-ba25-193bee39461b.value",
-                    "variable" : "wsFeeLate_5c3f60bcefeb9300190b427c"
-                }
-            },
-            "children" : [],
-            "id" : "q-c6161290-19ae-11e9-ba25-193bee39461b",
-            "permissions" : {}
-        }, 
-        {
-            "parent" : "s-f3b6acf0-19ae-11e9-ba25-193bee39461b",
-            "type" : "fee",
-            "variable" : "wsFeeEarly_5c3f6109efeb9300190b42b0",
-            "values" : {
-                "en" : {
-                    "title" : "Early Registration",
-                    "taxes" : "HST",
-                    "price" : "475",
-                    "start_date" : "2019-01-16T05:00:00.000Z",
-                    "end_date" : "2019-04-16T04:00:00.000Z",
-                    "cid" : "c-f3b94501-19ae-11e9-ba25-193bee39461b",
-                    "name" : "q-f3b94500-19ae-11e9-ba25-193bee39461b.value",
-                    "variable" : "wsFeeEarly_5c3f6109efeb9300190b42b0"
-                }
-            },
-            "children" : [],
-            "id" : "q-f3b94500-19ae-11e9-ba25-193bee39461b",
-            "permissions" : {}
-        }, 
-        {
-            "parent" : "s-f3b6acf0-19ae-11e9-ba25-193bee39461b",
-            "type" : "fee",
-            "variable" : "wsFeeLate_5c3f6109efeb9300190b42b0",
-            "values" : {
-                "en" : {
-                    "title" : "Late Registration",
-                    "taxes" : "HST",
-                    "price" : "675",
-                    "start_date" : "2019-04-17T04:00:00.000Z",
-                    "end_date" : "2019-06-18T04:00:00.000Z",
-                    "cid" : "c-f3bd8ac1-19ae-11e9-ba25-193bee39461b",
-                    "name" : "q-f3bd8ac0-19ae-11e9-ba25-193bee39461b.value",
-                    "variable" : "wsFeeLate_5c3f6109efeb9300190b42b0"
-                }
-            },
-            "children" : [],
-            "id" : "q-f3bd8ac0-19ae-11e9-ba25-193bee39461b",
-            "permissions" : {}
-        }, 
-        {
-            "parent" : "s-440dff50-19af-11e9-ba25-193bee39461b",
-            "type" : "fee",
-            "variable" : "wsFeeEarly_5c3f6190efeb9300190b42e4",
-            "values" : {
-                "en" : {
-                    "title" : "Early Registration",
-                    "taxes" : "gst+qst",
-                    "price" : "475",
-                    "start_date" : "2019-01-16T05:00:00.000Z",
-                    "end_date" : "2019-04-16T04:00:00.000Z",
-                    "cid" : "c-44110c91-19af-11e9-ba25-193bee39461b",
-                    "name" : "q-44110c90-19af-11e9-ba25-193bee39461b.value",
-                    "variable" : "wsFeeEarly_5c3f6190efeb9300190b42e4"
-                }
-            },
-            "children" : [],
-            "id" : "q-44110c90-19af-11e9-ba25-193bee39461b",
-            "permissions" : {}
-        }, 
-        {
-            "parent" : "s-440dff50-19af-11e9-ba25-193bee39461b",
-            "type" : "fee",
-            "variable" : "wsFeeLate_5c3f6190efeb9300190b42e4",
-            "values" : {
-                "en" : {
-                    "title" : "Late Registration",
-                    "taxes" : "gst+qst",
-                    "price" : "675",
-                    "start_date" : "2019-04-17T04:00:00.000Z",
-                    "end_date" : "2019-06-20T04:00:00.000Z",
-                    "cid" : "c-441663c1-19af-11e9-ba25-193bee39461b",
-                    "name" : "q-441663c0-19af-11e9-ba25-193bee39461b.value",
-                    "variable" : "wsFeeLate_5c3f6190efeb9300190b42e4"
-                }
-            },
-            "children" : [],
-            "id" : "q-441663c0-19af-11e9-ba25-193bee39461b",
-            "permissions" : {}
-        }, 
-        {
-            "parent" : "s-144e3900-19b0-11e9-ba25-193bee39461b",
-            "type" : "fee",
-            "variable" : "wsFeeEarly_5c3f62edefeb9300190b434c",
-            "values" : {
-                "en" : {
-                    "title" : "Early Registration",
-                    "taxes" : "HST",
-                    "price" : "575",
-                    "start_date" : "2019-01-16T05:00:00.000Z",
-                    "end_date" : "2019-04-16T04:00:00.000Z",
-                    "cid" : "c-14516d51-19b0-11e9-ba25-193bee39461b",
-                    "name" : "q-14516d50-19b0-11e9-ba25-193bee39461b.value",
-                    "variable" : "wsFeeEarly_5c3f62edefeb9300190b434c"
-                }
-            },
-            "children" : [],
-            "id" : "q-14516d50-19b0-11e9-ba25-193bee39461b",
-            "permissions" : {}
-        }, 
-        {
-            "parent" : "s-144e3900-19b0-11e9-ba25-193bee39461b",
-            "type" : "fee",
-            "variable" : "wsFeeLate_5c3f62edefeb9300190b434c",
-            "values" : {
-                "en" : {
-                    "title" : "Late Registration",
-                    "taxes" : "HST",
-                    "price" : "775",
-                    "start_date" : "2019-04-17T04:00:00.000Z",
-                    "end_date" : "2019-06-26T04:00:00.000Z",
-                    "cid" : "c-14564f51-19b0-11e9-ba25-193bee39461b",
-                    "name" : "q-14564f50-19b0-11e9-ba25-193bee39461b.value",
-                    "variable" : "wsFeeLate_5c3f62edefeb9300190b434c"
-                }
-            },
-            "children" : [],
-            "id" : "q-14564f50-19b0-11e9-ba25-193bee39461b",
-            "permissions" : {}
-        }, 
-        {
             "values" : {
                 "en" : {
                     "title" : "Country:",
@@ -3901,7 +3410,7 @@
             "values" : {
                 "en" : {
                     "title" : "Registration Award - Decision",
-                    "cid" : "c-9c048281-6214-11e9-9a3e-2917bd688423"
+                    "cid" : "c-bffa8cd1-9ebc-11ea-82ec-0fbdfb62d579"
                 },
                 "fr" : {}
             },
@@ -3912,13 +3421,13 @@
             "permissions" : {},
             "variable" : "registration_award_decision",
             "trackingHistory" : true,
-            "id" : "q-9c048280-6214-11e9-9a3e-2917bd688423"
+            "id" : "q-bffa8cd0-9ebc-11ea-82ec-0fbdfb62d579"
         }, 
         {
             "values" : {
                 "en" : {
                     "title" : "Travel Award - Decision",
-                    "cid" : "c-babc95a1-6214-11e9-9a3e-2917bd688423"
+                    "cid" : "c-d8011011-9ebc-11ea-82ec-0fbdfb62d579"
                 },
                 "fr" : {}
             },
@@ -3928,7 +3437,7 @@
             "index" : 1,
             "permissions" : {},
             "variable" : "travel_award_decision",
-            "id" : "q-babc95a0-6214-11e9-9a3e-2917bd688423"
+            "id" : "q-d8011010-9ebc-11ea-82ec-0fbdfb62d579"
         }
     ],
     "tweet" : {
@@ -4945,182 +4454,62 @@
         }, 
         {
             "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-12T21:53:51.152Z"),
-            "action" : "questionUpdate",
+            "updatedAt" : ISODate("2019-04-12T18:32:31.802Z"),
+            "action" : "questionDelete",
             "data" : {}
         }, 
         {
             "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-12T21:54:11.867Z"),
-            "action" : "questionUpdate",
+            "updatedAt" : ISODate("2019-04-12T18:32:41.746Z"),
+            "action" : "questionDelete",
             "data" : {}
         }, 
         {
             "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-12T21:54:26.039Z"),
-            "action" : "questionUpdate",
+            "updatedAt" : ISODate("2019-04-12T18:32:46.061Z"),
+            "action" : "questionDelete",
             "data" : {}
         }, 
         {
             "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-12T21:54:43.127Z"),
-            "action" : "questionUpdate",
+            "updatedAt" : ISODate("2019-04-12T18:32:49.258Z"),
+            "action" : "questionDelete",
             "data" : {}
         }, 
         {
             "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-12T21:54:54.874Z"),
-            "action" : "questionUpdate",
+            "updatedAt" : ISODate("2019-04-12T18:32:52.211Z"),
+            "action" : "questionDelete",
             "data" : {}
         }, 
         {
             "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-12T21:55:03.623Z"),
-            "action" : "questionUpdate",
+            "updatedAt" : ISODate("2019-04-12T18:32:56.739Z"),
+            "action" : "questionDelete",
             "data" : {}
         }, 
         {
             "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-12T21:55:13.126Z"),
-            "action" : "questionUpdate",
+            "updatedAt" : ISODate("2019-04-12T18:32:59.785Z"),
+            "action" : "questionDelete",
             "data" : {}
         }, 
         {
             "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-12T21:55:21.286Z"),
-            "action" : "questionUpdate",
+            "updatedAt" : ISODate("2019-04-12T18:33:05.361Z"),
+            "action" : "questionDelete",
             "data" : {}
         }, 
         {
             "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-12T21:55:30.495Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-12T21:55:39.999Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-12T21:55:55.929Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-12T21:56:04.798Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-12T21:56:14.654Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-12T21:56:23.852Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-12T21:56:32.341Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-12T21:56:41.888Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-18T20:00:26.820Z"),
+            "updatedAt" : ISODate("2020-05-25T19:20:10.043Z"),
             "action" : "questionCreate",
             "data" : {}
         }, 
         {
             "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-04-18T20:01:18.356Z"),
+            "updatedAt" : ISODate("2020-05-25T19:20:50.348Z"),
             "action" : "questionCreate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83b69a8cf586354a0496f"),
-            "updatedAt" : ISODate("2019-04-23T16:42:33.259Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83b69a8cf586354a0496f"),
-            "updatedAt" : ISODate("2019-04-23T16:43:01.967Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83b69a8cf586354a0496f"),
-            "updatedAt" : ISODate("2019-04-23T16:43:13.690Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83b69a8cf586354a0496f"),
-            "updatedAt" : ISODate("2019-04-23T16:43:35.984Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83b69a8cf586354a0496f"),
-            "updatedAt" : ISODate("2019-04-23T16:45:28.143Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83b69a8cf586354a0496f"),
-            "updatedAt" : ISODate("2019-04-23T16:47:25.034Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83b69a8cf586354a0496f"),
-            "updatedAt" : ISODate("2019-04-23T17:35:07.309Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83b69a8cf586354a0496f"),
-            "updatedAt" : ISODate("2019-04-23T17:36:01.950Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-05-23T15:20:25.677Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-05-23T15:21:20.359Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-05-30T19:28:17.569Z"),
-            "action" : "questionUpdate",
-            "data" : {}
-        }, 
-        {
-            "uid" : ObjectId("59b83c5aa8cf586354a04a31"),
-            "updatedAt" : ISODate("2019-05-30T19:28:27.167Z"),
-            "action" : "questionUpdate",
             "data" : {}
         }
     ],
@@ -5129,7 +4518,7 @@
     "status" : 1,
     "settings" : {
         "title" : {
-            "en" : "2019"
+            "en" : "CBW Application Form Template"
         },
         "stylesheets" : [],
         "javascripts" : [],
@@ -5403,7 +4792,7 @@
         },
         "persistFormState" : true,
         "moveOpenToDelete" : 0,
-        "dummyCaseId" : ObjectId("5c7b54bc5915bc011f72d1dd")
+        "dummyCaseId" : null
     },
     "email" : {
         "open" : [ 
@@ -5518,7 +4907,7 @@
                 "from" : "no-reply@bioinformatics.ca",
                 "to" : "[email_operators]",
                 "body" : {
-                    "html" : "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<title>Workshop Application Has Been Approved</title>\n\t\t<meta charset=\"utf-8\" />\n\t\t<meta content=\"width=device-width\" name=\"viewport\" />\n\t\t<link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,700\" rel=\"stylesheet\">\n\t\t<style>\n\t\t\t@font-face {\n\t\t\t\tfont-family: OlneyLight;\n\t\t\t\tsrc: url([baselink]/assets/site/fonts/olney_light-webfont.ttf);\n\t\t\t}\n\t\t</style>\n\t</head>\n\t<body bgcolor=\"#f9fafb\" style=\"height: 100% !important; margin: 0; padding: 0;\">\n<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; padding-top: 16px; padding-bottom: 21px;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t\t\t\t\t\t\t\t<a\n                                                href=\"https://bioinformatics.ca/\"\n                                                target=\"_blank\"\n                                                style=\"color: #993333; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;\"\n                                                >bioinformatics.ca</a\n                                            >\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t<a href=\"https://bioinformatics.ca/workshops\">\n\t\t\t\t\t\t\t\t<img\n                                                src=\"https://bioinformatics.ca/assets/site/images/CBW-events-banner-2019.jpg\"\n                                                alt=\"Canadian Bioinformatics Workshops 2019 banner\"\n                                                width=100%\n                                                border=\"0\"\n                                                class=\"fluid-image\"\n                                                style=\"display: block; padding: 0; color: #993333; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 11px; line-height: 15px; background-color: #fff\"\n                                            />\n                                </a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #D8E1E3;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"color: #000000; font-family: OlneyLight, sans-serif; font-size: 18px; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;\">CBW[workshop_series_title]-[numberid]: Workshop Application Has Been Approved</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"border-left: solid 1px #ebebeb; border-right: solid 1px #ebebeb; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px;\">\n\t\t\t\t\t\t\t\t<!-- CONTENT: body copy -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: normal; line-height: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word;\">\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 19px; font-size: 16px;\">Dear [name_operators],</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 24px\">Workshop Application CBW[workshop_series_title]-[numberid] has been <strong>approved</strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #D8E1E3; margin-bottom: 25px;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t\t\t<tr style=\"border: 1px solid #D8E1E3;\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; width: 62%; background-image: url([baselink]/[event_image]); background-size: 65px; background-position: 5% 50%; background-repeat: no-repeat; padding: 15px 0;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"text-transform: uppercase; margin: 0 0 0 90px; font-size: 13px; line-height: 27px\">[currentStateLabelPast] ON: [currentStateDatetime]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"color: #000000; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 0 0 90px;\">CBW[workshop_series_title]-[numberid]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin: 0 0 0 90px; font-size: 14px; line-height: 24px;\">[event_title]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; background-color: #D8E1E3; outline: 5px solid white; outline-offset: -5px; padding: 15px 20px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"text-transform: uppercase; margin: 0 0 0 0; font-size: 13px; line-height: 27px;\">submitted by:</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"color: #000000; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0;\"><strong>[name_applicant]</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin: 0; font-size: 14px; line-height: 24px;\">[email_applicant]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #3D687D;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #fff; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 21px; text-decoration: none; padding: 3px 50px\">\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; line-height: 27px;\">This message is automatically generated by <strong><a href=\"https://bioinformatics.ca/\" style=\"color: #ffffff; font-weight: bold; text-decoration: underline;\">bioinformatics.ca</a></strong> on behalf of the <strong><a href=\"https://bioinformatics.ca/workshops/\" style=\"font-weight: bold;color: #ffffff; text-decoration: underline;\">Canadian Bioinformatics Workshops</a></strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; line-height: 27px;\"><a href=\"https://bioinformatics.ca/privacy-policy\" style=\"color: #fff;\">bioinformatics.ca Privacy Policy</a></p>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" height=\"28\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">&nbsp;</td>\n\t\t\t</tr>\n\t\t</table>\n\t</body>\n</html>\n",
+                    "html" : "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<title>Workshop Application Has Been Approved</title>\n\t\t<meta charset=\"utf-8\" />\n\t\t<meta content=\"width=device-width\" name=\"viewport\" />\n\t\t<link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,700\" rel=\"stylesheet\">\n\t\t<style>\n\t\t\t@font-face {\n\t\t\t\tfont-family: OlneyLight;\n\t\t\t\tsrc: url([baselink]/assets/site/fonts/olney_light-webfont.ttf);\n\t\t\t}\n\t\t</style>\n\t</head>\n\t<body bgcolor=\"#f9fafb\" style=\"height: 100% !important; margin: 0; padding: 0;\">\n<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; padding-top: 16px; padding-bottom: 21px;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t\t\t\t\t\t\t\t<a\n                                                href=\"https://bioinformatics.ca/\"\n                                                target=\"_blank\"\n                                                style=\"color: #993333; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;\"\n                                                >bioinformatics.ca</a\n                                            >\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t<a href=\"https://bioinformatics.ca/workshops\">\n\t\t\t\t\t\t\t\t<img\n                                                src=\"https://bioinformatics.ca/assets/site/images/CBW-events-banner-2020.jpg\"\n                                                alt=\"Canadian Bioinformatics Workshops 2020 banner\"\n                                                width=100%\n                                                border=\"0\"\n                                                class=\"fluid-image\"\n                                                style=\"display: block; padding: 0; color: #993333; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 11px; line-height: 15px; background-color: #fff\"\n                                            />\n                                </a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #D8E1E3;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"color: #000000; font-family: OlneyLight, sans-serif; font-size: 18px; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;\">CBW[workshop_series_title]-[numberid]: Workshop Application Has Been Approved</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"border-left: solid 1px #ebebeb; border-right: solid 1px #ebebeb; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px;\">\n\t\t\t\t\t\t\t\t<!-- CONTENT: body copy -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: normal; line-height: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word;\">\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 19px; font-size: 16px;\">Dear [name_operators],</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 24px\">Workshop Application CBW[workshop_series_title]-[numberid] has been <strong>approved</strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #D8E1E3; margin-bottom: 25px;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t\t\t<tr style=\"border: 1px solid #D8E1E3;\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; width: 62%; background-image: url([baselink]/[event_image]); background-size: 65px; background-position: 5% 50%; background-repeat: no-repeat; padding: 15px 0;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"text-transform: uppercase; margin: 0 0 0 90px; font-size: 13px; line-height: 27px\">[currentStateLabelPast] ON: [currentStateDatetime]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"color: #000000; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 0 0 90px;\">CBW[workshop_series_title]-[numberid]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin: 0 0 0 90px; font-size: 14px; line-height: 24px;\">[event_title]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; background-color: #D8E1E3; outline: 5px solid white; outline-offset: -5px; padding: 15px 20px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"text-transform: uppercase; margin: 0 0 0 0; font-size: 13px; line-height: 27px;\">submitted by:</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"color: #000000; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0;\"><strong>[name_applicant]</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin: 0; font-size: 14px; line-height: 24px;\">[email_applicant]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #3D687D;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #fff; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 21px; text-decoration: none; padding: 3px 50px\">\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; line-height: 27px;\">This message is automatically generated by <strong><a href=\"https://bioinformatics.ca/\" style=\"color: #ffffff; font-weight: bold; text-decoration: underline;\">bioinformatics.ca</a></strong> on behalf of the <strong><a href=\"https://bioinformatics.ca/workshops/\" style=\"font-weight: bold;color: #ffffff; text-decoration: underline;\">Canadian Bioinformatics Workshops</a></strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; line-height: 27px;\"><a href=\"https://bioinformatics.ca/privacy-policy\" style=\"color: #fff;\">bioinformatics.ca Privacy Policy</a></p>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" height=\"28\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">&nbsp;</td>\n\t\t\t</tr>\n\t\t</table>\n\t</body>\n</html>\n",
                     "text" : "NO-TXT-VERSION"
                 },
                 "delaySeconds" : 0,
@@ -5530,10 +4919,10 @@
                 "from" : "no-reply@bioinformatics.ca",
                 "to" : "[email_applicant]",
                 "body" : {
-                    "html" : "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<title>Your CBW Application has been Approved</title>\n\t\t<meta charset=\"utf-8\" />\n\t\t<meta content=\"width=device-width\" name=\"viewport\" />\n\t\t<link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,700\" rel=\"stylesheet\">\n\t\t<style>\n\t\t\t@font-face {\n\t\t\t\tfont-family: OlneyLight;\n\t\t\t\tsrc: url([baselink]/assets/site/fonts/olney_light-webfont.ttf);\n\t\t\t}\n\t\t</style>\n\t</head>\n\t<body bgcolor=\"#f9fafb\" style=\"height: 100% !important; margin: 0; padding: 0;\">\n<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; padding-top: 16px; padding-bottom: 21px;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t\t\t\t\t\t\t\t<a\n                                                href=\"https://bioinformatics.ca/\"\n                                                target=\"_blank\"\n                                                style=\"color: #993333; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;\"\n                                                >bioinformatics.ca</a\n                                            >\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t<a href=\"https://bioinformatics.ca/workshops\">\n\t\t\t\t\t\t\t\t<img\n                                                src=\"https://bioinformatics.ca/assets/site/images/CBW-events-banner-2019.jpg\"\n                                                alt=\"Canadian Bioinformatics Workshops 2019 banner\"\n                                                width=100%\n                                                border=\"0\"\n                                                class=\"fluid-image\"\n                                                style=\"display: block; padding: 0; color: #993333; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 11px; line-height: 15px; background-color: #fff\"\n                                            />\n                                </a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #D8E1E3;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"color: #000000; font-family: OlneyLight, sans-serif; font-size: 18px; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;\">CBW[workshop_series_title]-[numberid]: Workshop Application was Approved<span style=\"[regDeny]\">, Payment is Requested</span></td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"border-left: solid 1px #ebebeb; border-right: solid 1px #ebebeb; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px;\">\n\t\t\t\t\t\t\t\t<!-- CONTENT: body copy -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: normal; line-height: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word;\">\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 19px; font-size: 16px;\">Dear [name_applicant],</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px\">Your Workshop Application was <strong>approved</strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #D8E1E3; margin-bottom: 25px;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t\t\t<tr style=\"border: 1px solid #D8E1E3;\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; width: 62%; background-image: url([baselink]/[event_image]); background-size: 65px; background-position: 5% 50%; background-repeat: no-repeat; padding: 15px 0;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"text-transform: uppercase; margin: 0 0 0 90px; font-size: 13px; line-height: 27px\">[currentStateLabelPast] ON: [currentStateDatetime]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"color: #000000; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 0 0 90px;\">CBW[workshop_series_title]-[numberid]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin: 0 0 0 90px; font-size: 14px; line-height: 24px;\">[event_title]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; background-color: #D8E1E3; outline: 5px solid white; outline-offset: -5px; padding: 15px 20px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"text-transform: uppercase; margin: 0 0 0 0; font-size: 13px; line-height: 27px;\">submitted by:</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"color: #000000; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0;\"><strong>[name_applicant]</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin: 0; font-size: 14px; line-height: 24px;\">[email_applicant]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n                                            </table>\n                                            <p style=\"margin-bottom: 25px;\"><em>Please note</em>:  If you have applied to other workshops you will receive a separate email for each one as workshops are being processed in chronological order.</p>\n                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"[awardApply] border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: 20px; margin-bottom: 25px; background-color: #FFF7F7; table-layout: fixed; width: 100%; padding: 15px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t<tr style=\" border: 1px solid #D8E1E3; padding: 10px 20px 0 20px; border-bottom: none;\" >\n                                                    <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open sans', sans-serif; line-height: normal; font-size: 14px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; padding: 10px 20px 0 20px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t    <p style=\"margin-bottom: 0; margin-top: 0; font-size: 16px; font-weight: bold; padding-left: 37px; line-height: 40px; background-image: url(https://bioinformatics.ca/assets/site/images/icon-award.png); background-repeat: no-repeat; background-size: 27px 27px; background-position: 0 50%;\">Award application:</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n                                                </tr>\n                                                <tr style=\"[regAwardApply] border: 1px solid #D8E1E3; padding: 0 20px 25px 20px; border-top: none;\" >\n                                                    <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open sans', sans-serif; line-height: normal; font-size: 14px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; padding: 0 20px 25px 20px;\">\n                                                        <p style=\"[regDeny] margin-bottom: 0; margin-top: 10px; line-height: 24px;\">Unfortunately, you were <strong>not selected</strong> to receive a Registration Award for this workshop. We received a number of outstanding applications and thank you for your submission.</p>\n                                                        <p style=\"[regApprove] margin-bottom: 0; margin-top: 10px; line-height: 24px;\">We are pleased to inform you that you have received a <strong>Registration Award</strong>.<br />You are not required to pay for this workshop. The application process is complete!</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n                                                </tr>\n                                                <tr style=\"[travelAwardApply] border: 1px solid #D8E1E3; padding: 0 20px 25px 20px; border-top: none;\" >\n                                                    <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open sans', sans-serif; line-height: normal; font-size: 14px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; padding: 0 20px 25px 20px;\">\n                                                        <p style=\"[travelDeny] margin-bottom: 0; margin-top: 10px; line-height: 24px;\">Unfortunately, you were <strong>not selected</strong> to receive a Travel Award for this workshop. We received a number of outstanding applications and thank you for your submission.</p>\n                                                        <p style=\"[travelApprove] margin-bottom: 25px; margin-top: 10px; line-height: 24px;\">We are pleased to inform you that you have received a <strong>Travel Award</strong>.<br />Please make travel arrangements as given below:</p>\n                                                        <p style=\"[travelApprove] margin-bottom: 25px; line-height: 24px;\"><strong>Book your travel. </strong>You will be sent a reimbursement form to fill out. You will be reimbursed for your travel expenses according to the following policy:</p>\n                                                        <ol style=\"[travelApprove] padding-left: 15px; line-height: 24px; margin-top: 25px; margin-bottom: 0;\" type=\"a\">\n                                                            <li><strong>Airfare/Train</strong> (Economy fare only; no insurance, baggage, or change fees; within ON up to $250; within rest of CAN up to $750). Include all receipts and boarding passes.</li>\n                                                            <li><strong>Accommodations</strong> (No incidentals; up to $160+tx per night, 2 nights maximum for 2-day workshop, 3 nights maximum for 3-day workshop and 5 nights maximum for 5-day workshop). Include all receipts.</li>\n                                                            <li><strong>Meals</strong> (Limit - $25.00/day ? No alcohol). Must submit itemized receipts.</li>\n                                                            <li><strong>Taxis/Parking/Public Transit</strong> - Must include all receipts.</li>\n                                                        </ol>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"[regDeny] border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: 20px; margin-bottom: 25px; background-color: #F7FFF4; table-layout: fixed; width: 100%; padding: 15px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t<tr style=\" border: 1px solid #D8E1E3; padding: 25px 20px;\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open sans', sans-serif; line-height: normal; font-size: 14px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; padding: 25px 20px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t    <p style=\"margin-bottom: 0; margin-top: 0; font-size: 16px; font-weight: bold;\">Next Steps:</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t    <ol style=\"padding-left: 15px; line-height: 24px; margin-top: 25px; margin-bottom: 0;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t \t    <li>Visit your dashboard and proceed to payment. Your payment is required to complete the Workshop Application Process.</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t    </ol>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: 20px; margin-bottom: 25px; background-color: #F5F5F5; table-layout: fixed; width: 100%; padding: 15px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t<tr style=\" border: 1px solid #D8E1E3; padding: 20px;\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open sans', sans-serif; line-height: normal; font-size: 14px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; padding: 30px 90px 17px 90px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t    <a href=\"[baselink]/forms/verification/#/[callback_token]\" style=\" background-color: #3D687D; color: white; font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: bold; line-height: 22px; text-decoration: none; padding: 13px 19px;\">View My Dashboard &raquo;</a><br><br>\n\t\t\t\t\t\t\t\t\t\t\t\t\t    <p style=\"margin-bottom: 0; font-size: 13px;\">This link will expire on [callback_token_expire_date], please click the above button or copy and paste the link below into your browser to go to your dashboard.<br /><br /><a href=\"[baselink]/forms/verification/#/[callback_token]\" target=\"_blank\" style=\"color: #993333; text-decoration: underline; word-wrap: break-word; -ms-word-wrap: break-word\">[baselink]/forms/verification/#/[callback_token]</a></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n                                            </table>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 21px;\">If you have any questions, please do not hesitate to contact us at <a href=\"mailto:support@bioinformatics.ca\" style=\"color: #993333; text-decoration: underline;\">support@bioinformatics.ca</a>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 21px;\">Thank you for your interest in the Canadian Bioinformatics Workshops.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 21px;\">Sincerely,<br /><strong>Management team at Bioinformatics.ca</strong><br /><a href=\"mailto:support@bioinformatics.ca\" style=\"color: #993333; text-decoration: underline;\">support@bioinformatics.ca</a></p>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #3D687D;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #fff; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 21px; text-decoration: none; padding: 3px 50px\">\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; line-height: 27px;\">This message is automatically generated by <strong><a href=\"https://bioinformatics.ca/\" style=\"color: #ffffff; font-weight: bold; text-decoration: underline;\">bioinformatics.ca</a></strong> on behalf of the <strong><a href=\"https://bioinformatics.ca/workshops/\" style=\"font-weight: bold;color: #ffffff; text-decoration: underline;\">Canadian Bioinformatics Workshops</a></strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; line-height: 27px;\"><a href=\"https://bioinformatics.ca/privacy-policy\" style=\"color: #fff;\">bioinformatics.ca Privacy Policy</a></p>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" height=\"28\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">&nbsp;</td>\n\t\t\t</tr>\n\t\t</table>\n\t</body>\n</html>\n",
+                    "html" : "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<title>Your CBW Application has been Approved</title>\n\t\t<meta charset=\"utf-8\" />\n\t\t<meta content=\"width=device-width\" name=\"viewport\" />\n\t\t<link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,700\" rel=\"stylesheet\">\n\t\t<style>\n\t\t\t@font-face {\n\t\t\t\tfont-family: OlneyLight;\n\t\t\t\tsrc: url([baselink]/assets/site/fonts/olney_light-webfont.ttf);\n\t\t\t}\n\t\t</style>\n\t</head>\n\t<body bgcolor=\"#f9fafb\" style=\"height: 100% !important; margin: 0; padding: 0;\">\n<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; padding-top: 16px; padding-bottom: 21px;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t\t\t\t\t\t\t\t<a\n                                                href=\"https://bioinformatics.ca/\"\n                                                target=\"_blank\"\n                                                style=\"color: #993333; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;\"\n                                                >bioinformatics.ca</a\n                                            >\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t<a href=\"https://bioinformatics.ca/workshops\">\n\t\t\t\t\t\t\t\t<img\n                                                src=\"https://bioinformatics.ca/assets/site/images/CBW-events-banner-2020.jpg\"\n                                                alt=\"Canadian Bioinformatics Workshops 2020 banner\"\n                                                width=100%\n                                                border=\"0\"\n                                                class=\"fluid-image\"\n                                                style=\"display: block; padding: 0; color: #993333; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 11px; line-height: 15px; background-color: #fff\"\n                                            />\n                                </a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #D8E1E3;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"color: #000000; font-family: OlneyLight, sans-serif; font-size: 18px; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;\">CBW[workshop_series_title]-[numberid]: Workshop Application was Approved<span style=\"[regDeny]\">, Payment is Requested</span></td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"border-left: solid 1px #ebebeb; border-right: solid 1px #ebebeb; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px;\">\n\t\t\t\t\t\t\t\t<!-- CONTENT: body copy -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: normal; line-height: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word;\">\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 19px; font-size: 16px;\">Dear [name_applicant],</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px\">Your Workshop Application was <strong>approved</strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #D8E1E3; margin-bottom: 25px;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t\t\t<tr style=\"border: 1px solid #D8E1E3;\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; width: 62%; background-image: url([baselink]/[event_image]); background-size: 65px; background-position: 5% 50%; background-repeat: no-repeat; padding: 15px 0;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"text-transform: uppercase; margin: 0 0 0 90px; font-size: 13px; line-height: 27px\">[currentStateLabelPast] ON: [currentStateDatetime]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"color: #000000; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 0 0 90px;\">CBW[workshop_series_title]-[numberid]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin: 0 0 0 90px; font-size: 14px; line-height: 24px;\">[event_title]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; background-color: #D8E1E3; outline: 5px solid white; outline-offset: -5px; padding: 15px 20px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"text-transform: uppercase; margin: 0 0 0 0; font-size: 13px; line-height: 27px;\">submitted by:</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"color: #000000; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0;\"><strong>[name_applicant]</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin: 0; font-size: 14px; line-height: 24px;\">[email_applicant]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n                                            </table>\n                                            <p style=\"margin-bottom: 25px;\"><em>Please note</em>:  If you have applied to other workshops you will receive a separate email for each one as workshops are being processed in chronological order.</p>\n                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"[awardApply] border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: 20px; margin-bottom: 25px; background-color: #FFF7F7; table-layout: fixed; width: 100%; padding: 15px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t<tr style=\" border: 1px solid #D8E1E3; padding: 10px 20px 0 20px; border-bottom: none;\" >\n                                                    <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open sans', sans-serif; line-height: normal; font-size: 14px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; padding: 10px 20px 0 20px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t    <p style=\"margin-bottom: 0; margin-top: 0; font-size: 16px; font-weight: bold; padding-left: 37px; line-height: 40px; background-image: url(https://bioinformatics.ca/assets/site/images/icon-award.png); background-repeat: no-repeat; background-size: 27px 27px; background-position: 0 50%;\">Award application:</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n                                                </tr>\n                                                <tr style=\"[regAwardApply] border: 1px solid #D8E1E3; padding: 0 20px 25px 20px; border-top: none;\" >\n                                                    <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open sans', sans-serif; line-height: normal; font-size: 14px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; padding: 0 20px 25px 20px;\">\n                                                        <p style=\"[regDeny] margin-bottom: 0; margin-top: 10px; line-height: 24px;\">Unfortunately, you were <strong>not selected</strong> to receive a Registration Award for this workshop. We received a number of outstanding applications and thank you for your submission.</p>\n                                                        <p style=\"[regApprove] margin-bottom: 0; margin-top: 10px; line-height: 24px;\">We are pleased to inform you that you have received a <strong>Registration Award</strong>.<br />You are not required to pay for this workshop. The application process is complete!</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n                                                </tr>\n                                                <tr style=\"[travelAwardApply] border: 1px solid #D8E1E3; padding: 0 20px 25px 20px; border-top: none;\" >\n                                                    <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open sans', sans-serif; line-height: normal; font-size: 14px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; padding: 0 20px 25px 20px;\">\n                                                        <p style=\"[travelDeny] margin-bottom: 0; margin-top: 10px; line-height: 24px;\">Unfortunately, you were <strong>not selected</strong> to receive a Travel Award for this workshop. We received a number of outstanding applications and thank you for your submission.</p>\n                                                        <p style=\"[travelApprove] margin-bottom: 25px; margin-top: 10px; line-height: 24px;\">We are pleased to inform you that you have received a <strong>Travel Award</strong>.<br />Please make travel arrangements as given below:</p>\n                                                        <p style=\"[travelApprove] margin-bottom: 25px; line-height: 24px;\"><strong>Book your travel. </strong>You will be sent a reimbursement form to fill out. You will be reimbursed for your travel expenses according to the following policy:</p>\n                                                        <ol style=\"[travelApprove] padding-left: 15px; line-height: 24px; margin-top: 25px; margin-bottom: 0;\" type=\"a\">\n                                                            <li><strong>Airfare/Train</strong> (Economy fare only; no insurance, baggage, or change fees; within ON up to $250; within rest of CAN up to $750). Include all receipts and boarding passes.</li>\n                                                            <li><strong>Accommodations</strong> (No incidentals; up to $160+tx per night, 2 nights maximum for 2-day workshop, 3 nights maximum for 3-day workshop and 5 nights maximum for 5-day workshop). Include all receipts.</li>\n                                                            <li><strong>Meals</strong> (Limit - $25.00/day ? No alcohol). Must submit itemized receipts.</li>\n                                                            <li><strong>Taxis/Parking/Public Transit</strong> - Must include all receipts.</li>\n                                                        </ol>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"[regDeny] border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: 20px; margin-bottom: 25px; background-color: #F7FFF4; table-layout: fixed; width: 100%; padding: 15px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t<tr style=\" border: 1px solid #D8E1E3; padding: 25px 20px;\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open sans', sans-serif; line-height: normal; font-size: 14px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; padding: 25px 20px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t    <p style=\"margin-bottom: 0; margin-top: 0; font-size: 16px; font-weight: bold;\">Next Steps:</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t    <ol style=\"padding-left: 15px; line-height: 24px; margin-top: 25px; margin-bottom: 0;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t \t    <li>Visit your dashboard and proceed to payment. Your payment is required to complete the Workshop Application Process.</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t    </ol>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: 20px; margin-bottom: 25px; background-color: #F5F5F5; table-layout: fixed; width: 100%; padding: 15px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t<tr style=\" border: 1px solid #D8E1E3; padding: 20px;\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open sans', sans-serif; line-height: normal; font-size: 14px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; padding: 30px 90px 17px 90px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t    <a href=\"[baselink]/forms/verification/#/[callback_token]\" style=\" background-color: #3D687D; color: white; font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: bold; line-height: 22px; text-decoration: none; padding: 13px 19px;\">View My Dashboard &raquo;</a><br><br>\n\t\t\t\t\t\t\t\t\t\t\t\t\t    <p style=\"margin-bottom: 0; font-size: 13px;\">This link will expire on [callback_token_expire_date], please click the above button or copy and paste the link below into your browser to go to your dashboard.<br /><br /><a href=\"[baselink]/forms/verification/#/[callback_token]\" target=\"_blank\" style=\"color: #993333; text-decoration: underline; word-wrap: break-word; -ms-word-wrap: break-word\">[baselink]/forms/verification/#/[callback_token]</a></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n                                            </table>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 21px;\">If you have any questions, please do not hesitate to contact us at <a href=\"mailto:support@bioinformatics.ca\" style=\"color: #993333; text-decoration: underline;\">support@bioinformatics.ca</a>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 21px;\">Thank you for your interest in the Canadian Bioinformatics Workshops.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 21px;\">Sincerely,<br /><strong>Management team at Bioinformatics.ca</strong><br /><a href=\"mailto:support@bioinformatics.ca\" style=\"color: #993333; text-decoration: underline;\">support@bioinformatics.ca</a></p>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #3D687D;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #fff; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 21px; text-decoration: none; padding: 3px 50px\">\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; line-height: 27px;\">This message is automatically generated by <strong><a href=\"https://bioinformatics.ca/\" style=\"color: #ffffff; font-weight: bold; text-decoration: underline;\">bioinformatics.ca</a></strong> on behalf of the <strong><a href=\"https://bioinformatics.ca/workshops/\" style=\"font-weight: bold;color: #ffffff; text-decoration: underline;\">Canadian Bioinformatics Workshops</a></strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; line-height: 27px;\"><a href=\"https://bioinformatics.ca/privacy-policy\" style=\"color: #fff;\">bioinformatics.ca Privacy Policy</a></p>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" height=\"28\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">&nbsp;</td>\n\t\t\t</tr>\n\t\t</table>\n\t</body>\n</html>\n",
                     "text" : "NO-TXT-VERSION"
                 },
-                "delaySeconds" : 0,
+                "delaySeconds" : "0",
                 "_id" : ObjectId("5caea257390be5010dbc4c0e")
             }, 
             {
@@ -5615,7 +5004,7 @@
                 "from" : "no-reply@bioinformatics.ca",
                 "to" : "[email_applicant]",
                 "body" : {
-                    "html" : "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<title>Workshop Application was Denied</title>\n\t\t<meta charset=\"utf-8\" />\n\t\t<meta content=\"width=device-width\" name=\"viewport\" />\n\t\t<link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,700\" rel=\"stylesheet\">\n\t\t<style>\n\t\t\t@font-face {\n\t\t\t\tfont-family: OlneyLight;\n\t\t\t\tsrc: url([baselink]/assets/site/fonts/olney_light-webfont.ttf);\n\t\t\t}\n\t\t</style>\n\t</head>\n\t<body bgcolor=\"#f9fafb\" style=\"height: 100% !important; margin: 0; padding: 0;\">\n<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; padding-top: 16px; padding-bottom: 21px;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t\t\t\t\t\t\t\t<a\n                                                href=\"https://bioinformatics.ca/\"\n                                                target=\"_blank\"\n                                                style=\"color: #993333; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;\"\n                                                >bioinformatics.ca</a\n                                            >\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t<a href=\"https://bioinformatics.ca/workshops\">\n\t\t\t\t\t\t\t\t<img\n                                                src=\"https://bioinformatics.ca/assets/site/images/CBW-events-banner-2019.jpg\"\n                                                alt=\"Canadian Bioinformatics Workshops 2019 banner\"\n                                                width=100%\n                                                border=\"0\"\n                                                class=\"fluid-image\"\n                                                style=\"display: block; padding: 0; color: #993333; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 11px; line-height: 15px; background-color: #fff\"\n                                            />\n                                </a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #D8E1E3;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"color: #000000; font-family: OlneyLight, sans-serif; font-size: 18px; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;\">CBW[workshop_series_title]-[numberid]: Workshop Application was Denied</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"border-left: solid 1px #ebebeb; border-right: solid 1px #ebebeb; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px;\">\n\t\t\t\t\t\t\t\t<!-- CONTENT: body copy -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: normal; line-height: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word;\">\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 19px; font-size: 16px;\">Dear [name_applicant],</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 24px; line-height: 21px;\">Unfortunately, Workshop Application CBW[workshop_series_title]-[numberid] was <strong>denied</strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #D8E1E3; margin-bottom: 25px;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t\t\t<tr style=\"border: 1px solid #D8E1E3;\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; width: 62%; background-image: url([baselink]/[event_image]); background-size: 65px; background-position: 5% 50%; background-repeat: no-repeat; padding: 15px 0;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"text-transform: uppercase; margin: 0 0 0 90px; font-size: 13px; line-height: 27px\">[currentStateLabelPast] ON: [currentStateDatetime]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"color: #000000; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 0 0 90px;\">CBW[workshop_series_title]-[numberid]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin: 0 0 0 90px; font-size: 14px; line-height: 24px;\">[event_title]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; background-color: #D8E1E3; outline: 5px solid white; outline-offset: -5px; padding: 15px 20px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"text-transform: uppercase; margin: 0 0 0 0; font-size: 13px; line-height: 27px;\">submitted by:</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"color: #000000; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0;\"><strong>[name_applicant]</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin: 0; font-size: 14px; line-height: 24px;\">[email_applicant]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t</table>\n                                          \t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 21px;\">[caseComment]</p>\n\n                                          \n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 21px;\">If you wish to re-apply, please submit a new application form <a href=\"[baselink]/workshops/workshop-application-form/\" style=\"color: #993333;\">here</a>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 21px;\">If you have any questions, please do not hesitate to contact us at <a href=\"mailto:support@bioinformatics.ca\" style=\"color: #993333; text-decoration: underline;\">support@bioinformatics.ca</a>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 21px;\">Thank you for your interest in the Canadian Bioinformatics Workshops.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 21px;\">Sincerely,<br /><strong>Management team at Bioinformatics.ca</strong><br /><a href=\"mailto:support@bioinformatics.ca\" style=\"color: #993333; text-decoration: underline;\">support@bioinformatics.ca</a></p>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #3D687D;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #fff; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 21px; text-decoration: none; padding: 3px 50px\">\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; line-height: 27px;\">This message is automatically generated by <strong><a href=\"https://bioinformatics.ca/\" style=\"color: #ffffff; font-weight: bold; text-decoration: underline;\">bioinformatics.ca</a></strong> on behalf of the <strong><a href=\"https://bioinformatics.ca/workshops/\" style=\"font-weight: bold;color: #ffffff; text-decoration: underline;\">Canadian Bioinformatics Workshops</a></strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; line-height: 27px;\"><a href=\"https://bioinformatics.ca/privacy-policy\" style=\"color: #fff;\">bioinformatics.ca Privacy Policy</a></p>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" height=\"28\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">&nbsp;</td>\n\t\t\t</tr>\n\t\t</table>\n\t</body>\n</html>\n",
+                    "html" : "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<title>Workshop Application was Denied</title>\n\t\t<meta charset=\"utf-8\" />\n\t\t<meta content=\"width=device-width\" name=\"viewport\" />\n\t\t<link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,700\" rel=\"stylesheet\">\n\t\t<style>\n\t\t\t@font-face {\n\t\t\t\tfont-family: OlneyLight;\n\t\t\t\tsrc: url([baselink]/assets/site/fonts/olney_light-webfont.ttf);\n\t\t\t}\n\t\t</style>\n\t</head>\n\t<body bgcolor=\"#f9fafb\" style=\"height: 100% !important; margin: 0; padding: 0;\">\n<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; padding-top: 16px; padding-bottom: 21px;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t\t\t\t\t\t\t\t<a\n                                                href=\"https://bioinformatics.ca/\"\n                                                target=\"_blank\"\n                                                style=\"color: #993333; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;\"\n                                                >bioinformatics.ca</a\n                                            >\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t<a href=\"https://bioinformatics.ca/workshops\">\n\t\t\t\t\t\t\t\t<img\n                                                src=\"https://bioinformatics.ca/assets/site/images/CBW-events-banner-2019.jpg\"\n                                                alt=\"Canadian Bioinformatics Workshops 2019 banner\"\n                                                width=100%\n                                                border=\"0\"\n                                                class=\"fluid-image\"\n                                                style=\"display: block; padding: 0; color: #993333; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 11px; line-height: 15px; background-color: #fff\"\n                                            />\n                                </a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #D8E1E3;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"color: #000000; font-family: OlneyLight, sans-serif; font-size: 18px; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;\">CBW[workshop_series_title]-[numberid]: Workshop Application was Denied</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"border-left: solid 1px #ebebeb; border-right: solid 1px #ebebeb; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px;\">\n\t\t\t\t\t\t\t\t<!-- CONTENT: body copy -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: normal; line-height: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word;\">\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 19px; font-size: 16px;\">Dear [name_applicant],</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 24px; line-height: 21px;\">Unfortunately, Workshop Application CBW[workshop_series_title]-[numberid] was <strong>denied</strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #D8E1E3; margin-bottom: 25px;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t\t\t<tr style=\"border: 1px solid #D8E1E3;\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; width: 62%; background-image: url([baselink]/[event_image]); background-size: 65px; background-position: 5% 50%; background-repeat: no-repeat; padding: 15px 0;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"text-transform: uppercase; margin: 0 0 0 90px; font-size: 13px; line-height: 27px\">[currentStateLabelPast] ON: [currentStateDatetime]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"color: #000000; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 0 0 90px;\">CBW[workshop_series_title]-[numberid]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin: 0 0 0 90px; font-size: 14px; line-height: 24px;\">[event_title]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; background-color: #D8E1E3; outline: 5px solid white; outline-offset: -5px; padding: 15px 20px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"text-transform: uppercase; margin: 0 0 0 0; font-size: 13px; line-height: 27px;\">submitted by:</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"color: #000000; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0;\"><strong>[name_applicant]</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin: 0; font-size: 14px; line-height: 24px;\">[email_applicant]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 21px;\">If you wish to re-apply, please submit a new application form <a href=\"[baselink]/workshops/workshop-application-form/\" style=\"color: #993333;\">here</a>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 21px;\">If you have any questions, please do not hesitate to contact us at <a href=\"mailto:support@bioinformatics.ca\" style=\"color: #993333; text-decoration: underline;\">support@bioinformatics.ca</a>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 21px;\">Thank you for your interest in the Canadian Bioinformatics Workshops.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 21px;\">Sincerely,<br /><strong>Management team at Bioinformatics.ca</strong><br /><a href=\"mailto:support@bioinformatics.ca\" style=\"color: #993333; text-decoration: underline;\">support@bioinformatics.ca</a></p>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #3D687D;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #fff; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 21px; text-decoration: none; padding: 3px 50px\">\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; line-height: 27px;\">This message is automatically generated by <strong><a href=\"https://bioinformatics.ca/\" style=\"color: #ffffff; font-weight: bold; text-decoration: underline;\">bioinformatics.ca</a></strong> on behalf of the <strong><a href=\"https://bioinformatics.ca/workshops/\" style=\"font-weight: bold;color: #ffffff; text-decoration: underline;\">Canadian Bioinformatics Workshops</a></strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; line-height: 27px;\"><a href=\"https://bioinformatics.ca/privacy-policy\" style=\"color: #fff;\">bioinformatics.ca Privacy Policy</a></p>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" height=\"28\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">&nbsp;</td>\n\t\t\t</tr>\n\t\t</table>\n\t</body>\n</html>\n",
                     "text" : "NO-TXT-VERSION"
                 },
                 "delaySeconds" : "0",
@@ -5627,7 +5016,7 @@
                 "from" : "no-reply@bioinformatics.ca",
                 "to" : "[email_operators]",
                 "body" : {
-                    "html" : "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<title>Workshop Application Has Been Denied</title>\n\t\t<meta charset=\"utf-8\" />\n\t\t<meta content=\"width=device-width\" name=\"viewport\" />\n\t\t<link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,700\" rel=\"stylesheet\">\n\t\t<style>\n\t\t\t@font-face {\n\t\t\t\tfont-family: OlneyLight;\n\t\t\t\tsrc: url([baselink]/assets/site/fonts/olney_light-webfont.ttf);\n\t\t\t}\n\t\t</style>\n\t</head>\n\t<body bgcolor=\"#f9fafb\" style=\"height: 100% !important; margin: 0; padding: 0;\">\n<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; padding-top: 16px; padding-bottom: 21px;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t\t\t\t\t\t\t\t<a\n                                                href=\"https://bioinformatics.ca/\"\n                                                target=\"_blank\"\n                                                style=\"color: #993333; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;\"\n                                                >bioinformatics.ca</a\n                                            >\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t<a href=\"https://bioinformatics.ca/workshops\">\n\t\t\t\t\t\t\t\t<img\n                                                src=\"https://bioinformatics.ca/assets/site/images/CBW-events-banner-2019.jpg\"\n                                                alt=\"Canadian Bioinformatics Workshops 2019 banner\"\n                                                width=100%\n                                                border=\"0\"\n                                                class=\"fluid-image\"\n                                                style=\"display: block; padding: 0; color: #993333; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 11px; line-height: 15px; background-color: #fff\"\n                                            />\n                                </a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #D8E1E3;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"color: #000000; font-family: OlneyLight, sans-serif; font-size: 18px; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;\">CBW[workshop_series_title]-[numberid]: Workshop Application Has Been Denied</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"border-left: solid 1px #ebebeb; border-right: solid 1px #ebebeb; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px;\">\n\t\t\t\t\t\t\t\t<!-- CONTENT: body copy -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: normal; line-height: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word;\">\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 19px; font-size: 16px;\">Dear [name_operators],</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 24px; line-height: 21px;\">Workshop Application CBW[workshop_series_title]-[numberid] has been <strong>denied</strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #D8E1E3; margin-bottom: 25px;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t\t\t<tr style=\"border: 1px solid #D8E1E3;\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; width: 62%; background-image: url([baselink]/[event_image]); background-size: 65px; background-position: 5% 50%; background-repeat: no-repeat; padding: 15px 0;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"text-transform: uppercase; margin: 0 0 0 90px; font-size: 13px; line-height: 27px\">[currentStateLabelPast] ON: [currentStateDatetime]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"color: #000000; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 0 0 90px;\">CBW[workshop_series_title]-[numberid]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin: 0 0 0 90px; font-size: 14px; line-height: 24px;\">[event_title]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; background-color: #D8E1E3; outline: 5px solid white; outline-offset: -5px; padding: 15px 20px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"text-transform: uppercase; margin: 0 0 0 0; font-size: 13px; line-height: 27px;\">submitted by:</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"color: #000000; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0;\"><strong>[name_applicant]</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin: 0; font-size: 14px; line-height: 24px;\">[email_applicant]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t</table>\n                                                                                    \t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; font-size: 14px; line-height: 21px;\">[caseComment]</p>\n\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #3D687D;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #fff; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 21px; text-decoration: none; padding: 3px 50px\">\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; line-height: 27px;\">This message is automatically generated by <strong><a href=\"https://bioinformatics.ca/\" style=\"color: #ffffff; font-weight: bold; text-decoration: underline;\">bioinformatics.ca</a></strong> on behalf of the <strong><a href=\"https://bioinformatics.ca/workshops/\" style=\"font-weight: bold;color: #ffffff; text-decoration: underline;\">Canadian Bioinformatics Workshops</a></strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; line-height: 27px;\"><a href=\"https://bioinformatics.ca/privacy-policy\" style=\"color: #fff;\">bioinformatics.ca Privacy Policy</a></p>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" height=\"28\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">&nbsp;</td>\n\t\t\t</tr>\n\t\t</table>\n\t</body>\n</html>\n",
+                    "html" : "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<title>Workshop Application Has Been Denied</title>\n\t\t<meta charset=\"utf-8\" />\n\t\t<meta content=\"width=device-width\" name=\"viewport\" />\n\t\t<link href=\"https://fonts.googleapis.com/css?family=Open+Sans:400,700\" rel=\"stylesheet\">\n\t\t<style>\n\t\t\t@font-face {\n\t\t\t\tfont-family: OlneyLight;\n\t\t\t\tsrc: url([baselink]/assets/site/fonts/olney_light-webfont.ttf);\n\t\t\t}\n\t\t</style>\n\t</head>\n\t<body bgcolor=\"#f9fafb\" style=\"height: 100% !important; margin: 0; padding: 0;\">\n<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; padding-top: 16px; padding-bottom: 21px;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t\t\t\t\t\t\t\t<a\n                                                href=\"https://bioinformatics.ca/\"\n                                                target=\"_blank\"\n                                                style=\"color: #993333; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;\"\n                                                >bioinformatics.ca</a\n                                            >\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td>\n\t\t\t\t\t\t\t\t<a href=\"https://bioinformatics.ca/workshops\">\n\t\t\t\t\t\t\t\t<img\n                                                src=\"https://bioinformatics.ca/assets/site/images/CBW-events-banner-2019.jpg\"\n                                                alt=\"Canadian Bioinformatics Workshops 2019 banner\"\n                                                width=100%\n                                                border=\"0\"\n                                                class=\"fluid-image\"\n                                                style=\"display: block; padding: 0; color: #993333; font-family: 'Open Sans', sans-serif; font-weight: normal; font-size: 11px; line-height: 15px; background-color: #fff\"\n                                            />\n                                </a>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #D8E1E3;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"color: #000000; font-family: OlneyLight, sans-serif; font-size: 18px; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;\">CBW[workshop_series_title]-[numberid]: Workshop Application Has Been Denied</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"border-left: solid 1px #ebebeb; border-right: solid 1px #ebebeb; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px;\">\n\t\t\t\t\t\t\t\t<!-- CONTENT: body copy -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: normal; line-height: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word;\">\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 19px; font-size: 16px;\">Dear [name_operators],</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 24px; line-height: 21px;\">Workshop Application CBW[workshop_series_title]-[numberid] has been <strong>denied</strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #D8E1E3; margin-bottom: 25px;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t\t\t\t<tr style=\"border: 1px solid #D8E1E3;\" >\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; width: 62%; background-image: url([baselink]/[event_image]); background-size: 65px; background-position: 5% 50%; background-repeat: no-repeat; padding: 15px 0;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"text-transform: uppercase; margin: 0 0 0 90px; font-size: 13px; line-height: 27px\">[currentStateLabelPast] ON: [currentStateDatetime]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"color: #000000; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 0 0 90px;\">CBW[workshop_series_title]-[numberid]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin: 0 0 0 90px; font-size: 14px; line-height: 24px;\">[event_title]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: 'Open Sans', sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; background-color: #D8E1E3; outline: 5px solid white; outline-offset: -5px; padding: 15px 20px;\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"text-transform: uppercase; margin: 0 0 0 0; font-size: 13px; line-height: 27px;\">submitted by:</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"color: #000000; font-family: 'Open Sans', sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0;\"><strong>[name_applicant]</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin: 0; font-size: 14px; line-height: 24px;\">[email_applicant]</p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n\t\t\t\t<!-- WRAPPER -->\n\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #3D687D;\">\n\t\t\t\t\t\t\t<!-- CONTENT: header -->\n\t\t\t\t\t\t\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #fff; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height: 21px; text-decoration: none; padding: 3px 50px\">\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; line-height: 27px;\">This message is automatically generated by <strong><a href=\"https://bioinformatics.ca/\" style=\"color: #ffffff; font-weight: bold; text-decoration: underline;\">bioinformatics.ca</a></strong> on behalf of the <strong><a href=\"https://bioinformatics.ca/workshops/\" style=\"font-weight: bold;color: #ffffff; text-decoration: underline;\">Canadian Bioinformatics Workshops</a></strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\t<p style=\"margin-bottom: 25px; line-height: 27px;\"><a href=\"https://bioinformatics.ca/privacy-policy\" style=\"color: #fff;\">bioinformatics.ca Privacy Policy</a></p>\n\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</table>\n\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t</tr>\n\t\t\t\t\t</table>\n\t\t\t\t</td>\n\t\t\t</tr>\n\t\t</table>\n\t\t<!-- CONTAINER -->\n\t\t<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n\t\t\t<tr>\n\t\t\t\t<td align=\"center\" bgcolor=\"#f9fafb\" height=\"28\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">&nbsp;</td>\n\t\t\t</tr>\n\t\t</table>\n\t</body>\n</html>\n",
                     "text" : "NO-TXT-VERSION"
                 },
                 "delaySeconds" : "0",
@@ -5936,7 +5325,14 @@
                 "_id" : ObjectId("5cad039ba41fce002a0a338b")
             }
         ],
-        "approve" : [],
+        "update-approve" : [ 
+            {
+                "active" : true,
+                "name" : "http://localhost:3000/apps/cbw/workshop/hooks",
+                "event" : "on",
+                "_id" : ObjectId("5cb08c02eeeac10429be3afc")
+            }
+        ],
         "pay" : [ 
             {
                 "active" : true,
@@ -5975,15 +5371,7 @@
                 "active" : true,
                 "name" : "http://localhost:3000/apps/cbw/workshop/hooks",
                 "event" : "on",
-                "_id" : ObjectId("5cb60100017e740055c18a9b")
-            }
-        ],
-        "update-approve" : [ 
-            {
-                "active" : true,
-                "name" : "http://localhost:3000/apps/cbw/workshop/hooks",
-                "event" : "on",
-                "_id" : ObjectId("5cb8d5ebce2f7a00c489d6af")
+                "_id" : ObjectId("5cb6014a017e740055c18b0c")
             }
         ]
     },
@@ -6021,7 +5409,7 @@
                 "active" : true,
                 "actions" : {},
                 "label" : "Page - Token Expired",
-                "_id" : ObjectId("5cdd9e53b9f09d00fc4de753")
+                "_id" : ObjectId("5ed8085f7ac5f8009c5df16e")
             }
         ],
         "submit" : [ 
@@ -6050,7 +5438,7 @@
                 "active" : true,
                 "actions" : {},
                 "label" : "Page - Token Expired",
-                "_id" : ObjectId("5cdd9e6bb9f09d00fc4de786")
+                "_id" : ObjectId("5ed808937ac5f8009c5df18b")
             }
         ],
         "delete" : [],
@@ -6080,7 +5468,7 @@
                 "active" : true,
                 "actions" : {},
                 "label" : "Page - Token Expired",
-                "_id" : ObjectId("5cdd9e84b9f09d00fc4de7b9")
+                "_id" : ObjectId("5ed804877ac5f8009c5def95")
             }
         ],
         "approve" : [ 
@@ -6112,7 +5500,7 @@
                 "active" : true,
                 "actions" : {},
                 "label" : "Page - Token Expired",
-                "_id" : ObjectId("5cdd9ea3b9f09d00fc4de7ec")
+                "_id" : ObjectId("5ed807a97ac5f8009c5df164")
             }
         ],
         "approveCancel" : [ 
@@ -6131,8 +5519,8 @@
                 "value" : "<div id='cud' class='callback-container' style='width: 970px; background-color: #fff; display: flex; flex-flow: column wrap; margin: 0 auto; padding: 25px 25px 50px'>\n    <div class='callback-header' style='border-bottom: 1px solid #C6C6C6;'>\n        <img src='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTM4cHgiIGhlaWdodD0iNTlweCIgdmlld0JveD0iMCAwIDEzOCA1OSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTM4IDU5IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxkZWZzPg0KCQk8cmVjdCBpZD0iU1ZHSURfMV8iIHdpZHRoPSIxMzgiIGhlaWdodD0iNTkiLz4NCgk8L2RlZnM+DQoJPGNsaXBQYXRoIGlkPSJTVkdJRF8yXyI+DQoJCTx1c2UgeGxpbms6aHJlZj0iI1NWR0lEXzFfIiAgb3ZlcmZsb3c9InZpc2libGUiLz4NCgk8L2NsaXBQYXRoPg0KCTxwYXRoIGNsaXAtcGF0aD0idXJsKCNTVkdJRF8yXykiIGZpbGw9IiNDQzAwMDAiIGQ9Ik0yOC41OTQsMjkuNDY4Yy0wLjUzNyw0LjcxLTQuNzk5LDguMDkzLTkuNTIsNy41NTgNCgkJYy00LjcyMi0wLjUzMy04LjExNC00Ljc4NS03LjU3OS05LjQ5NGMwLjUzNy00LjcwNyw0Ljc5OS04LjA5MSw5LjUyMS03LjU1N0MyNS43MzcsMjAuNTEsMjkuMTMsMjQuNzYsMjguNTk0LDI5LjQ2OCIvPg0KCTxwYXRoIGNsaXAtcGF0aD0idXJsKCNTVkdJRF8yXykiIGZpbGw9IiNDQzAwMDAiIGQ9Ik0zNS44NjgsMTEuNDU3Yy0wLjM5NSwzLjQ3Ni0zLjU0Miw1Ljk3My03LjAyNiw1LjU3OA0KCQljLTMuNDg1LTAuMzk0LTUuOTktMy41MzItNS41OTQtNy4wMDdjMC4zOTYtMy40NzUsMy41NDItNS45NzIsNy4wMjctNS41NzhDMzMuNzYsNC44NDUsMzYuMjY0LDcuOTgxLDM1Ljg2OCwxMS40NTciLz4NCgk8cGF0aCBjbGlwLXBhdGg9InVybCgjU1ZHSURfMl8pIiBmaWxsPSIjQ0MwMDAwIiBkPSJNNTEuNzE3LDE0LjY2M2MtMC4zMDYsMi42OTEtMi43NDIsNC42MjQtNS40MzksNC4zMTgNCgkJYy0yLjY5OC0wLjMwNS00LjYzNy0yLjczNS00LjMzMS01LjQyNGMwLjMwNy0yLjY5LDIuNzQyLTQuNjIzLDUuNDQtNC4zMTlDNTAuMDg1LDkuNTQzLDUyLjAyNCwxMS45NzMsNTEuNzE3LDE0LjY2MyIvPg0KCTxwYXRoIGNsaXAtcGF0aD0idXJsKCNTVkdJRF8yXykiIGZpbGw9IiNDQzAwMDAiIGQ9Ik01OS4yMTgsNC40MWMtMC4yMywyLjAxOS0yLjA1NiwzLjQ2Ny00LjA3OSwzLjI0DQoJCWMtMi4wMjQtMC4yMy0zLjQ3OC0yLjA1Mi0zLjI0OC00LjA3YzAuMjI5LTIuMDE4LDIuMDU2LTMuNDY3LDQuMDgtMy4yMzlDNTcuOTk0LDAuNTcsNTkuNDQ4LDIuMzkyLDU5LjIxOCw0LjQxIi8+DQoJPHBhdGggY2xpcC1wYXRoPSJ1cmwoI1NWR0lEXzJfKSIgZmlsbD0iI0NDMDAwMCIgZD0iTTY5LjE4NywxMC4wNzhjLTAuMjA2LDEuODE2LTEuODUsMy4xMjItMy42NzEsMi45MTZzLTMuMTMtMS44NDctMi45MjMtMy42NjINCgkJYzAuMjA3LTEuODE2LDEuODUxLTMuMTIyLDMuNjczLTIuOTE2QzY4LjA4NSw2LjYyMiw2OS4zOTQsOC4yNjMsNjkuMTg3LDEwLjA3OCIvPg0KCTxwYXRoIGNsaXAtcGF0aD0idXJsKCNTVkdJRF8yXykiIGZpbGw9IiNDQzAwMDAiIGQ9Ik03NS43MjUsMy4xMDdjLTAuMTc0LDEuNTM0LTEuNTYyLDIuNjMzLTMuMDk4LDIuNDYNCgkJYy0xLjUzNy0wLjE3NC0yLjY0MS0xLjU1OC0yLjQ2NS0zLjA5YzAuMTc0LTEuNTMzLDEuNTYtMi42MzQsMy4wOTgtMi40NTlDNzQuNzk2LDAuMTksNzUuOSwxLjU3NCw3NS43MjUsMy4xMDciLz4NCgk8cGF0aCBjbGlwLXBhdGg9InVybCgjU1ZHSURfMl8pIiBmaWxsPSIjQ0MwMDAwIiBkPSJNODIuNTkyLDEwLjE3OWMtMC4xNjUsMS40NDctMS40NzUsMi40ODctMi45MjcsMi4zMjINCgkJYy0xLjQ0OS0wLjE2NC0yLjQ5NS0xLjQ3MS0yLjMyOS0yLjkxOGMwLjE2NS0xLjQ0NiwxLjQ3Ni0yLjQ4NywyLjkyNi0yLjMyMkM4MS43MTQsNy40MjYsODIuNzU3LDguNzMsODIuNTkyLDEwLjE3OSIvPg0KCTxwYXRoIGNsaXAtcGF0aD0idXJsKCNTVkdJRF8yXykiIGZpbGw9IiNDQzAwMDAiIGQ9Ik04OS45NCw4LjMzNWMtMC4xMzgsMS4yMDktMS4yMzQsMi4wODEtMi40NDgsMS45NDQNCgkJYy0xLjIxNi0wLjEzOC0yLjA4Ni0xLjIzMS0xLjk0OC0yLjQ0M2MwLjEzOC0xLjIwOSwxLjIzNC0yLjA4LDIuNDQ2LTEuOTQxQzg5LjIwNiw2LjAzMSw5MC4wNzcsNy4xMjUsODkuOTQsOC4zMzUiLz4NCgk8cGF0aCBjbGlwLXBhdGg9InVybCgjU1ZHSURfMl8pIiBmaWxsPSIjQ0MwMDAwIiBkPSJNOTMuOTU4LDEyLjg5MWMtMC4wOTYsMC44NDEtMC44NTYsMS40NDQtMS43LDEuMzUNCgkJYy0wLjg0NC0wLjA5Ny0xLjQ0OC0wLjg1NS0xLjM1NC0xLjY5NmMwLjA5Ni0wLjg0MSwwLjg1NS0xLjQ0NiwxLjcwMS0xLjM0OUM5My40NDgsMTEuMjksOTQuMDUzLDEyLjA1LDkzLjk1OCwxMi44OTEiLz4NCgk8cGF0aCBjbGlwLXBhdGg9InVybCgjU1ZHSURfMl8pIiBkPSJNMy40MzEsNDkuOTQxYzAuMzk0LTAuNDM5LDAuOTQ5LTAuOTQ4LDEuNzYxLTAuOTQ4YzAuODExLDAsMS40NiwwLjQ4NSwxLjY5MiwxLjUwMw0KCQlDNyw1MS4wMDQsNy4wMjMsNTEuNDQyLDcuMDIzLDUyLjUwN2MwLDEuNDU2LTAuMDY5LDIuMDgxLTAuMzQ4LDIuNzI3Yy0wLjI1NSwwLjYyNS0wLjc0MSwwLjkyNS0xLjUwNiwwLjkyNQ0KCQljLTAuODM1LDAtMS4zMjEtMC4zOTMtMS43MzgtMC43NjNWNDkuOTQxeiBNMy4yNjgsNDEuNDM1bC0zLjE3NiwwLjc0YzAuMTYzLDAuNjcsMC4yMDksMS40NTUsMC4yMDksMi45MTN2MTAuOTUzDQoJCWMwLDEuNjQ0LTAuMDY5LDEuOTg5LTAuMzAxLDIuNTIxaDIuNzgxYzAuMjA5LTAuMzI0LDAuMjMyLTAuNDM4LDAuMzI1LTAuODU1YzAuNjcyLDAuNzQsMS40ODMsMS4wODcsMi42NDIsMS4wODcNCgkJYzAuOTc0LDAsMS43ODUtMC4yNzgsMi41OTYtMC45MjVjMS40NjEtMS4xNTYsMi4yMDItMy4wMjgsMi4yMDItNS40MzNjMC0zLjY5OC0xLjgwNy02LjAwOC00LjcwNS02LjAwOA0KCQljLTEuMDg5LDAtMS45MjQsMC4yOTktMi41MjYsMC45NDRjMC4wNDYtMC4xODMsMC4wNjktMC42OTEsMC4wNjktMS4wMzh2LTIuNzk4QzMuMzg0LDQyLjcyOSwzLjM2MSw0Mi4yNDMsMy4yNjgsNDEuNDM1Ii8+DQoJPHBhdGggY2xpcC1wYXRoPSJ1cmwoI1NWR0lEXzJfKSIgZD0iTTE0Ljg4MSw0Ni40NDl2MTIuMTEyaC0zLjEwNlY0Ni45MzZMMTQuODgxLDQ2LjQ0OXogTTE1LjI1Miw0My40NjgNCgkJYzAsMS4wNjMtMC44NTgsMS45Mi0xLjkyNCwxLjkyYy0xLjA0MywwLTEuOTAxLTAuODU2LTEuOTAxLTEuOTJzMC44ODEtMS45MTcsMS45NDgtMS45MTcNCgkJQzE0LjQxNyw0MS41NTEsMTUuMjUyLDQyLjQwNCwxNS4yNTIsNDMuNDY4Ii8+DQoJPHBhdGggY2xpcC1wYXRoPSJ1cmwoI1NWR0lEXzJfKSIgZD0iTTIxLjQ2Miw0OC43ODVjMC41NTcsMCwxLjA0NCwwLjIyOSwxLjM0NSwwLjYyNWMwLjQxOCwwLjUzMSwwLjYyNiwxLjU3LDAuNjI2LDMuMTY2DQoJCWMwLDIuNzk2LTAuNTc5LDMuOTk5LTEuOTI0LDMuOTk5Yy0wLjYwMiwwLTEuMjk3LTAuMzI0LTEuNTc2LTAuOTcyYy0wLjI1NS0wLjYwMS0wLjM5My0xLjYxNy0wLjM5My0yLjk4Mg0KCQljMC0xLjE3OSwwLjExNS0yLjAxMSwwLjMyNC0yLjYzNEMyMC4xMTgsNDkuMjQ3LDIwLjcyMSw0OC43ODUsMjEuNDYyLDQ4Ljc4NSBNMjEuNDE3LDQ2LjQ5NmMtMy4xOTksMC01LjMzMSwyLjQ3NS01LjMzMSw2LjE5NQ0KCQlzMi4xMDgsNi4xMjUsNS4zMzEsNi4xMjVjMS44MzEsMCwzLjAxMy0wLjYyNSwzLjkxNy0xLjY0YzEuMDItMS4xNTcsMS40ODMtMi41NDMsMS40ODMtNC41NzdjMC0xLjkxOS0wLjQxNy0zLjIxMy0xLjM2Ny00LjMyNA0KCQlDMjQuNDMsNDcuMDc1LDIzLjEwOCw0Ni40OTYsMjEuNDE3LDQ2LjQ5NiIvPg0KCTxwYXRoIGNsaXAtcGF0aD0idXJsKCNTVkdJRF8yXykiIGQ9Ik0yOC4zMjUsNDcuMDk4bDEuODc3LTAuM3YxMS43NjRoLTEuODc3VjQ3LjA5OHogTTI5LjI5OCw0Mi4wODINCgkJYzAuNzg5LDAsMS40MTQsMC42MjQsMS40MTQsMS40MDljMCwwLjc4Ni0wLjYyNSwxLjQxMS0xLjQxNCwxLjQxMWMtMC43ODgsMC0xLjQxNC0wLjYyNS0xLjQxNC0xLjM4OA0KCQlDMjcuODg0LDQyLjcyOCwyOC41MSw0Mi4wODIsMjkuMjk4LDQyLjA4MiIvPg0KCTxwYXRoIGNsaXAtcGF0aD0idXJsKCNTVkdJRF8yXykiIGQ9Ik0zMi41Miw0Ny4yNTlsMS43NjEtMC40ODRjMCwwLDAuNDE4LDAuODU0LDAuNDE4LDEuODAzYzEuMjA0LTEuMjAzLDIuNDEtMS43NzksMy42MzgtMS43NzkNCgkJYzEuMjUzLDAsMi4zNjUsMC42NjksMi44MjksMS42ODdjMC4xODUsMC40MTYsMC4yNzgsMC44NzksMC4yNzgsMS4zNHY4LjczOGgtMS44MzJ2LTcuNzljMC0xLjIyNS0wLjA5Mi0xLjUyNS0wLjQxNy0xLjkxOQ0KCQljLTAuMjU1LTAuMzAxLTAuNzQxLTAuNDg1LTEuMjc1LTAuNDg1Yy0wLjkyNiwwLTIuMzY0LDAuNzQtMy4xOTgsMS42MTl2OC41NzVIMzIuOTZ2LTguODc1DQoJCUMzMi45Niw0OC4wNDYsMzIuNTIsNDcuMjU5LDMyLjUyLDQ3LjI1OSIvPg0KCTxwYXRoIGNsaXAtcGF0aD0idXJsKCNTVkdJRF8yXykiIGQ9Ik00OS40MTcsNDMuNzY5Yy0wLjQ0LTAuMjU0LTEuMDg5LTAuNTMtMS43MTUtMC41M2MtMS4wMjEsMC0xLjU3NiwwLjcxNi0xLjU3NiwyLjAzNHYxLjc3OA0KCQloMy4xOTlsLTAuNTU3LDEuMzY0aC0yLjY0MnYxMC4xNDZoLTEuOTAyVjQ4LjQxNWgtMS4xMTJ2LTEuMzY0aDEuMTEydi0xLjgwMmMwLTEuNzExLDAuNzg4LTIuNDUxLDEuMjc2LTIuODIxDQoJCWMwLjU1NS0wLjQxNCwxLjE4MS0wLjYsMi4wMzktMC42YzAuOTk2LDAsMS44NzgsMC4yMywyLjU0OSwwLjY3TDQ5LjQxNyw0My43Njl6Ii8+DQoJPHBhdGggY2xpcC1wYXRoPSJ1cmwoI1NWR0lEXzJfKSIgZD0iTTU2LjMwMSw0OS42NjNjMC4zNzEsMC43NjMsMC41MzMsMS44NSwwLjUzMywzLjQ2N2MwLDEuMTM0LTAuMDkyLDEuNzgxLTAuMzQ3LDIuNDk2DQoJCWMtMC4zOTQsMS4xMS0xLjMsMS43MzUtMi41MDQsMS43MzVjLTAuOTk3LDAtMS45MjQtMC40NjMtMi4zNDEtMS4xNTdjLTAuNDQtMC43MTYtMC43MTgtMi4xNDktMC43MTgtMy43NjgNCgkJYzAtMS4zNjIsMC4xODUtMi4yODcsMC41NTYtMy4wMDRjMC4zOTUtMC43NjQsMS4zNDQtMS4yNDksMi4zNjQtMS4yNDlDNTQuNzk1LDQ4LjE4NCw1NS44MTQsNDguNjQ2LDU2LjMwMSw0OS42NjMgTTQ4Ljk1NCw1Mi43MzgNCgkJYzAsMy43OSwxLjgwNyw2LjEyNSw0Ljk4Miw2LjEyNWMyLjg5OCwwLDQuOTYxLTIuMDM1LDQuOTYxLTUuODcxYzAtMS44NzMtMC4zNDctMy4yMzYtMS4wNjYtNC4yNzYNCgkJYy0wLjc4OC0xLjEzMy0yLjA0LTIuMDExLTMuOTYzLTIuMDExQzUwLjgzMSw0Ni43MDUsNDguOTU0LDQ4Ljk5NCw0OC45NTQsNTIuNzM4Ii8+DQoJPHBhdGggY2xpcC1wYXRoPSJ1cmwoI1NWR0lEXzJfKSIgZD0iTTYwLjY1OSw0Ny4yMzZsMS44MDgtMC40ODVjMCwwLDAuNDQsMC45LDAuMzcsMS44NzNjMC44MzQtMS4xOCwyLjA2My0xLjkxOSwzLjI0Ni0xLjkxOQ0KCQljMC4zMDEsMCwwLjYyNSwwLjExNCwwLjYyNSwwLjExNGwtMC43NDIsMS45NjZjLTAuMTE2LTAuMDQ2LTAuMzI1LTAuMDk0LTAuNTA5LTAuMDk0Yy0wLjY5NSwwLTEuMzkxLDAuMzAzLTEuOTI0LDAuODMzDQoJCWMtMC41MzQsMC41MzEtMC42NzMsMC44NzgtMC42NzMsMS44MjZ2Ny4yMTFoLTEuODA4di04Ljg3NEM2MS4wNTIsNDcuOTk5LDYwLjY1OSw0Ny4yMzYsNjAuNjU5LDQ3LjIzNiIvPg0KCTxwYXRoIGNsaXAtcGF0aD0idXJsKCNTVkdJRF8yXykiIGQ9Ik02Ny4yMTksNDcuMTlsMS43NjItMC40MTZjMCwwLDAuNDE2LDAuOTAxLDAuNDE2LDEuNzFjMC43NjYtMC44NTQsMi4xODEtMS43MzMsMy4zNjEtMS43MzMNCgkJYzEuMTM2LDAsMi4yNzIsMC42OTMsMi42OSwxLjkxN2MxLjExLTEuMTc4LDIuNTI0LTEuOTE3LDMuNzA5LTEuOTE3YzEuNzEzLDAsMi44OTYsMS4yOTQsMi44OTYsMy4xMnY4LjY5MWgtMS44NTR2LTguNTA2DQoJCWMwLTEuMTEtMC41MTEtMS42ODgtMS40ODQtMS42ODhjLTEuMDQyLDAtMS44NTQsMC42NzEtMy4wNiwxLjc4MnY4LjQxMmgtMS44MzFWNTAuMzhjMC0wLjY5Mi0wLjA2OC0xLjE1NC0wLjMyNC0xLjQ3OQ0KCQljLTAuMjc3LTAuMzIzLTAuNjQ4LTAuNDYzLTEuMTgzLTAuNDYzYy0wLjg4LDAtMS43MzgsMC40MzktMi45NDIsMS41Mjd2OC41OThoLTEuNzRWNDkuNjQNCgkJQzY3LjYzNSw0Ny45NzYsNjcuMjE5LDQ3LjE5LDY3LjIxOSw0Ny4xOSIvPg0KCTxwYXRoIGNsaXAtcGF0aD0idXJsKCNTVkdJRF8yXykiIGQ9Ik05MC42NzcsNTUuNzJjLTAuNTM1LDEuMDg2LTEuNjI0LDEuODAzLTIuODA2LDEuODAzYy0xLjMyMSwwLTEuOTkyLTAuNzM5LTEuOTkyLTIuMTA0DQoJCWMwLTEuNzU3LDEuMDQxLTIuNzUsMy45NjItMi43NWMwLjMyNSwwLDAuNjAzLDAuMDI0LDAuOTA0LDAuMDQ3TDkwLjY3Nyw1NS43MnogTTg1LjE4Myw0OS41OTRjMC43NDItMC42NywyLjM4Ny0xLjM2MiwzLjY4NS0xLjM2Mg0KCQljMC43MiwwLDEuMTg0LDAuMjA2LDEuNTU0LDAuNjIyYzAuMzI0LDAuMzcyLDAuMzcxLDAuNzg2LDAuMzcxLDEuODA1djAuODA3YzAsMC0wLjMyNC0wLjAyMS0wLjgxMi0wLjAyMQ0KCQljLTMuODcxLDAtNi4xMTgsMS41MjQtNi4xMTgsNC4xMzdjMCwxLjU1LDAuODU3LDMuMjgzLDMuNzA4LDMuMjgzYzEuMzIsMCwyLjIyNi0wLjQzOSwzLjMzOC0xLjU1DQoJCWMwLjIwOCwwLjgxMSwwLjc4NywxLjQzNCwxLjU3NiwxLjY4N2wwLjkyOC0xLjI5M2MtMC44NTctMC40NjMtMC45NzUtMC45NDctMC45MjgtMi44MmwwLjA5NS0zLjc5YzAuMDIxLTEuMDQsMC0xLjkyLTAuMjU3LTIuNTQ0DQoJCWMtMC40ODctMS4xNzktMS42LTEuODAyLTMuMTk4LTEuODAyYy0xLjY2OSwwLTMuMzE1LDAuNTMyLTQuODQ2LDEuNTQ4TDg1LjE4Myw0OS41OTR6Ii8+DQoJPHBhdGggY2xpcC1wYXRoPSJ1cmwoI1NWR0lEXzJfKSIgZD0iTTEwMC4yMjUsNDcuMDUxbC0wLjU1NiwxLjM2NGgtMi40MTF2Ny40MjFjMCwxLjI3MSwwLjM0OCwxLjcxLDEuNDg0LDEuNzENCgkJYzAuNTEsMCwwLjgxMS0wLjA3LDEuMTM2LTAuMjMybDAuMjU0LDEuMTU2Yy0wLjU3OSwwLjMwMS0xLjIyOCwwLjQ2Mi0yLjAzOCwwLjQ2MmMtMC42MDQsMC0xLjA2Ny0wLjExNS0xLjUwNy0wLjMyMw0KCQljLTAuODEyLTAuMzkzLTEuMTEzLTEuMTMzLTEuMTEzLTIuMjg5di03LjkwNGgtMS41MDd2LTEuMzY0aDEuNTA3YzAtMS4xMDksMC4xODctMi45MTIsMC4xODctMi45MTJsMS44OTgtMC40MTYNCgkJYzAsMC0wLjIyOSwxLjgwMy0wLjIyOSwzLjMyOEgxMDAuMjI1eiIvPg0KCTxwYXRoIGNsaXAtcGF0aD0idXJsKCNTVkdJRF8yXykiIGQ9Ik0xMDEuNTY4LDQ3LjA5OGwxLjg3OS0wLjN2MTEuNzY0aC0xLjg3OVY0Ny4wOTh6IE0xMDIuNTQ0LDQyLjA4Mg0KCQljMC43ODcsMCwxLjQxMiwwLjYyNCwxLjQxMiwxLjQwOWMwLDAuNzg2LTAuNjI1LDEuNDExLTEuNDEyLDEuNDExYy0wLjc4OSwwLTEuNDE1LTAuNjI1LTEuNDE1LTEuMzg4DQoJCUMxMDEuMTI5LDQyLjcyOCwxMDEuNzU1LDQyLjA4MiwxMDIuNTQ0LDQyLjA4MiIvPg0KCTxwYXRoIGNsaXAtcGF0aD0idXJsKCNTVkdJRF8yXykiIGQ9Ik0xMTMuNDYsNDcuOTk5bC0wLjk5NywxLjI0OWMtMC44MTEtMC42NzEtMS4zMjEtMC45MjYtMi4yMDEtMC45MjYNCgkJYy0wLjkwNCwwLTEuNzY0LDAuNTA5LTIuMTc5LDEuMjk1Yy0wLjQzOSwwLjgwOS0wLjY0OSwyLjA4MS0wLjY0OSwzLjc2OGMwLDIuNTg4LDAuOTk3LDQsMi44NTEsNGMwLjkyOSwwLDEuODEtMC40MzksMi40OC0xLjI0OQ0KCQlsMC45OTcsMS4xNTZjLTEuMDY2LDEuMDg1LTIuMDg2LDEuNTI0LTMuNTIyLDEuNTI0Yy0xLjY0NiwwLTIuODc1LTAuNTc3LTMuNjg3LTEuNzMzYy0wLjc2Ni0xLjExLTEuMTEyLTIuMzgxLTEuMTEyLTQuMDkyDQoJCWMwLTIuNTE5LDAuNzQxLTMuOTA2LDEuNzM5LTQuOTAxYzAuOTAzLTAuODk5LDEuODk4LTEuMzM5LDMuMTI4LTEuMzM5QzExMS43NjcsNDYuNzUxLDExMi42MjYsNDcuMzA2LDExMy40Niw0Ny45OTkiLz4NCgk8cGF0aCBjbGlwLXBhdGg9InVybCgjU1ZHSURfMl8pIiBkPSJNMTIyLjIyMSw0Ny41MzhsLTAuNjcyLDEuMzRjLTEuMDItMC40ODUtMS44NzYtMC44MzItMi44OTctMC44MzINCgkJYy0xLjMyMSwwLTIuMTgsMC43NjMtMi4xOCwxLjg5NmMwLDAuODc4LDAuNDQyLDEuNDA5LDEuNjcxLDEuNjYzbDEuNTMsMC4zMjRjMi4wODUsMC40MzgsMy4wODMsMS41MDMsMy4wODMsMy4yMTMNCgkJYzAsMi4yNDMtMS43NjMsMy43NjgtNC4zNTksMy43NjhjLTEuNDYsMC0zLjA2LTAuNDM5LTQuMjQxLTEuMTU1bDAuNjk0LTEuMzQxYzEuMTg1LDAuNzE3LDIuMzg4LDEuMDg2LDMuNjYzLDEuMDg2DQoJCWMxLjQxNCwwLDIuMzQtMC43NjMsMi4zNC0xLjk4N2MwLTEuMDQtMC41NzgtMS42MTktMS44OTktMS44OTdsLTEuNDM3LTAuM2MtMS45MDEtMC4zOTEtMi45Mi0xLjU3MS0yLjkyLTMuMTY1DQoJCWMwLTIuMDgsMS42OS0zLjUzNyw0LjEwMi0zLjUzN0MxMTkuOTAzLDQ2LjYxMiwxMjEuMjQ5LDQ2Ljk4MiwxMjIuMjIxLDQ3LjUzOCIvPg0KCTxwYXRoIGNsaXAtcGF0aD0idXJsKCNTVkdJRF8yXykiIGQ9Ik0xMjQuNTAzLDU4Ljc3MWMtMC42MTIsMC0xLjA5OS0wLjUxNC0xLjA5OS0xLjEzN2MwLTAuNjExLDAuNDczLTEuMDk2LDEuMDcxLTEuMDk2DQoJCWMwLjYxMSwwLDEuMTEyLDAuNDg0LDEuMTEyLDEuMDk2QzEyNS41ODgsNTguMjU3LDEyNS4wODcsNTguNzcxLDEyNC41MDMsNTguNzcxIi8+DQoJPHBhdGggY2xpcC1wYXRoPSJ1cmwoI1NWR0lEXzJfKSIgZD0iTTEyOS4yNDYsNTguNzQzYy0xLjkyMSwwLTIuOTkyLTEuMzQ1LTIuOTkyLTMuNjA3YzAtMi41NTEsMS41My0zLjc3MSwzLjEwMi0zLjc3MQ0KCQljMC43NjUsMCwxLjMyMywwLjE4MSwxLjk0NywwLjc2M2wtMC43NjUsMS4wMTJjLTAuNDE4LTAuMzczLTAuNzc5LTAuNTQtMS4xODMtMC41NGMtMC40ODYsMC0wLjg4OSwwLjI0OC0xLjExMywwLjcwNw0KCQljLTAuMjA2LDAuNDMxLTAuMjkyLDEuMDgxLTAuMjkyLDEuOTU1YzAsMC45NTcsMC4xNTIsMS41NjcsMC40NzQsMS45MTVjMC4yMjMsMC4yNDksMC41NTcsMC40MDEsMC45MzIsMC40MDENCgkJYzAuNDg1LDAsMC45Ni0wLjIzNSwxLjQyMS0wLjY5M2wwLjcyMiwwLjkzQzEzMC44NTgsNTguNDUxLDEzMC4xOSw1OC43NDMsMTI5LjI0Niw1OC43NDMiLz4NCgk8cGF0aCBjbGlwLXBhdGg9InVybCgjU1ZHSURfMl8pIiBkPSJNMTM1LjkwMSw1NS4yNjFsLTAuMDI3LDEuNjY1Yy0wLjMwNiwwLjQ0NC0wLjc4LDAuNzM1LTEuMjY3LDAuNzM1DQoJCWMtMC42MTIsMC0wLjk3NC0wLjQxNi0wLjk3NC0xLjA4MmMwLTAuODg4LDAuNDYxLTEuMzMyLDEuOTg5LTEuMzMyQzEzNS43MzUsNTUuMjQ3LDEzNS45MDEsNTUuMjYxLDEzNS45MDEsNTUuMjYxIE0xMzgsNTcuODgzDQoJCWMtMC41NDEtMC4zNzQtMC42MjUtMC42NzktMC42MTEtMS42MjJsMC4wMjktMi4wMTJjMC4wMTQtMS4wMzksMC4wMTQtMS40MTUtMC4xMTEtMS43MjFjLTAuMzA2LTAuNzYzLTEuMDQ0LTEuMTY0LTIuMTQzLTEuMTY0DQoJCWMtMS4wNTYsMC0xLjkzNiwwLjI5Mi0yLjk5LDAuOTU4bDAuNjgzLDEuMDk2YzAsMCwxLjA4NC0wLjgwNSwyLjEwMS0wLjgwNWMwLjgzMywwLDAuOTcyLDAuNDI5LDAuOTcyLDEuMjMzdjAuMzc1aC0wLjQ3Mg0KCQljLTIuMjU1LDAtMy40NzksMC44MTgtMy40NzksMi40NGMwLDEuMjIxLDAuNzI0LDIuMTA4LDIuMzM2LDIuMTA4YzAuNzUyLDAsMS4zNjUtMC4yMjMsMS45MzUtMC44Ng0KCQljMC4xNjYsMC40NDMsMC41MjksMC43NzYsMC45NTksMC45NDRMMTM4LDU3Ljg4M3oiLz4NCjwvZz4NCjwvc3ZnPg0K' style='height: 33px; margin-bottom: 15px;'/>\n    </div>\n    <div class='callback-content' style='width: 100%'>\n        <div class='title-icon' style='width: 100%; text-align: center; margin: 40px 0 15px; height: 50px;'>\n            <svg style='height: 50px'xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 100 100\" enable-background=\"new 0 0 100 100\" xml:space=\"preserve\"><g><path d=\"M90,11H10c-2.206,0-4,1.794-4,4v74h88V15C94,12.794,92.206,11,90,11z M91,86H9V15c0-0.551,0.449-1,1-1h80   c0.552,0,1,0.449,1,1V86z\"></path><path d=\"M85,23.5H15c-0.829,0-1.5,0.671-1.5,1.5s0.671,1.5,1.5,1.5h70c0.828,0,1.5-0.671,1.5-1.5S85.828,23.5,85,23.5z\"></path><circle cx=\"16.25\" cy=\"18.75\" r=\"1.25\"></circle><circle cx=\"21.25\" cy=\"18.75\" r=\"1.25\"></circle><circle cx=\"26.25\" cy=\"18.75\" r=\"1.25\"></circle><path d=\"M35,31H17.5c-2.206,0-4,1.794-4,4v42.5c0,2.206,1.794,4,4,4H35c2.206,0,4-1.794,4-4V35C39,32.794,37.206,31,35,31z    M36,77.5c0,0.552-0.449,1-1,1H17.5c-0.551,0-1-0.448-1-1V35c0-0.551,0.449-1,1-1H35c0.551,0,1,0.449,1,1V77.5z\"></path><path d=\"M82.5,31h-35c-2.206,0-4,1.794-4,4v7.5c0,2.206,1.794,4,4,4h35c2.206,0,4-1.794,4-4V35C86.5,32.794,84.706,31,82.5,31z    M83.5,42.5c0,0.551-0.448,1-1,1h-35c-0.551,0-1-0.449-1-1V35c0-0.551,0.449-1,1-1h35c0.552,0,1,0.449,1,1V42.5z\"></path><path d=\"M82.5,48.5h-35c-2.206,0-4,1.794-4,4V60c0,2.206,1.794,4,4,4h35c2.206,0,4-1.794,4-4v-7.5   C86.5,50.294,84.706,48.5,82.5,48.5z M83.5,60c0,0.552-0.448,1-1,1h-35c-0.551,0-1-0.448-1-1v-7.5c0-0.552,0.449-1,1-1h35   c0.552,0,1,0.448,1,1V60z\"></path><path d=\"M82.5,66h-35c-2.206,0-4,1.794-4,4v7.5c0,2.206,1.794,4,4,4h35c2.206,0,4-1.794,4-4V70C86.5,67.794,84.706,66,82.5,66z    M83.5,77.5c0,0.552-0.448,1-1,1h-35c-0.551,0-1-0.448-1-1V70c0-0.552,0.449-1,1-1h35c0.552,0,1,0.448,1,1V77.5z\"></path></g></svg>\n        </div>\n        <h1 class='title' style='text-align: center; font-size: 32px; margin: 5px 0 30px;'>View My Dashboard</h1>\n        <p class='main-text' style='text-align: center; font-size: 16px; color: #6d6d6d; margin: 0'>Your dashboard for the <span style=\"color:#4A4A4A; font-weight: bold;\"><br>Canadian Bioinformatics Workshops</span> is loading.</p>\n        <p class='main-text' style='text-align: center; font-size: 16px; color: #4A4A4A;; font-weight: bold;'>If you are not redirected within <span id='counter'>10</span> seconds, <a href=\"[baselink]/user/#/dashboard?&tab=1&order=desc\" style=\"color: #9A3333; text-decoration: none; font-weight: bold;\">click here.</a></p>\n    </div>\n</div>",
                 "active" : true,
                 "actions" : {
-                    "autoRedirect.seconds" : "10",
-                    "autoRedirect.url" : "[baselink]/user/#/dashboard?&tab=1&order=desc"
+                    "autoRedirect.url" : "[baselink]/user/#/dashboard?&tab=1&order=desc",
+                    "autoRedirect.seconds" : "10"
                 },
                 "label" : "Receipt (From different State)",
                 "_id" : ObjectId("5caf5dd9200c0801e00bba6c")
@@ -6154,7 +5542,7 @@
                 "active" : true,
                 "actions" : {},
                 "label" : "Page - Token Expired",
-                "_id" : ObjectId("5cdd9eb9b9f09d00fc4de81f")
+                "_id" : ObjectId("5ed808e17ac5f8009c5df1ca")
             }
         ],
         "refundRequest" : [ 
@@ -6183,7 +5571,7 @@
                 "active" : false,
                 "actions" : {},
                 "label" : "Page - Token Expired",
-                "_id" : ObjectId("5cdd9ecbb9f09d00fc4de852")
+                "_id" : ObjectId("5ed809407ac5f8009c5df1e7")
             }
         ],
         "reopen" : [ 
@@ -6215,7 +5603,7 @@
         ],
         "update-refundSuccess" : []
     },
-    "updatedAt" : ISODate("2019-07-29T15:15:08.828Z"),
+    "updatedAt" : ISODate("2020-06-03T21:07:45.034Z"),
     "__v" : 0,
     "createdAt" : ISODate("2019-01-16T14:15:07.182Z")
 }
