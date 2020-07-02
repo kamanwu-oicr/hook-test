@@ -6,10 +6,307 @@
     "sections" : [ 
         {
             "type" : "section",
+            "id" : "s-ec2c4a50-b7e9-11ea-a914-51f622ebaf27",
+            "values" : {
+                "en" : {
+                    "title" : "Withdraw [Non-PHI]"
+                }
+            },
+            "children" : [ 
+                "q-653b8050-b7ea-11ea-a914-51f622ebaf27", 
+                "q-16e94cc0-b7ea-11ea-a914-51f622ebaf27"
+            ],
+            "permissions" : {
+                "init" : {
+                    "submitter" : [ 
+                        ""
+                    ],
+                    "invitee" : [ 
+                        ""
+                    ],
+                    "requisitioner" : [ 
+                        ""
+                    ],
+                    "administrator" : [ 
+                        ""
+                    ],
+                    "accessioner" : [ 
+                        ""
+                    ],
+                    "laboratory" : [ 
+                        ""
+                    ],
+                    "signout" : [ 
+                        ""
+                    ]
+                },
+                "signOutNotAccept" : {
+                    "submitter" : [ 
+                        ""
+                    ],
+                    "invitee" : [ 
+                        ""
+                    ],
+                    "requisitioner" : [ 
+                        ""
+                    ],
+                    "administrator" : [ 
+                        ""
+                    ],
+                    "accessioner" : [ 
+                        ""
+                    ],
+                    "laboratory" : [ 
+                        ""
+                    ],
+                    "signout" : [ 
+                        ""
+                    ]
+                },
+                "withdrawReview" : {
+                    "submitter" : [ 
+                        "read"
+                    ],
+                    "invitee" : [ 
+                        ""
+                    ],
+                    "requisitioner" : [ 
+                        ""
+                    ],
+                    "administrator" : [ 
+                        ""
+                    ],
+                    "accessioner" : [ 
+                        "read"
+                    ],
+                    "laboratory" : [ 
+                        "read"
+                    ],
+                    "signout" : [ 
+                        "read"
+                    ]
+                },
+                "signOutComplete" : {
+                    "submitter" : [ 
+                        ""
+                    ],
+                    "invitee" : [ 
+                        ""
+                    ],
+                    "requisitioner" : [ 
+                        ""
+                    ],
+                    "administrator" : [ 
+                        ""
+                    ],
+                    "accessioner" : [ 
+                        ""
+                    ],
+                    "laboratory" : [ 
+                        ""
+                    ],
+                    "signout" : [ 
+                        ""
+                    ]
+                },
+                "dataReadyForReview" : {
+                    "submitter" : [ 
+                        "write"
+                    ],
+                    "invitee" : [ 
+                        ""
+                    ],
+                    "requisitioner" : [ 
+                        ""
+                    ],
+                    "administrator" : [ 
+                        ""
+                    ],
+                    "accessioner" : [ 
+                        "write"
+                    ],
+                    "laboratory" : [ 
+                        ""
+                    ],
+                    "signout" : [ 
+                        ""
+                    ]
+                },
+                "withdrawApprove" : {
+                    "submitter" : [ 
+                        "read"
+                    ],
+                    "invitee" : [ 
+                        ""
+                    ],
+                    "requisitioner" : [ 
+                        ""
+                    ],
+                    "administrator" : [ 
+                        ""
+                    ],
+                    "accessioner" : [ 
+                        "read"
+                    ],
+                    "laboratory" : [ 
+                        "read"
+                    ],
+                    "signout" : [ 
+                        "read"
+                    ]
+                },
+                "deny" : {
+                    "submitter" : [ 
+                        "write"
+                    ],
+                    "invitee" : [ 
+                        ""
+                    ],
+                    "requisitioner" : [ 
+                        ""
+                    ],
+                    "administrator" : [ 
+                        ""
+                    ],
+                    "accessioner" : [ 
+                        "write"
+                    ],
+                    "laboratory" : [ 
+                        ""
+                    ],
+                    "signout" : [ 
+                        ""
+                    ]
+                },
+                "approve" : {
+                    "submitter" : [ 
+                        "write"
+                    ],
+                    "invitee" : [ 
+                        ""
+                    ],
+                    "requisitioner" : [ 
+                        ""
+                    ],
+                    "administrator" : [ 
+                        ""
+                    ],
+                    "accessioner" : [ 
+                        "write"
+                    ],
+                    "laboratory" : [ 
+                        ""
+                    ],
+                    "signout" : [ 
+                        ""
+                    ]
+                },
+                "withdrawSubmit" : {
+                    "submitter" : [ 
+                        "read"
+                    ],
+                    "invitee" : [ 
+                        ""
+                    ],
+                    "requisitioner" : [ 
+                        ""
+                    ],
+                    "administrator" : [ 
+                        ""
+                    ],
+                    "accessioner" : [ 
+                        "read"
+                    ],
+                    "laboratory" : [ 
+                        ""
+                    ],
+                    "signout" : [ 
+                        ""
+                    ]
+                },
+                "reopen" : {
+                    "submitter" : [ 
+                        "write"
+                    ],
+                    "invitee" : [ 
+                        ""
+                    ],
+                    "requisitioner" : [ 
+                        ""
+                    ],
+                    "administrator" : [ 
+                        ""
+                    ],
+                    "accessioner" : [ 
+                        "write"
+                    ],
+                    "laboratory" : [ 
+                        ""
+                    ],
+                    "signout" : [ 
+                        ""
+                    ]
+                },
+                "delete" : {
+                    "submitter" : [ 
+                        ""
+                    ],
+                    "invitee" : [ 
+                        ""
+                    ],
+                    "requisitioner" : [ 
+                        ""
+                    ],
+                    "administrator" : [ 
+                        ""
+                    ],
+                    "accessioner" : [ 
+                        ""
+                    ],
+                    "laboratory" : [ 
+                        ""
+                    ],
+                    "signout" : [ 
+                        ""
+                    ]
+                },
+                "submit" : {
+                    "submitter" : [ 
+                        "write"
+                    ],
+                    "invitee" : [ 
+                        ""
+                    ],
+                    "requisitioner" : [ 
+                        ""
+                    ],
+                    "administrator" : [ 
+                        ""
+                    ],
+                    "accessioner" : [ 
+                        "write"
+                    ],
+                    "laboratory" : [ 
+                        ""
+                    ],
+                    "signout" : [ 
+                        ""
+                    ]
+                }
+            },
+            "sectionType" : "section",
+            "showIf" : [],
+            "variable" : "",
+            "groupType" : "",
+            "reviewSections" : null,
+            "displayStateDates" : null
+        }, 
+        {
+            "type" : "section",
             "id" : "s-1fb78150-703c-11ea-993d-3b46d38e1a2e",
             "values" : {
                 "en" : {
-                    "title" : "Requisitioner's Information [PHI]"
+                    "title" : "Requisitioner's Information [Non-PHI]"
                 }
             },
             "children" : [ 
@@ -52,7 +349,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         ""
@@ -72,7 +369,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         "read"
@@ -92,7 +389,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         ""
@@ -112,7 +409,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         ""
@@ -242,7 +539,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         "read"
@@ -268,7 +565,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         "read"
@@ -1402,7 +1699,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         ""
@@ -1422,7 +1719,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         ""
@@ -1545,7 +1842,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         ""
@@ -1565,7 +1862,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         "read"
@@ -1669,7 +1966,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         "read"
@@ -1695,7 +1992,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         "read"
@@ -2337,7 +2634,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         ""
@@ -2357,7 +2654,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         ""
@@ -2500,7 +2797,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         ""
@@ -2520,7 +2817,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         "read"
@@ -2624,7 +2921,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         "read"
@@ -2650,7 +2947,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         "read"
@@ -2811,7 +3108,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         ""
@@ -2831,7 +3128,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         ""
@@ -2974,7 +3271,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         ""
@@ -2994,7 +3291,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         "read"
@@ -3098,7 +3395,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         "read"
@@ -3124,7 +3421,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         "read"
@@ -3224,7 +3521,7 @@
             "id" : "s-8babf610-9acc-11ea-a8c6-bfad246d9038",
             "values" : {
                 "en" : {
-                    "title" : "Data Report"
+                    "title" : "Data Report [Non-PHI]"
                 }
             },
             "children" : [ 
@@ -3356,7 +3653,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         "read"
@@ -3434,7 +3731,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         "write"
@@ -3586,7 +3883,7 @@
             "id" : "s-a41a4660-9acd-11ea-aca8-6df2984af781",
             "values" : {
                 "en" : {
-                    "title" : "Sign Out Report"
+                    "title" : "Sign Out Report [Non-PHI]"
                 }
             },
             "children" : [ 
@@ -3743,7 +4040,7 @@
                         ""
                     ],
                     "accessioner" : [ 
-                        "write"
+                        "read"
                     ],
                     "laboratory" : [ 
                         ""
@@ -3955,7 +4252,7 @@
                         {
                             "field_type" : "text",
                             "type" : "input",
-                            "cid" : "c-36681f40-b70e-11ea-b61f-f371d15702e5"
+                            "cid" : "c-185e4a40-ba3f-11ea-a62f-1d0bc61bdb65"
                         }
                     ],
                     "cid" : "c-1fb97d21-703c-11ea-993d-3b46d38e1a2e",
@@ -3978,7 +4275,7 @@
                         {
                             "field_type" : "text",
                             "type" : "input",
-                            "cid" : "c-366b2c80-b70e-11ea-b61f-f371d15702e5"
+                            "cid" : "c-18629000-ba3f-11ea-a62f-1d0bc61bdb65"
                         }
                     ],
                     "cid" : "c-1fba4071-703c-11ea-993d-3b46d38e1a2e",
@@ -5057,6 +5354,57 @@
             "required" : true,
             "id" : "q-aba21f70-9c35-11ea-a736-659d8c1ea6b1",
             "index" : 0
+        }, 
+        {
+            "values" : {
+                "en" : {
+                    "select_type" : "checkbox",
+                    "children" : [ 
+                        {
+                            "type" : "hybrid",
+                            "cid" : "c-16e94cc2-b7ea-11ea-a914-51f622ebaf27"
+                        }
+                    ],
+                    "title" : "Withdraw",
+                    "options" : [ 
+                        "1|Withdraw Submission"
+                    ],
+                    "cid" : "c-16e94cc1-b7ea-11ea-a914-51f622ebaf27",
+                    "hideLabel" : true
+                }
+            },
+            "type" : "input-hybrid",
+            "children" : [],
+            "parent" : "s-ec2c4a50-b7e9-11ea-a914-51f622ebaf27",
+            "column_count" : "2",
+            "variable" : "withdrawSubmission",
+            "required" : false,
+            "id" : "q-16e94cc0-b7ea-11ea-a914-51f622ebaf27",
+            "index" : 0
+        }, 
+        {
+            "values" : {
+                "en" : {
+                    "title" : "Reason for withdraw",
+                    "cid" : "c-653ba760-b7ea-11ea-a914-51f622ebaf27",
+                    "children" : []
+                }
+            },
+            "type" : "textarea",
+            "children" : [],
+            "parent" : "s-ec2c4a50-b7e9-11ea-a914-51f622ebaf27",
+            "index" : 0,
+            "variable" : "withdrawReason",
+            "required" : true,
+            "showIf" : [ 
+                {
+                    "qid" : "q-16e94cc0-b7ea-11ea-a914-51f622ebaf27",
+                    "op" : "hasSelect",
+                    "value" : "1",
+                    "logic" : "and"
+                }
+            ],
+            "id" : "q-653b8050-b7ea-11ea-a914-51f622ebaf27"
         }
     ],
     "tweet" : {
@@ -6580,11 +6928,59 @@
             "updatedAt" : ISODate("2020-06-26T18:35:48.486Z"),
             "action" : "unpublish",
             "data" : {}
+        }, 
+        {
+            "uid" : ObjectId("5b1a9e8cad2812001b44986b"),
+            "updatedAt" : ISODate("2020-06-26T20:17:42.326Z"),
+            "action" : "questionCreate",
+            "data" : {}
+        }, 
+        {
+            "uid" : ObjectId("5b1a9e8cad2812001b44986b"),
+            "updatedAt" : ISODate("2020-06-26T20:18:36.135Z"),
+            "action" : "questionUpdate",
+            "data" : {}
+        }, 
+        {
+            "uid" : ObjectId("5b1a9e8cad2812001b44986b"),
+            "updatedAt" : ISODate("2020-06-26T20:18:45.354Z"),
+            "action" : "questionUpdate",
+            "data" : {}
+        }, 
+        {
+            "uid" : ObjectId("5b1a9e8cad2812001b44986b"),
+            "updatedAt" : ISODate("2020-06-26T20:19:53.707Z"),
+            "action" : "questionCreate",
+            "data" : {}
+        }, 
+        {
+            "uid" : ObjectId("5ef254f5f903720513116930"),
+            "updatedAt" : ISODate("2020-06-26T20:59:18.409Z"),
+            "action" : "publish",
+            "data" : {}
+        }, 
+        {
+            "uid" : ObjectId("5b1a9e8cad2812001b44986b"),
+            "updatedAt" : ISODate("2020-06-26T21:02:43.325Z"),
+            "action" : "questionUpdate",
+            "data" : {}
+        }, 
+        {
+            "uid" : ObjectId("5b1a9e8cad2812001b44986b"),
+            "updatedAt" : ISODate("2020-06-26T21:02:54.308Z"),
+            "action" : "questionUpdate",
+            "data" : {}
+        }, 
+        {
+            "uid" : ObjectId("5b1a9e8cad2812001b44986b"),
+            "updatedAt" : ISODate("2020-06-26T21:03:02.678Z"),
+            "action" : "questionUpdate",
+            "data" : {}
         }
     ],
     "appid" : ObjectId("5e8c8e7f6ae9d31ba9fab0cf"),
     "uid" : ObjectId("58a34a88b0e3e3355dbe961d"),
-    "status" : 0,
+    "status" : 1,
     "settings" : {
         "title" : {
             "en" : "OICR Genomics Requisition Form Template"
@@ -6930,7 +7326,7 @@
                             "read"
                         ],
                         "signout" : [ 
-                            "read"
+                            ""
                         ],
                         "submitter" : [ 
                             ""
@@ -7364,12 +7760,16 @@
         "sectionNavigationType" : 0,
         "savePerSection" : false,
         "persistFormState" : false,
-        "dummyCaseId" : ObjectId("5ed1736b4f7e2400adca3b75"),
+        "dummyCaseId" : ObjectId("5efb6b99b4ac720b6e441682"),
         "description" : {
             "en" : "This requisition form contains Personal Health Information (PHI); PHI is visible to clinical coordinators and clinical medical geneticists only.  Completed requisition forms and or clinical reports contain PHI; PHI is maintained within a secure database.  Do not distribute or include PHI fields in any communications or shipments to OICR. Ontario Institute for Cancer Research c/o Tissue Portal Sample Receiving MaRS Centre, West Tower 661 University Avenue, Suite 6-46 Toronto, Ontario, Canada, M5G 0A3 Director: Trevor Pugh, PhD, FACMG Phone: 647-468-7844 Main contact: Dax Torti, PhD Phone: 647-260-7938 Hours of Operation: Mon - Fri, 9:00AM - 5:00PM CAP: xxx IQMH: xxx"
         },
         "createRevision" : true,
-        "hideDeletedSubmission" : true
+        "hideDeletedSubmission" : true,
+        "uiOptions" : {
+            "pdfDownloadText" : "Download Requisition",
+            "nameOfData" : "Requisition"
+        }
     },
     "email" : {
         "open" : [ 
@@ -7411,7 +7811,7 @@
                 "delaySeconds" : 0,
                 "_id" : ObjectId("5e7e15c44ca07c1fb84672e5"),
                 "default" : true,
-                "from" : "requisiton.genomics@oicr.on.ca"
+                "from" : "requisition.genomics@oicr.on.ca"
             }, 
             {
                 "title" : "Your Requisition Was Received.  Accessioner Approval Pending.",
@@ -7460,8 +7860,8 @@
                     "html" : "!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <title>GENOMICS-FORMS</title>\n    <meta charset=\"utf-8\" />\n    <meta content=\"width=device-width\" name=\"viewport\" />\n    <style>\n        @font-face {\n            font-family: Avenir, sans-serif;\n            src: url([baselink]/assets/site/fonts/04d1bf6c-070d-4b7e-9498-6051c9f0c349.ttf);\n        }\n    </style>\n</head>\n\n<body bgcolor=\"#ffffff\" style=\"height: 100% !important; margin: 0; padding: 0;\">\n    <!-- CONTAINER: Header -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- EMAIL HEADER -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <!-- HEADER SITE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                                        <tbody>\n                                            <tr>\n                                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; padding-top: 16px; padding-bottom: 21px;\">\n                                                    <!-- CONTENT: header -->\n                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                                        <tbody>\n                                                            <tr>\n                                                                <td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                                                                    <a href=\"[baselink]\" target=\"_blank\" style=\"color: #0070b5; font-family: Avenir, sans-serif; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;\">[baselink]</a>\n                                                                </td>\n                                                            </tr>\n                                                        </tbody>\n                                                    </table>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                            <!-- HEADER IMAGE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #F7F7F7;\">\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-top-left-radius: 10px; border-top-right-radius: 10px; border: solid 1px #D2D2D2; border-bottom: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr style=\"width: 85px;\">\n                                                <td valign=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 0 0 0; float: left; vertical-align: middle;\">\n                                                    <img src=\"https://oicr.on.ca/wp-content/uploads/2017/01/OICR_Logo.png\" alt=\"GENOMICS-FORMS\" border=\"0\" style=\"border: 0; color: #0070b5; font-family: Avenir, sans-serif; font-size: 11px; font-weight: normal; height: 60px; line-height: 21px; outline: none; margin: 20px 25px; text-decoration: none; border-top-left-radius: 10px; border-top-right-radius: 10px;\" />\n                                                </td>\n                                                <td style=\"width: 513px; vertical-align: middle;\">\n                                                  <p style=\"font-family: Avenir, sans-serif; font-weight: normal; font-size: 22px; padding-top: 12px; border-left: 1px solid #d2d2d2; padding-left: 19px; height: 42px;\">OICR Genomics Requisition</p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                            <!-- HEADER TITLE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #737373;\">\n                                    <!-- CONTENT: header -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"center\" style=\"color: #ffffff; font-family: Avenir, sans-serif; font-size: 18px; font-weight: 450; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;\">\n                                                    Requisition [settings.formKey]-[numberid] was approved. Ship Materials.\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Body -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- EMAIL BODY -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"border-left: solid 1px #d2d2d2; border-right: solid 1px #d2d2d2; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 20px 25px 20px;\">\n                                    <!-- CONTENT -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; font-size: 14px; font-weight: normal; line-height: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; border-bottom: 1px solid #5A5A5A;\">\n                                                    <p style=\"margin-bottom: 19px; margin-top: 16px; font-size: 16px;\">\n                                                        Dear [name_to],\n                                                    </p>\n                                                    <p style=\"margin-bottom: 24px; font-size: 14px; line-height: 21px;\">\n                                                        [settings.title.en] [settings.formKey]-[numberid] is approved. Samples may now be shipped to OICR Genomics. Follow our shipment protocol. \n                                                    </p>\n                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #d2d2d2; margin-bottom: 25px;\" width=\"100%\">\n                                                        <tr style=\"border: 1px solid #d2d2d2;\">\n                                                            <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; width: calc(62% - 90px); padding: 20px;\">\n                                                                <p style=\"margin: 0 0 0 0; font-size: 13px; line-height: 27px; padding-bottom: 5px;\">\n                                                                    SUBMITTED ON: [submit_date]\n                                                                </p>\n                                                                <p style=\"color: #000000; font-family: Avenir, sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 0 0 0; padding-bottom: 4px;\">\n                                                                    [settings.title.en]\n                                                                </p>\n                                                                <p style=\"margin: 0 0 0 0; font-size: 14px; line-height: 24px;\">\n                                                                    [settings.formKey]-[numberid]\n                                                                </p>\n                                                            </td>\n                                                            <td align=\"left\" valign=\"top\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; line-height: normal; font-size: 12px; font-weight: normal; width: 190px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; background-color: #E3F6FF; padding: 20px;\">\n                                                                <p style=\"margin: 0 0 0 0; font-size: 13px; line-height: 27px; padding-bottom: 5px;\">\n                                                                    SUBMITTED BY:\n                                                                </p>\n                                                                <p style=\"color: #000000; font-family: Avenir, sans-serif; font-size: 18px; font-weight: 450; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0; padding-bottom: 4px;\">\n                                                                    <strong>[name_applicant]</strong>\n                                                                </p>\n                                                                <p style=\"margin: 0; font-size: 14px; line-height: 24px;\">\n                                                                    <a href=\"\" style=\"color: black; text-decoration: none;\">[email_applicant]</a>\n                                                                </p>\n                                                            </td>\n                                                        </tr>\n                                                    </table>\n                                                    <table border=\"0\" ellpadding=\"0\" ellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: 20px; margin-bottom: 25px; background-color: #F7FFF4; table-layout: fixed; width: 100%; padding: 15px;\">\n                                                        <tr style=\" border: 1px solid #eaeaea; padding: 20px;\">\n                                                            <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; line-height: normal; font-size: 14px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; padding: 0 20px;\">\n                                                                <p style=\"margin-bottom: 0; margin-top: 16px; font-size: 16px; font-weight: bold;\">\n                                                                    Next steps:\n                                                                </p>\n                                                                <ol style=\"padding-left: 15px; line-height: 22px;\">\n                                                                    <li style=\"padding: 0 5px 0 15px;\">\n                                                                        Requisitioner, please pack and ship materials.  \n                                                                        <li style=\"padding: 0 5px 0 15px;\">\n                                                                            Include a copy of the deidentified shipment manifest.\n                                                                         \n                                                                     \n                                                            </td>\n                                                        </tr>\n                                                    </table>\n\n                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: 25px; margin-bottom: 25px; background-color: #fafafa; table-layout: fixed; width: 100%; padding: 15px;\">\n                                                        <tr style=\" border: 1px solid #eaeaea; padding: 20px;\">\n                                                            <td align=\"center\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; line-height: normal; font-size: 14px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; padding: 30px 90px 17px 90px;\">\n                                                                <a href=\"[baselink]/user\" style=\"background-color: #0078c9; color: white; font-family: Avenir, sans-serif; font-size: 16px; font-weight: 450; line-height: 22px; text-decoration: none; padding: 13px 19px;\" target=\"_blank\">Login to Download Shipment Manifest &raquo</a>\n                                                                <br />\n                                                                <br />\n                                                                <p style=\"margin-bottom: 0; margin-top: 13px; font-size: 13px; line-height: 18px;\">\n                                                                 \n                                                                    <br />\n                                                                    <br />\n                                                                    <a href=\"[baselink]/user\" target=\"_blank\" style=\"color: #0070b5; text-decoration: underline; word-wrap: break-word; -ms-word-wrap: break-word\">[baselink]/user</a>\n                                                                </p>\n                                                            </td>\n                                                        </tr>\n                                                    </table>\n\n                                                    <p style=\"margin-top: 14px; margin-bottom: 18px;\">This is an automated message.</p>\n\n                                                    <p style=\"margin-bottom: 42px; font-size: 14px; line-height: 21px; padding-top: 7px;\">\n                                                        Sincerely,\n                                                        <br /><strong>OICR Genomics <a href=\"\" style=\"color: black; text-decoration: none;\"></a></strong>\n                                                        <br /><a href=\"mailto:dax.torti@oicr.on.ca\" style=\"color: #0070b5; text-decoration: none;\">dax.torti@oicr.on.ca</a>\n                                                    </p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Footer -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- Email Footer -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border: solid 1px #d2d2d2; border-top: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <tr>\n                                <td style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px; padding-top: 0\">\n                                    <!-- Content: Footer -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"background-color: #eaeaea; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #000; font-family: Avenir, sans-serif; font-size: 12px; line-height: 21px; padding: 3px 60px\">\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        This email was intended for\n                                                        <a href=\"mailto:[email_to]\" style=\"color: #0070b5; \">[email_to]</a>\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        Submitted on [submit_date]\n                                                        <br>[settings.formKey]-[numberid]\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        This message is automatically generated by <a href=\"[baselink]\" style=\"color: #0070b5;\">[baselink]</a> on behalf of the GENOMICS-FORMS Engine.\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        <a href=\"https://oicr.on.ca/website-privacy-statement/\" style=\"color: #0070b5;\">[baselink] Privacy Policy</a>\n                                                    </p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Empty Padding Bottom -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" height=\"28\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    &nbsp;\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</body>\n\n</html>",
                     "text" : "NO-TXT-VERSION"
                 },
-                "delaySeconds" : 0,
-                "_id" : ObjectId("5ec55ed2a124a859399b13c7")
+                "delaySeconds" : "0",
+                "_id" : ObjectId("5efdfa83d775540c7e2ff1e6")
             }, 
             {
                 "title" : "Anticipate Sample Shipment to Tissue Portal",
@@ -7473,7 +7873,7 @@
                     "text" : "NO-TXT-VERSION"
                 },
                 "delaySeconds" : "0",
-                "_id" : ObjectId("5efb74659d1cb000572f5603")
+                "_id" : ObjectId("5efdfac4d775540c7e2ff1ea")
             }
         ],
         "update-deny" : [ 
@@ -7518,7 +7918,20 @@
                 "_id" : ObjectId("5ea9ab6066e44a23e00a1ab9")
             }
         ],
-        "update-withdrawSubmit" : [],
+        "update-withdrawSubmit" : [ 
+            {
+                "title" : "A Requisition Has Been Cancelled (Mistaken Submission)",
+                "active" : true,
+                "from" : "requisition.genomics@oicr.on.ca",
+                "to" : "[email_applicant], [email_accessioner], [email_administrator], [email_requisitioner]",
+                "body" : {
+                    "html" : "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <title>GENOMICS-FORMS</title>\n    <meta charset=\"utf-8\" />\n    <meta content=\"width=device-width\" name=\"viewport\" />\n    <style>\n        @font-face {\n            font-family: Avenir, sans-serif;\n            src: url([baselink]/assets/site/fonts/04d1bf6c-070d-4b7e-9498-6051c9f0c349.ttf);\n        }\n    </style>\n</head>\n\n<body bgcolor=\"#ffffff\" style=\"height: 100% !important; margin: 0; padding: 0;\">\n    <!-- CONTAINER: Header -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- EMAIL HEADER -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <!-- HEADER SITE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                                        <tbody>\n                                            <tr>\n                                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; padding-top: 16px; padding-bottom: 21px;\">\n                                                    <!-- CONTENT: header -->\n                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                                        <tbody>\n                                                            <tr>\n                                                                <td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                                                                    <a href=\"[baselink]\" target=\"_blank\" style=\"color: #0070b5; font-family: Avenir, sans-serif; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;\">[baselink]</a>\n                                                                </td>\n                                                            </tr>\n                                                        </tbody>\n                                                    </table>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                            <!-- HEADER IMAGE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #F7F7F7;\">\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-top-left-radius: 10px; border-top-right-radius: 10px; border: solid 1px #D2D2D2; border-bottom: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr style=\"width: 85px;\">\n                                                <td valign=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 0 0 0; float: left; vertical-align: middle;\">\n                                                    <img src=\"https://oicr.on.ca/wp-content/uploads/2017/01/OICR_Logo.png\" alt=\"GENOMICS-FORMS\" border=\"0\" style=\"border: 0; color: #0070b5; font-family: Avenir, sans-serif; font-size: 11px; font-weight: normal; height: 60px; line-height: 21px; outline: none; margin: 20px 25px; text-decoration: none; border-top-left-radius: 10px; border-top-right-radius: 10px;\">\n                                                </td>\n                                                <td style=\"width: 513px; vertical-align: middle;\">\n                                                  <p style=\"font-family: Avenir, sans-serif; font-weight: normal; font-size: 22px; padding-top: 12px; border-left: 1px solid #d2d2d2; padding-left: 19px; height: 42px;\">OICR Genomics Requisition</p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                            <!-- HEADER TITLE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #737373;\">\n                                    <!-- CONTENT: header -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"center\" style=\"color: #ffffff; font-family: Avenir, sans-serif; font-size: 18px; font-weight: 450; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;\">\n                                                    [settings.formKey]-[numberid]: A Request Has Been Withdrawn (Mistaken Submission)\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Body -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- EMAIL BODY -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"border-left: solid 1px #d2d2d2; border-right: solid 1px #d2d2d2; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 20px 25px 20px;\">\n                                    <!-- CONTENT -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; font-size: 14px; font-weight: normal; line-height: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; border-bottom: 1px solid #5A5A5A;\">\n                                                    <p style=\"margin-bottom: 19px; margin-top: 16px; font-size: 16px;\">\n                                                        Dear [name_to],\n                                                    </p>\n                                                    <p style=\"margin-bottom: 24px; font-size: 14px; line-height: 21px;\">\n                                                        A sample submission [settings.title.en] [settings.formKey]-[numberid] has been withdrawn (mistaken submission). If sample recieved at OICR, do not process.\n                                                    </p>\n                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #d2d2d2; margin-bottom: 25px;\" width=\"100%\">\n                                                        <tr style=\"border: 1px solid #d2d2d2;\">\n                                                            <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; width: calc(62% - 90px); padding: 20px;\">\n                                                                <p style=\"margin: 0 0 0 0; font-size: 13px; line-height: 27px; padding-bottom: 5px;\">\n                                                                    SUBMITTED ON: [submit_date]\n                                                                </p>\n                                                                <p style=\"color: #000000; font-family: Avenir, sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 0 0 0; padding-bottom: 4px;\">\n                                                                    [settings.title.en]\n                                                                </p>\n                                                                <p style=\"margin: 0 0 0 0; font-size: 14px; line-height: 24px;\">\n                                                                    [settings.formKey]-[numberid]\n                                                                </p>\n                                                            </td>\n                                                            <td align=\"left\" valign=\"top\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; line-height: normal; font-size: 12px; font-weight: normal; width: 190px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; background-color: #E3F6FF; padding: 20px;\">\n                                                                <p style=\"margin: 0 0 0 0; font-size: 13px; line-height: 27px; padding-bottom: 5px;\">\n                                                                    SUBMITTED BY:\n                                                                </p>\n                                                                <p style=\"color: #000000; font-family: Avenir, sans-serif; font-size: 18px; font-weight: 450; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0; padding-bottom: 4px;\">\n                                                                    <strong>[name_applicant]</strong>\n                                                                </p>\n                                                                <p style=\"margin: 0; font-size: 14px; line-height: 24px;\">\n                                                                    <a href=\"\" style=\"color: black; text-decoration: none;\">[email_applicant]</a>\n                                                                </p>\n                                                            </td>\n                                                        </tr>\n                                                    </table>\n\n                                                    <p style=\"margin-top: 14px; margin-bottom: 18px;\">This is an automated message.</p>\n\n                                                    <p style=\"margin-bottom: 42px; font-size: 14px; line-height: 21px; padding-top: 7px;\">\n                                                        Sincerely,\n                                                        <br /><strong>OICR Genomics <a href=\"\" style=\"color: black; text-decoration: none;\"></a></strong>\n                                                        <br /><a href=\"mailto:dax.torti@oicr.on.ca\" style=\"color: #0070b5; text-decoration: none;\">dax.torti@oicr.on.ca</a>\n                                                    </p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Footer -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- Email Footer -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border: solid 1px #d2d2d2; border-top: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <tr>\n                                <td style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px; padding-top: 0\">\n                                    <!-- Content: Footer -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"background-color: #eaeaea; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #000; font-family: Avenir, sans-serif; font-size: 12px; line-height: 21px; padding: 3px 60px\">\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        This email was intended for\n                                                        <a href=\"mailto:[email_to]\" style=\"color: #0070b5; \">[email_to]</a>\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        Submitted on [submit_date]\n                                                        <br>[settings.formKey]-[numberid]\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        This message is automatically generated by <a href=\"[baselink]\" style=\"color: #0070b5;\">[baselink]</a> on behalf of the GENOMICS-FORMS Engine.\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        <a href=\"https://oicr.on.ca/website-privacy-statement/\" style=\"color: #0070b5;\">[baselink] Privacy Policy</a>\n                                                    </p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Empty Padding Bottom -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" height=\"28\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    &nbsp;\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</body>\n\n</html>",
+                    "text" : "NO-TXT-VERSION"
+                },
+                "delaySeconds" : 0,
+                "_id" : ObjectId("5efb6f97b4ac720b6e4416ff")
+            }
+        ],
         "update-dataReadyForReview" : [ 
             {
                 "title" : "A Draft Genomic Report is Ready For Review",
@@ -7562,7 +7975,7 @@
                 "title" : "A Clinical Report Has Been Signed Out.  Case Report Complete.",
                 "active" : true,
                 "from" : "requisition.genomics@oicr.on.ca",
-                "to" : "[email_signout], [email_administrator], [email_requisitioner], [email_laboratory]",
+                "to" : "[email_signout], [email_administrator], [email_laboratory], [email_requisitioner]",
                 "body" : {
                     "html" : "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <title>GENOMICS-FORMS</title>\n    <meta charset=\"utf-8\" />\n    <meta content=\"width=device-width\" name=\"viewport\" />\n    <style>\n        @font-face {\n            font-family: Avenir, sans-serif;\n            src: url([baselink]/assets/site/fonts/04d1bf6c-070d-4b7e-9498-6051c9f0c349.ttf);\n        }\n    </style>\n</head>\n\n<body bgcolor=\"#ffffff\" style=\"height: 100% !important; margin: 0; padding: 0;\">\n    <!-- CONTAINER: Header -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- EMAIL HEADER -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <!-- HEADER SITE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                                        <tbody>\n                                            <tr>\n                                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; padding-top: 16px; padding-bottom: 21px;\">\n                                                    <!-- CONTENT: header -->\n                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                                        <tbody>\n                                                            <tr>\n                                                                <td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                                                                    <a href=\"[baselink]\" target=\"_blank\" style=\"color: #0070b5; font-family: Avenir, sans-serif; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;\">[baselink]</a>\n                                                                </td>\n                                                            </tr>\n                                                        </tbody>\n                                                    </table>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                            <!-- HEADER IMAGE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #F7F7F7;\">\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-top-left-radius: 10px; border-top-right-radius: 10px; border: solid 1px #D2D2D2; border-bottom: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr style=\"width: 85px;\">\n                                                <td valign=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 0 0 0; float: left; vertical-align: middle;\">\n                                                    <img src=\"https://oicr.on.ca/wp-content/uploads/2017/01/OICR_Logo.png\" alt=\"GENOMICS-FORMS\" border=\"0\" style=\"border: 0; color: #0070b5; font-family: Avenir, sans-serif; font-size: 11px; font-weight: normal; height: 60px; line-height: 21px; outline: none; margin: 20px 25px; text-decoration: none; border-top-left-radius: 10px; border-top-right-radius: 10px;\" />\n                                                </td>\n                                                <td style=\"width: 513px; vertical-align: middle;\">\n                                                  <p style=\"font-family: Avenir, sans-serif; font-weight: normal; font-size: 22px; padding-top: 12px; border-left: 1px solid #d2d2d2; padding-left: 19px; height: 42px;\">OICR Genomics Requisition</p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                            <!-- HEADER TITLE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #737373;\">\n                                    <!-- CONTENT: header -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"center\" style=\"color: #ffffff; font-family: Avenir, sans-serif; font-size: 18px; font-weight: 450; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;\">\n                                                    [settings.formKey]-[numberid]: A Clinical Report Has Been Signed\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Body -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- EMAIL BODY -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"border-left: solid 1px #d2d2d2; border-right: solid 1px #d2d2d2; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 20px 25px 20px;\">\n                                    <!-- CONTENT -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; font-size: 14px; font-weight: normal; line-height: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; border-bottom: 1px solid #5A5A5A;\">\n                                                    <p style=\"margin-bottom: 19px; margin-top: 16px; font-size: 16px;\">\n                                                        Dear [name_to],\n                                                    </p>\n                                                    <p style=\"margin-bottom: 24px; font-size: 14px; line-height: 21px;\">\n                                                        A clinical report has been signed out for the study form [settings.title.en].\n                                                    </p>\n                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #d2d2d2; margin-bottom: 25px;\" width=\"100%\">\n                                                        <tr style=\"border: 1px solid #d2d2d2;\">\n                                                            <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; width: calc(62% - 90px); padding: 20px;\">\n                                                                <p style=\"margin: 0 0 0 0; font-size: 13px; line-height: 27px; padding-bottom: 5px;\">\n                                                                    SUBMITTED ON: [submit_date]\n                                                                </p>\n                                                                <p style=\"color: #000000; font-family: Avenir, sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 0 0 0; padding-bottom: 4px;\">\n                                                                    [settings.title.en]\n                                                                </p>\n                                                                <p style=\"margin: 0 0 0 0; font-size: 14px; line-height: 24px;\">\n                                                                    [settings.formKey]-[numberid]\n                                                                </p>\n                                                            </td>\n                                                            <td align=\"left\" valign=\"top\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; line-height: normal; font-size: 12px; font-weight: normal; width: 190px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; background-color: #E3F6FF; padding: 20px;\">\n                                                                <p style=\"margin: 0 0 0 0; font-size: 13px; line-height: 27px; padding-bottom: 5px;\">\n                                                                    SUBMITTED BY:\n                                                                </p>\n                                                                <p style=\"color: #000000; font-family: Avenir, sans-serif; font-size: 18px; font-weight: 450; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0; padding-bottom: 4px;\">\n                                                                    <strong>[name_applicant]</strong>\n                                                                </p>\n                                                                <p style=\"margin: 0; font-size: 14px; line-height: 24px;\">\n                                                                    <a href=\"\" style=\"color: black; text-decoration: none;\">[email_applicant]</a>\n                                                                </p>\n                                                            </td>\n                                                        </tr>\n                                                    </table>\n\n                                                    <p style=\"margin-top: 14px; margin-bottom: 18px;\">This is an automated message.</p>\n\n                                                    <p style=\"margin-bottom: 42px; font-size: 14px; line-height: 21px; padding-top: 7px;\">\n                                                        Sincerely,\n                                                        <br /><strong>OICR Genomics <a href=\"\" style=\"color: black; text-decoration: none;\"></a></strong>\n                                                        <br /><a href=\"mailto:dax.torti@oicr.on.ca\" style=\"color: #0070b5; text-decoration: none;\">dax.torti@oicr.on.ca</a>\n                                                    </p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Footer -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- Email Footer -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border: solid 1px #d2d2d2; border-top: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <tr>\n                                <td style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px; padding-top: 0\">\n                                    <!-- Content: Footer -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"background-color: #eaeaea; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #000; font-family: Avenir, sans-serif; font-size: 12px; line-height: 21px; padding: 3px 60px\">\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        This email was intended for\n                                                        <a href=\"mailto:[email_to]\" style=\"color: #0070b5; \">[email_to]</a>\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        Submitted on [submit_date]\n                                                        <br>[settings.formKey]-[numberid]\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        This message is automatically generated by <a href=\"[baselink]\" style=\"color: #0070b5;\">[baselink]</a> on behalf of the GENOMICS-FORMS Engine.\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        <a href=\"https://oicr.on.ca/website-privacy-statement/\" style=\"color: #0070b5;\">[baselink] Privacy Policy</a>\n                                                    </p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Empty Padding Bottom -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" height=\"28\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    &nbsp;\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</body>\n\n</html>",
                     "text" : "NO-TXT-VERSION"
@@ -7611,6 +8024,18 @@
                 },
                 "delaySeconds" : 0,
                 "_id" : ObjectId("5ec5cb437c28765d014f097b")
+            }, 
+            {
+                "title" : "Patient Consent Has Been Withdrawn; Stop Processing Samples and/or Data.",
+                "active" : true,
+                "from" : "requisition.genomics@oicr.on.ca",
+                "to" : "[email_applicant], [email_accessioner], [email_laboratory], [email_signout], [email_administrator], [email_requisitioner]",
+                "body" : {
+                    "html" : "<!DOCTYPE html>\n<html lang=\"en\">\n    <style>\n        @font-face {\n            font-family: Avenir, sans-serif;\n            src: url([baselink]/assets/site/fonts/04d1bf6c-070d-4b7e-9498-6051c9f0c349.ttf);\n        }\n    </style>\n\n<head>\n    <title>GENOMICS-FORMS</title>\n    <meta charset=\"utf-8\" />\n    <meta content=\"width=device-width\" name=\"viewport\" />\n</head>\n\n<body bgcolor=\"#ffffff\" style=\"height: 100% !important; margin: 0; padding: 0;\">\n    <!-- CONTAINER: Header -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- EMAIL HEADER -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <!-- HEADER SITE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                                        <tbody>\n                                            <tr>\n                                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; padding-top: 16px; padding-bottom: 21px;\">\n                                                    <!-- CONTENT: header -->\n                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                                        <tbody>\n                                                            <tr>\n                                                                <td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                                                                    <a href=\"[baselink]\" target=\"_blank\" style=\"color: #0070b5; font-family: Avenir, sans-serif; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;\">[baselink]</a>\n                                                                </td>\n                                                            </tr>\n                                                        </tbody>\n                                                    </table>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                            <!-- HEADER IMAGE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #F7F7F7;\">\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-top-left-radius: 10px; border-top-right-radius: 10px; border: solid 1px #D2D2D2; border-bottom: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr style=\"width: 85px;\">\n                                                <td valign=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 0 0 0; float: left; vertical-align: middle;\">\n                                                    <img src=\"https://oicr.on.ca/wp-content/uploads/2017/01/OICR_Logo.png\" alt=\"GENOMICS-FORMS\" border=\"0\" style=\"border: 0; color: #0070b5; font-family: Avenir, sans-serif; font-size: 11px; font-weight: normal; height: 60px; line-height: 21px; outline: none; margin: 20px 25px; text-decoration: none; border-top-left-radius: 10px; border-top-right-radius: 10px;\" />\n                                                </td>\n                                                <td style=\"width: 513px; vertical-align: middle;\">\n                                                  <p style=\"font-family: Avenir, sans-serif; font-weight: normal; font-size: 22px; padding-top: 12px; border-left: 1px solid #d2d2d2; padding-left: 19px; height: 42px;\">OICR Genomics Requisition</p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                            <!-- HEADER TITLE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #737373;\">\n                                    <!-- CONTENT: header -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"center\" style=\"color: #ffffff; font-family: Avenir, sans-serif; font-size: 18px; font-weight: 450; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;\">\n                                                    [settings.formKey]-[numberid]: Patient Consent Withdrawn\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Body -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- EMAIL BODY -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"border-left: solid 1px #d2d2d2; border-right: solid 1px #d2d2d2; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 20px 25px 20px;\">\n                                    <!-- CONTENT -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; font-size: 14px; font-weight: normal; line-height: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; border-bottom: 1px solid #5A5A5A;\">\n                                                    <p style=\"margin-bottom: 19px; margin-top: 16px; font-size: 16px;\">\n                                                        Dear [name_to],\n                                                    </p>\n                                                    <p style=\"margin-bottom: 24px; font-size: 14px; line-height: 21px;\">\n                                                        Patient consent was withdrawn for study form [settings.title.en]. Sample processing (laboratory) must stop and sample(s) may not be processed further.  Data that has been generated may be retained, no further analysis is permited, clincial signout must stop.\n                                                    </p>\n                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #d2d2d2; margin-bottom: 25px;\" width=\"100%\">\n                                                        <tr style=\"border: 1px solid #d2d2d2;\">\n                                                            <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; width: calc(62% - 90px); padding: 20px;\">\n                                                                <p style=\"margin: 0 0 0 0; font-size: 13px; line-height: 27px; padding-bottom: 5px;\">\n                                                                    SUBMITTED ON: [submit_date]\n                                                                </p>\n                                                                <p style=\"color: #000000; font-family: Avenir, sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 0 0 0; padding-bottom: 4px;\">\n                                                                    [settings.title.en]\n                                                                </p>\n                                                                <p style=\"margin: 0 0 0 0; font-size: 14px; line-height: 24px;\">\n                                                                    [settings.formKey]-[numberid]\n                                                                </p>\n                                                            </td>\n                                                            <td align=\"left\" valign=\"top\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; line-height: normal; font-size: 12px; font-weight: normal; width: 190px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; background-color: #E3F6FF; padding: 20px;\">\n                                                                <p style=\"margin: 0 0 0 0; font-size: 13px; line-height: 27px; padding-bottom: 5px;\">\n                                                                    SUBMITTED BY:\n                                                                </p>\n                                                                <p style=\"color: #000000; font-family: Avenir, sans-serif; font-size: 18px; font-weight: 450; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0; padding-bottom: 4px;\">\n                                                                    <strong>[name_applicant]</strong>\n                                                                </p>\n                                                                <p style=\"margin: 0; font-size: 14px; line-height: 24px;\">\n                                                                    <a href=\"\" style=\"color: black; text-decoration: none;\">[email_applicant]</a>\n                                                                </p>\n                                                            </td>\n                                                        </tr>\n                                                    </table>\n\n                                                    <p style=\"margin-top: 14px; margin-bottom: 18px;\">This is an automated message.</p>\n\n                                                    <p style=\"margin-bottom: 42px; font-size: 14px; line-height: 21px; padding-top: 7px;\">\n                                                        Sincerely,\n                                                        <br /><strong>OICR Genomics <a href=\"\" style=\"color: black; text-decoration: none;\"></a></strong>\n                                                        <br /><a href=\"mailto:dax.torti@oicr.on.ca\" style=\"color: #0070b5; text-decoration: none;\">dax.torti@oicr.on.ca</a>\n                                                    </p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Footer -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- Email Footer -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border: solid 1px #d2d2d2; border-top: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <tr>\n                                <td style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px; padding-top: 0\">\n                                    <!-- Content: Footer -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"background-color: #eaeaea; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #000; font-family: Avenir, sans-serif; font-size: 12px; line-height: 21px; padding: 3px 60px\">\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        This email was intended for\n                                                        <a href=\"mailto:[email_to]\" style=\"color: #0070b5; \">[email_to]</a>\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        Submitted on [submit_date]\n                                                        <br>[settings.formKey]-[numberid]\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        This message is automatically generated by <a href=\"[baselink]\" style=\"color: #0070b5;\">[baselink]</a> on behalf of the GENOMICS-FORMS Engine.\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        <a href=\"https://oicr.on.ca/website-privacy-statement/\" style=\"color: #0070b5;\">[baselink] Privacy Policy</a>\n                                                    </p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Empty Padding Bottom -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" height=\"28\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    &nbsp;\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</body>\n\n</html>",
+                    "text" : "NO-TXT-VERSION"
+                },
+                "delaySeconds" : 0,
+                "_id" : ObjectId("5efb82b2753e6d0ba53ff122")
             }
         ],
         "update-delete" : [ 
@@ -7651,6 +8076,34 @@
                 },
                 "delaySeconds" : 0,
                 "_id" : ObjectId("5ec68c1e0ee4c15d48f0c666")
+            }
+        ],
+        "update-withdrawApprove" : [ 
+            {
+                "title" : "Patient Consent Has Been Withdrawn; Stop Processing Samples and/or Data.",
+                "active" : true,
+                "from" : "requisition.genomics@oicr.on.ca",
+                "to" : "[email_applicant], [email_signout], [email_laboratory], [email_accessioner], [email_administrator], [email_requisitioner]",
+                "body" : {
+                    "html" : "<!DOCTYPE html>\n<html lang=\"en\">\n    <style>\n        @font-face {\n            font-family: Avenir, sans-serif;\n            src: url([baselink]/assets/site/fonts/04d1bf6c-070d-4b7e-9498-6051c9f0c349.ttf);\n        }\n    </style>\n\n<head>\n    <title>GENOMICS-FORMS</title>\n    <meta charset=\"utf-8\" />\n    <meta content=\"width=device-width\" name=\"viewport\" />\n</head>\n\n<body bgcolor=\"#ffffff\" style=\"height: 100% !important; margin: 0; padding: 0;\">\n    <!-- CONTAINER: Header -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- EMAIL HEADER -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <!-- HEADER SITE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                                        <tbody>\n                                            <tr>\n                                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; padding-top: 16px; padding-bottom: 21px;\">\n                                                    <!-- CONTENT: header -->\n                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                                        <tbody>\n                                                            <tr>\n                                                                <td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                                                                    <a href=\"[baselink]\" target=\"_blank\" style=\"color: #0070b5; font-family: Avenir, sans-serif; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;\">[baselink]</a>\n                                                                </td>\n                                                            </tr>\n                                                        </tbody>\n                                                    </table>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                            <!-- HEADER IMAGE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #F7F7F7;\">\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-top-left-radius: 10px; border-top-right-radius: 10px; border: solid 1px #D2D2D2; border-bottom: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr style=\"width: 85px;\">\n                                                <td valign=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 0 0 0; float: left; vertical-align: middle;\">\n                                                    <img src=\"https://oicr.on.ca/wp-content/uploads/2017/01/OICR_Logo.png\" alt=\"GENOMICS-FORMS\" border=\"0\" style=\"border: 0; color: #0070b5; font-family: Avenir, sans-serif; font-size: 11px; font-weight: normal; height: 60px; line-height: 21px; outline: none; margin: 20px 25px; text-decoration: none; border-top-left-radius: 10px; border-top-right-radius: 10px;\" />\n                                                </td>\n                                                <td style=\"width: 513px; vertical-align: middle;\">\n                                                  <p style=\"font-family: Avenir, sans-serif; font-weight: normal; font-size: 22px; padding-top: 12px; border-left: 1px solid #d2d2d2; padding-left: 19px; height: 42px;\">OICR Genomics Requisition</p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                            <!-- HEADER TITLE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #737373;\">\n                                    <!-- CONTENT: header -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"center\" style=\"color: #ffffff; font-family: Avenir, sans-serif; font-size: 18px; font-weight: 450; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;\">\n                                                    [settings.title.en][settings.formKey]-[numberid]: Patient Consent Withdrawn\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Body -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- EMAIL BODY -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"border-left: solid 1px #d2d2d2; border-right: solid 1px #d2d2d2; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 20px 25px 20px;\">\n                                    <!-- CONTENT -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; font-size: 14px; font-weight: normal; line-height: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; border-bottom: 1px solid #5A5A5A;\">\n                                                    <p style=\"margin-bottom: 19px; margin-top: 16px; font-size: 16px;\">\n                                                        Dear [name_to],\n                                                    </p>\n                                                    <p style=\"margin-bottom: 24px; font-size: 14px; line-height: 21px;\">\n                                                        Patient consent was withdrawn for [settings.title.en] [settings.formKey]-[numberid]. \n                                                    </p>\n                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #d2d2d2; margin-bottom: 25px;\" width=\"100%\">\n                                                        <tr style=\"border: 1px solid #d2d2d2;\">\n                                                            <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; width: calc(62% - 90px); padding: 20px;\">\n                                                                <p style=\"margin: 0 0 0 0; font-size: 13px; line-height: 27px; padding-bottom: 5px;\">\n                                                                    SUBMITTED ON: [submit_date]\n                                                                </p>\n                                                                <p style=\"color: #000000; font-family: Avenir, sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 0 0 0; padding-bottom: 4px;\">\n                                                                    [settings.title.en]\n                                                                </p>\n                                                                <p style=\"margin: 0 0 0 0; font-size: 14px; line-height: 24px;\">\n                                                                    [settings.formKey]-[numberid]\n                                                                </p>\n                                                            </td>\n                                                            <td align=\"left\" valign=\"top\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; line-height: normal; font-size: 12px; font-weight: normal; width: 190px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; background-color: #E3F6FF; padding: 20px;\">\n                                                                <p style=\"margin: 0 0 0 0; font-size: 13px; line-height: 27px; padding-bottom: 5px;\">\n                                                                    SUBMITTED BY:\n                                                                </p>\n                                                                <p style=\"color: #000000; font-family: Avenir, sans-serif; font-size: 18px; font-weight: 450; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0; padding-bottom: 4px;\">\n                                                                    <strong>[name_applicant]</strong>\n                                                                </p>\n                                                                <p style=\"margin: 0; font-size: 14px; line-height: 24px;\">\n                                                                    <a href=\"\" style=\"color: black; text-decoration: none;\">[email_applicant]</a>\n                                                                </p>\n                                                            </td>\n                                                        </tr>\n                                                    </table>\n                                                    <table border=\"0\" ellpadding=\"0\" ellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: 20px; margin-bottom: 25px; background-color: #F7FFF4; table-layout: fixed; width: 100%; padding: 15px;\">\n                                                        <tr style=\" border: 1px solid #eaeaea; padding: 20px;\">\n                                                            <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; line-height: normal; font-size: 14px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; padding: 0 20px;\">\n                                                                <p style=\"margin-bottom: 0; margin-top: 16px; font-size: 16px; font-weight: bold;\">\n                                                                    Next steps:\n                                                                </p>\n                                                                <ol style=\"padding-left: 15px; line-height: 22px;\">\n                                                                    <li style=\"padding: 0 5px 0 15px;\">\n                                                                        Safely stop all laboratory processing. Move samples/ materials to a location for return or destruction. \n                                                                        <li style=\"padding: 0 5px 0 15px;\">\n                                                                            If informatic analysis (pipeline) is processing, halt analysis after workflow completes. No further analysis is permitted.\n                                                                         <li style=\"padding: 0 5px 0 15px;\">\n                                                                            If case is not currently signed out, review must stop. \n                                                                     \n                                                            </td>\n                                                        </tr>\n                                                    </table>\n\n                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: 25px; margin-bottom: 25px; background-color: #fafafa; table-layout: fixed; width: 100%; padding: 15px;\">\n                                                        <tr style=\" border: 1px solid #eaeaea; padding: 20px;\">\n                                                            <td align=\"center\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; line-height: normal; font-size: 14px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; padding: 30px 90px 17px 90px;\">\n                                                                <a href=\"[baselink]/user\" style=\"background-color: #0078c9; color: white; font-family: Avenir, sans-serif; font-size: 16px; font-weight: 450; line-height: 22px; text-decoration: none; padding: 13px 19px;\" target=\"_blank\">Login to Review Requisition &raquo</a>\n                                                                <br />\n                                                                <br />\n                                                                <p style=\"margin-bottom: 0; margin-top: 13px; font-size: 13px; line-height: 18px;\">\n                                                                 \n                                                                    <br />\n                                                                    <br />\n                                                                    <a href=\"[baselink]/user\" target=\"_blank\" style=\"color: #0070b5; text-decoration: underline; word-wrap: break-word; -ms-word-wrap: break-word\">[baselink]/user</a>\n                                                                </p>\n                                                            </td>\n                                                        </tr>\n                                                    </table>\n                                                    <p style=\"margin-top: 14px; margin-bottom: 18px;\">This is an automated message.</p>\n\n                                                    <p style=\"margin-bottom: 42px; font-size: 14px; line-height: 21px; padding-top: 7px;\">\n                                                        Sincerely,\n                                                        <br /><strong>OICR Genomics <a href=\"\" style=\"color: black; text-decoration: none;\"></a></strong>\n                                                        <br /><a href=\"mailto:dax.torti@oicr.on.ca\" style=\"color: #0070b5; text-decoration: none;\">dax.torti@oicr.on.ca</a>\n                                                    </p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Footer -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- Email Footer -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border: solid 1px #d2d2d2; border-top: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <tr>\n                                <td style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px; padding-top: 0\">\n                                    <!-- Content: Footer -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"background-color: #eaeaea; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #000; font-family: Avenir, sans-serif; font-size: 12px; line-height: 21px; padding: 3px 60px\">\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        This email was intended for\n                                                        <a href=\"mailto:[email_to]\" style=\"color: #0070b5; \">[email_to]</a>\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        Submitted on [submit_date]\n                                                        <br>[settings.formKey]-[numberid]\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        This message is automatically generated by <a href=\"[baselink]\" style=\"color: #0070b5;\">[baselink]</a> on behalf of the GENOMICS-FORMS Engine.\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        <a href=\"https://oicr.on.ca/website-privacy-statement/\" style=\"color: #0070b5;\">[baselink] Privacy Policy</a>\n                                                    </p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Empty Padding Bottom -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" height=\"28\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    &nbsp;\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</body>\n\n</html>",
+                    "text" : "NO-TXT-VERSION"
+                },
+                "delaySeconds" : 0,
+                "_id" : ObjectId("5efb7cf2753e6d0ba53fef7e")
+            }
+        ],
+        "update-withdrawReview" : [ 
+            {
+                "title" : "Patient Consent Has Been Withdrawn; Stop Processing Samples and/or Data.",
+                "active" : true,
+                "from" : "requisition.genomics@oicr.on.ca",
+                "to" : "[email_applicant], [email_accessioner], [email_laboratory], [email_signout], [email_administrator], [email_requisitioner]",
+                "body" : {
+                    "html" : "<!DOCTYPE html>\n<html lang=\"en\">\n    <style>\n        @font-face {\n            font-family: Avenir, sans-serif;\n            src: url([baselink]/assets/site/fonts/04d1bf6c-070d-4b7e-9498-6051c9f0c349.ttf);\n        }\n    </style>\n\n<head>\n    <title>GENOMICS-FORMS</title>\n    <meta charset=\"utf-8\" />\n    <meta content=\"width=device-width\" name=\"viewport\" />\n</head>\n\n<body bgcolor=\"#ffffff\" style=\"height: 100% !important; margin: 0; padding: 0;\">\n    <!-- CONTAINER: Header -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- EMAIL HEADER -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <!-- HEADER SITE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                                        <tbody>\n                                            <tr>\n                                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; padding-top: 16px; padding-bottom: 21px;\">\n                                                    <!-- CONTENT: header -->\n                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                                        <tbody>\n                                                            <tr>\n                                                                <td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                                                                    <a href=\"[baselink]\" target=\"_blank\" style=\"color: #0070b5; font-family: Avenir, sans-serif; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;\">[baselink]</a>\n                                                                </td>\n                                                            </tr>\n                                                        </tbody>\n                                                    </table>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                            <!-- HEADER IMAGE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #F7F7F7;\">\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-top-left-radius: 10px; border-top-right-radius: 10px; border: solid 1px #D2D2D2; border-bottom: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr style=\"width: 85px;\">\n                                                <td valign=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 0 0 0; float: left; vertical-align: middle;\">\n                                                    <img src=\"https://oicr.on.ca/wp-content/uploads/2017/01/OICR_Logo.png\" alt=\"GENOMICS-FORMS\" border=\"0\" style=\"border: 0; color: #0070b5; font-family: Avenir, sans-serif; font-size: 11px; font-weight: normal; height: 60px; line-height: 21px; outline: none; margin: 20px 25px; text-decoration: none; border-top-left-radius: 10px; border-top-right-radius: 10px;\" />\n                                                </td>\n                                                <td style=\"width: 513px; vertical-align: middle;\">\n                                                  <p style=\"font-family: Avenir, sans-serif; font-weight: normal; font-size: 22px; padding-top: 12px; border-left: 1px solid #d2d2d2; padding-left: 19px; height: 42px;\">OICR Genomics Requisition</p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                            <!-- HEADER TITLE -->\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: #737373;\">\n                                    <!-- CONTENT: header -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"center\" style=\"color: #ffffff; font-family: Avenir, sans-serif; font-size: 18px; font-weight: 450; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;\">\n                                                    [settings.formKey]-[numberid]: Patient Consent Withdrawn\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Body -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- EMAIL BODY -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <tr>\n                                <td bgcolor=\"#ffffff\" style=\"border-left: solid 1px #d2d2d2; border-right: solid 1px #d2d2d2; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 20px 25px 20px;\">\n                                    <!-- CONTENT -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; font-size: 14px; font-weight: normal; line-height: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; border-bottom: 1px solid #5A5A5A;\">\n                                                    <p style=\"margin-bottom: 19px; margin-top: 16px; font-size: 16px;\">\n                                                        Dear [name_to],\n                                                    </p>\n                                                    <p style=\"margin-bottom: 24px; font-size: 14px; line-height: 21px;\">\n                                                        Patient consent was withdrawn for study form [settings.title.en]. Sample processing (laboratory) must stop and sample(s) may not be processed further.  Data that has been generated may be retained, no further analysis is permited, clincial signout must stop.\n                                                    </p>\n                                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; border: 1px solid #d2d2d2; margin-bottom: 25px;\" width=\"100%\">\n                                                        <tr style=\"border: 1px solid #d2d2d2;\">\n                                                            <td align=\"left\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; line-height: normal; font-size: 12px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; width: calc(62% - 90px); padding: 20px;\">\n                                                                <p style=\"margin: 0 0 0 0; font-size: 13px; line-height: 27px; padding-bottom: 5px;\">\n                                                                    SUBMITTED ON: [submit_date]\n                                                                </p>\n                                                                <p style=\"color: #000000; font-family: Avenir, sans-serif; font-size: 18px; font-weight: bold; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 0 0 0; padding-bottom: 4px;\">\n                                                                    [settings.title.en]\n                                                                </p>\n                                                                <p style=\"margin: 0 0 0 0; font-size: 14px; line-height: 24px;\">\n                                                                    [settings.formKey]-[numberid]\n                                                                </p>\n                                                            </td>\n                                                            <td align=\"left\" valign=\"top\" style=\"-ms-word-wrap: break-word; color: #000000; font-family: Avenir, sans-serif; line-height: normal; font-size: 12px; font-weight: normal; width: 190px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; background-color: #E3F6FF; padding: 20px;\">\n                                                                <p style=\"margin: 0 0 0 0; font-size: 13px; line-height: 27px; padding-bottom: 5px;\">\n                                                                    SUBMITTED BY:\n                                                                </p>\n                                                                <p style=\"color: #000000; font-family: Avenir, sans-serif; font-size: 18px; font-weight: 450; line-height: 24px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0; padding-bottom: 4px;\">\n                                                                    <strong>[name_applicant]</strong>\n                                                                </p>\n                                                                <p style=\"margin: 0; font-size: 14px; line-height: 24px;\">\n                                                                    <a href=\"\" style=\"color: black; text-decoration: none;\">[email_applicant]</a>\n                                                                </p>\n                                                            </td>\n                                                        </tr>\n                                                    </table>\n\n                                                    <p style=\"margin-top: 14px; margin-bottom: 18px;\">This is an automated message.</p>\n\n                                                    <p style=\"margin-bottom: 42px; font-size: 14px; line-height: 21px; padding-top: 7px;\">\n                                                        Sincerely,\n                                                        <br /><strong>OICR Genomics <a href=\"\" style=\"color: black; text-decoration: none;\"></a></strong>\n                                                        <br /><a href=\"mailto:dax.torti@oicr.on.ca\" style=\"color: #0070b5; text-decoration: none;\">dax.torti@oicr.on.ca</a>\n                                                    </p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Footer -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    <!-- Email Footer -->\n                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"wrapper\" style=\"border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border: solid 1px #d2d2d2; border-top: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"600\">\n                        <tbody>\n                            <tr>\n                                <td style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px; padding-top: 0\">\n                                    <!-- Content: Footer -->\n                                    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"background-color: #eaeaea; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;\" width=\"100%\">\n                                        <tbody>\n                                            <tr>\n                                                <td align=\"center\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #000; font-family: Avenir, sans-serif; font-size: 12px; line-height: 21px; padding: 3px 60px\">\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        This email was intended for\n                                                        <a href=\"mailto:[email_to]\" style=\"color: #0070b5; \">[email_to]</a>\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        Submitted on [submit_date]\n                                                        <br>[settings.formKey]-[numberid]\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        This message is automatically generated by <a href=\"[baselink]\" style=\"color: #0070b5;\">[baselink]</a> on behalf of the GENOMICS-FORMS Engine.\n                                                    </p>\n                                                    <p style=\"margin-bottom: 18px; margin-top: 12px; line-height: 18px;\">\n                                                        <a href=\"https://oicr.on.ca/website-privacy-statement/\" style=\"color: #0070b5;\">[baselink] Privacy Policy</a>\n                                                    </p>\n                                                </td>\n                                            </tr>\n                                        </tbody>\n                                    </table>\n                                </td>\n                            </tr>\n                        </tbody>\n                    </table>\n                </td>\n            </tr>\n        </tbody>\n    </table>\n\n    <!-- CONTAINER: Empty Padding Bottom -->\n    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;\" width=\"100%\">\n        <tbody>\n            <tr>\n                <td align=\"center\" bgcolor=\"#ffffff\" height=\"28\" style=\"mso-table-lspace: 0pt; mso-table-rspace: 0pt;\">\n                    &nbsp;\n                </td>\n            </tr>\n        </tbody>\n    </table>\n</body>\n\n</html>",
+                    "text" : "NO-TXT-VERSION"
+                },
+                "delaySeconds" : 0,
+                "_id" : ObjectId("5efb827e753e6d0ba53ff11f")
             }
         ]
     },
@@ -7714,9 +8167,25 @@
                 "event" : "on",
                 "_id" : ObjectId("5edff0fe5c215f0628009c3a")
             }
+        ],
+        "update-submit" : [ 
+            {
+                "active" : true,
+                "name" : "http://localhost:3000/apps/gsiforms/forms/hooks",
+                "event" : "on",
+                "_id" : ObjectId("5efa23a4eb1ca607229c6ead")
+            }
+        ],
+        "update-complete" : [ 
+            {
+                "active" : true,
+                "name" : "http://localhost:3000/apps/gsiforms/forms/hooks",
+                "event" : "on",
+                "_id" : ObjectId("5efa23bceb1ca607229c6eb1")
+            }
         ]
     },
     "createdAt" : ISODate("2020-03-27T15:03:32.060Z"),
-    "updatedAt" : ISODate("2020-06-30T21:01:04.455Z"),
+    "updatedAt" : ISODate("2020-07-02T16:07:34.506Z"),
     "__v" : 0
 }
