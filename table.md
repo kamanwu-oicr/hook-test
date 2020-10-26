@@ -62,4 +62,14 @@
 |Core | routerFile | GET | /file/file/:id | Y | | | | | | | | | | | | | check file path is public/private/system |
 |Core | routerFile | GET | /file/file/:id/:name | Y | | | | | | | | | | | | | check file path is public/private/system |
 |Core | routerFile | DELETE | /file/file/:id/:name | N | Y | | | | | | | | | | | | check file owner |
+|Core | routerApp | POST | /app/static | N | N | Y | N | N | | | | | | | | | |
+|Core | routerApp | GET | /app/static | N | Y | | | | | | | | | | | | |
+|Core | routerApp | GET | /app/static/:key | N | Y | | | | | | | | | | | | |
+|Core | routerApp | PUT | /app/static/:key | N | N | Y | N | N | | | | | | | | | |
+|Core | routerApp | DELETE | /app/static/:key | N | N | Y | N | N | | | | | | | | | |
+|Core | routerApp | POST | /app/static/:key/test | N | N | Y | N | N | | | | | | | | | |
+|Core | routerApp | GET | /app/app | Y | | | | | | | | | | | | | |
+|Core | routerApp | GET | /app/app/status | N | N | Y | N | N | | | | | | | | | |
+|Core | routerApp | GET | /app/jekyll/config | N | N | Y | Y | N | | | | | | | | | |
+|Core | routerApp | PUT | /app/jekyll/config | N | N | Y | N | N | | | | | | | | | |
 
