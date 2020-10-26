@@ -47,3 +47,8 @@
 |Core | routerUser | POST | /admin/group/cud/search | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
 |Core | routerUserCase | PUT | /user/case | N | Y |
 |Core | routerToken | GET | /token/token/:token | Y |
+|Core | routerAdminSolr | POST | /admin/solr/delete | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerAdminSolr | POST | /admin/solr/rebuild | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerAdminSolr | GET | /admin/solr/types | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerAdminSolr | GET | /admin/solr/fields | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+
