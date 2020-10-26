@@ -45,6 +45,10 @@
 |Core | routerUser | DELETE | /admin/user/role | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
 |Core | routerUser | GET | /admin/user/role/download | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
 |Core | routerUser | POST | /admin/group/cud/search | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerAuth | GET | /user/auth/github | Y | | | | | | | | | | | | | for oauth |
+|Core | routerAuth | GET | /user/auth/github/callback | Y | | | | | | | | | | | | | for oauth |
+|Core | routerAuth | GET | /user/auth/google | Y | | | | | | | | | | | | | for oauth |
+|Core | routerAuth | GET | /user/auth/google/callback | Y | | | | | | | | | | | | | for oauth |
 |Core | routerUserCase | PUT | /user/case | N | Y |
 |Core | routerUserForm | POST | /user/form/answer/1 | Y |
 |Core | routerUserForm | POST | /user/form/answer/verify | Y |
@@ -72,4 +76,5 @@
 |Core | routerApp | GET | /app/app/status | N | N | Y | N | N | | | | | | | | | |
 |Core | routerApp | GET | /app/jekyll/config | N | N | Y | Y | N | | | | | | | | | |
 |Core | routerApp | PUT | /app/jekyll/config | N | N | Y | N | N | | | | | | | | | |
+|Core | routerHello | POST | /hello/query-db | Y | | | | | | | | | | | | | used for auto-teting. disable by default |
 
