@@ -1,16 +1,16 @@
 | Module | File | Method | Path | anonymous | authenticated| administrator | operator | form administrator | P-admin | P-owner | P-operator | P-requisitioner | P-administrator | P-accessioners | P-lab user | P-signout | Comment |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|Core | routerUser | POST | /user/session |	Y | 															
-|Core | routerUser | GET | /user/session | Y |																				
-|Core | routerUser | DELETE | /user/session | Y |																	
-|Core | routerUser | PUT | /user/session | N | Y |												
-|Core | routerUser | POST | /user/session/upgrade |	N | Y |
+|Core | routerUser | POST | /user/session | Y |
+|Core | routerUser | GET | /user/session | Y |
+|Core | routerUser | DELETE | /user/session | Y |
+|Core | routerUser | PUT | /user/session | N | Y |
+|Core | routerUser | POST | /user/session/upgrade | N | Y |
 |Core | routerUser | GET | /user/user | Y |
-|Core | routerUser | POST | /user/user/1 | Y |																	
+|Core | routerUser | POST | /user/user/1 | Y |
 |Core | routerUser | POST | /user/user/2 | Y |																				
 |Core | routerUser | POST | /user/user/3 | Y |
 |Core | routerUser | POST | /user/user/gdpr | N | Y |																	
-|Core | routerUser | POST | /user/user/consent | N | Y |																			
+|Core | routerUser | POST | /user/user/consent | N | Y |																		
 |Core | routerUser | POST | /user/user/consent/mail | N | Y |																		
 |Core | routerUser | PUT | /user/user | N | Y |					
 |Core | routerUser | GET | /user/user/profile | N | Y |	
