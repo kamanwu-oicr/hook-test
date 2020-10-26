@@ -51,12 +51,15 @@
 |Core | routerUserForm | POST | /user/form/answer/cancel | Y |
 |Core | routerUserForm | POST | /user/form/answer/reset | N | Y |
 |Core | routerUserForm | PUT | /user/form/answer | N | Y |
-|Core | routerUserForm | GET | /user/form/answer | Y | | | | | | | | | | | | | Basing on section permisson configure |
-|Core | routerUserForm | GET | /user/form/answer/download | N | Y | | | | | | | | | | | Basing on section permisson configure |
+|Core | routerUserForm | GET | /user/form/answer | Y | | | | | | | | | | | | | check section permisson configure |
+|Core | routerUserForm | GET | /user/form/answer/download | N | Y | | | | | | | | | | | | check section permisson configure |
 |Core | routerUserForm | GET | /user/form/:id | Y |
 |Core | routerToken | GET | /token/token/:token | Y |
 |Core | routerAdminSolr | POST | /admin/solr/delete | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
 |Core | routerAdminSolr | POST | /admin/solr/rebuild | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
 |Core | routerAdminSolr | GET | /admin/solr/types | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
 |Core | routerAdminSolr | GET | /admin/solr/fields | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerFile | GET | /file/file/:id | Y | | | | | | | | | | | | | check file path is public/private/system |
+|Core | routerFile | GET | /file/file/:id/:name | Y | | | | | | | | | | | | | check file path is public/private/system |
+|Core | routerFile | DELETE | /file/file/:id/:name | N | Y | | | | | | | | | | | | check file owner |
 
