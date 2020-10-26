@@ -77,4 +77,13 @@
 |Core | routerApp | GET | /app/jekyll/config | N | N | Y | Y | N | | | | | | | | | |
 |Core | routerApp | PUT | /app/jekyll/config | N | N | Y | N | N | | | | | | | | | |
 |Core | routerHello | POST | /hello/query-db | Y | | | | | | | | | | | | | used for auto-teting. disable by default |
+|Core | routerCommand | PUT | /command/cron-synch | Y |  |  |  |  | | | | | | | | | check api secret |
+|Core | routerCommand | PUT | /command/solr-synch | Y |  |  |  |  | | | | | | | | | check api secret |
+|Core | routerCommand | PUT | /command/solr-delete | Y |  |  |  |  | | | | | | | | | check api secret |
+|Core | routerCommand | PUT | /command/sub-md-rebuild | Y |  |  |  |  | | | | | | | | | check api secret |
+|Core | routerCommand | GET | /cron/case-expire | Y |
+|Core | routerCommand | GET | /cron/work-queue | Y |
+|Core | routerCommand | GET | /cron/case-email | Y |
+|Core | routerCommand | GET | /cron/case-remove | Y |
+|Core | routerCommand | GET | /cron/case-mod-reset | Y |
 
