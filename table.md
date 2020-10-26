@@ -77,13 +77,25 @@
 |Core | routerApp | GET | /app/jekyll/config | N | N | Y | Y | N | | | | | | | | | |
 |Core | routerApp | PUT | /app/jekyll/config | N | N | Y | N | N | | | | | | | | | |
 |Core | routerHello | POST | /hello/query-db | Y | | | | | | | | | | | | | used for auto-teting. disable by default |
-|Core | routerCommand | PUT | /command/cron-synch | Y |  |  |  |  | | | | | | | | | check api secret |
-|Core | routerCommand | PUT | /command/solr-synch | Y |  |  |  |  | | | | | | | | | check api secret |
-|Core | routerCommand | PUT | /command/solr-delete | Y |  |  |  |  | | | | | | | | | check api secret |
-|Core | routerCommand | PUT | /command/sub-md-rebuild | Y |  |  |  |  | | | | | | | | | check api secret |
+|Core | routerCommand | PUT | /command/cron-synch | Y | | | | | | | | | | | | | check api secret |
+|Core | routerCommand | PUT | /command/solr-synch | Y | | | | | | | | | | | | | check api secret |
+|Core | routerCommand | PUT | /command/solr-delete | Y | | | | | | | | | | | | | check api secret |
+|Core | routerCommand | PUT | /command/sub-md-rebuild | Y | | | | | | | | | | | | | check api secret |
 |Core | routerCommand | GET | /cron/case-expire | Y |
 |Core | routerCommand | GET | /cron/work-queue | Y |
 |Core | routerCommand | GET | /cron/case-email | Y |
 |Core | routerCommand | GET | /cron/case-remove | Y |
 |Core | routerCommand | GET | /cron/case-mod-reset | Y |
+|Core | routerModeration | POST | /moderation/submission/create | N | Y | | | | | | | | | | | | check crowd groups |
+|Core | routerModeration | POST | /moderation/submission/validate | N | Y | | | | | | | | | | | | |
+|Core | routerModeration | POST | /moderation/preview | N | Y | | | | | | | | | | | | |
+|Core | routerModeration | POST | /moderation/target | N | Y | | | | | | | | | | | | |
+|Core | routerModeration | PUT | /moderation/target/:key | N | Y | | | | | | | | | | | | |
+|Core | routerModeration | DELETE | /moderation/target/:key | N | Y | | | | | | | | | | | | |
+|Core | routerModeration | GET | /moderation/target | N | Y | | | | | | | | | | | | |
+|Core | routerModeration | GET | /moderation/target/:key | N | Y | | | | | | | | | | | | |
+|Core | routerModeration | GET | /moderation/target/:key/member | N | Y | | | | | | | | | | | | |
+|Core | routerModeration | GET | /moderation/target/:key/content-stat | N | Y | | | | | | | | | | | | |
+|Core | routerModeration | GET | /moderation/user/:uid/target | N | Y | | | | | | | | | | | | |
+|Core | routerModeration | GET | /moderation/user/:uid/change-request-history | N | Y | | | | | | | | | | | | |
 
