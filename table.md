@@ -45,3 +45,8 @@
 |Core | routerUser | DELETE | /admin/user/role | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
 |Core | routerUser | GET | /admin/user/role/download | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
 |Core | routerUser | POST | /admin/group/cud/search | N | N | Y | N | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+
+|Core | routerUserCase | PUT | /user/case | N | Y |
+
+|Core | routerToken | GET | /token/token/:token | Y |
+
