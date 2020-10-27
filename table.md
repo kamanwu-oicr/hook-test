@@ -98,12 +98,12 @@
 |Core | routerModeration | GET | /moderation/target/:key/content-stat | N | Y | | | | | | | | | | | | |
 |Core | routerModeration | GET | /moderation/user/:uid/target | N | Y | | | | | | | | | | | | |
 |Core | routerModeration | GET | /moderation/user/:uid/change-request-history | N | Y | | | | | | | | | | | | |
-|Core | routerProject | GET | /project/:id/people/:uid/send-invitation | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerProject | POST | /project/:id/people | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerProject | GET | /project/:id/people | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerProject | PUT | /project/:id/people/:uid | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerProject | DELETE | /project/:id/people/:uid | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerProject | GET | /project/:id/history | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
+|Core | routerProject | GET | /project/:id/people/:uid/send-invitation | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerProject | POST | /project/:id/people | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerProject | GET | /project/:id/people | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerProject | PUT | /project/:id/people/:uid | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerProject | DELETE | /project/:id/people/:uid | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerProject | GET | /project/:id/history | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
 |Core | routerForm | GET | /form/form | Y |
 |Core | routerForm | POST | /form/form | N | N | Y | Y | Y | N | N | N | N | N | N | N | N | ACL |
 |Core | routerForm | DELETE | /form/form/:id | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
