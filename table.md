@@ -105,8 +105,8 @@
 |Core | routerProject | DELETE | /project/:id/people/:uid | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
 |Core | routerProject | GET | /project/:id/history | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
 |Core | routerForm | GET | /form/form | Y |
-|Core | routerForm | POST | /form/form | N | N | Y | Y | Y | N | N | N | N | N | N | N | N | ACL |
-|Core | routerForm | DELETE | /form/form/:id | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
+|Core | routerForm | POST | /form/form | N | N | Y | Y | N | N | N | N | N | N | N | N | N | ACL |
+|Core | routerForm | DELETE | /form/form/:id | N | N | Y | Y | Y | Y | N | N | N | N | N | N | N | ACL |
 |Core | routerForm | GET | /form/form/token | Y |
 |Core | routerForm | GET | /form/case/token | N | Y |
 |Core | routerForm | GET | /form/form/count | N | Y |
@@ -117,13 +117,13 @@
 |Core | routerForm | GET | /form/submission/activity | N | Y |
 |Core | routerAdminCase | GET | /admin/case | N | Y |
 |Core | routerAdminCase | GET | /admin/case/log | N | Y |
-|Core | routerAdminCase | GET | /admin/case/moderation | N | N | Y | Y | N | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerAdminCase | PUT | /admin/case | N | N | Y | Y | N | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerAdminCase | GET | /admin/case/resend-email | N | N | Y | Y | N | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerAdminCase | POST | /admin/case/resend-email | N | N | Y | Y | N | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerAdminCase | POST | /admin/case/download | N | N | Y | Y | N | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerAdminCase | POST | /admin/case/download-actionlog | N | N | Y | Y | N | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerAdminCase | GET | /admin/case/submission | N | N | Y | Y | N | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
+|Core | routerAdminCase | GET | /admin/case/moderation | N | N | Y | Y | N | Y | Y | Y | N | N | Y | N | N | ACL |
+|Core | routerAdminCase | PUT | /admin/case | N | N | Y | Y | N | Y | Y | Y | N | N | Y | N | N | ACL |
+|Core | routerAdminCase | GET | /admin/case/resend-email | N | N | Y | Y | N | Y | Y | Y | N | N | Y | N | N | ACL |
+|Core | routerAdminCase | POST | /admin/case/resend-email | N | N | Y | Y | N | Y | Y | Y | N | N | Y | N | N | ACL |
+|Core | routerAdminCase | POST | /admin/case/download | N | N | Y | Y | N | Y | Y | Y | Y | N | N | Y | Y | ACL |
+|Core | routerAdminCase | POST | /admin/case/download-actionlog | N | N | Y | Y | N | Y | Y | Y | N | N | N | N | N | ACL |
+|Core | routerAdminCase | GET | /admin/case/submission | N | N | Y | Y | N | Y | Y | Y | Y | N | Y | Y | Y | ACL |
 |Core | routerAdminCase | PUT | /admin/server/case | Y | | | | | | | | | | | | | check api secret |
 |Core | routerPayment | POST | /payment/cases/info | N | Y |
 |Core | routerPayment | POST | /payment/cases/pay | N | Y |
@@ -138,23 +138,23 @@
 |Core | routerPayment | POST | /payment/moneris/v1/callback/:type | Y | | | | | | | | | | | | | check date from moneris |
 |Core | routerPayment | GET | /payment/moneris/v1/callback/:type | Y | | | | | | | | | | | | | check data from moneris |
 |Core | routerFormBuilder | GET | /admin/formbuilder/form/list | N | Y |
-|Core | routerFormBuilder | GET | /admin/formbuilder/form/:id | N | N | Y | Y | Y | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | GET | /admin/formbuilder/form/:id/validate | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | GET | /admin/formbuilder/form/:id/download | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | POST | /admin/formbuilder/form/:id/publish | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | PUT | /admin/formbuilder/form | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | POST | /admin/formbuilder/form/attr | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | PUT | /admin/formbuilder/form/attr | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | DELETE | /admin/formbuilder/form/attr | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | POST | /admin/formbuilder/form/attr/test | N | N | Y | Y | Y | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | POST | /admin/formbuilder/question | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | PUT | /admin/formbuilder/question | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | DELETE | /admin/formbuilder/question | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | POST | /admin/formbuilder/question/order | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | POST | /admin/formbuilder/section | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | PUT | /admin/formbuilder/section | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | DELETE | /admin/formbuilder/section | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | POST | /admin/formbuilder/form/:id/states | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | PUT | /admin/formbuilder/form/:id/states | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | DELETE | /admin/formbuilder/form/:id/states/:state | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
-|Core | routerFormBuilder | GET | /admin/formbuilder/form/:id/tokens | N | N | Y | Y | Y | Y | N | N | ACL | ACL | ACL | ACL | ACL | ACL |
+|Core | routerFormBuilder | GET | /admin/formbuilder/form/:id | N | N | Y | Y | Y | Y | Y | Y | Y | Y | Y | Y | Y | ACL |
+|Core | routerFormBuilder | GET | /admin/formbuilder/form/:id/validate | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | GET | /admin/formbuilder/form/:id/download | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | POST | /admin/formbuilder/form/:id/publish | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | PUT | /admin/formbuilder/form | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | POST | /admin/formbuilder/form/attr | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | PUT | /admin/formbuilder/form/attr | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | DELETE | /admin/formbuilder/form/attr | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | POST | /admin/formbuilder/form/attr/test | N | N | Y | Y | Y | Y | Y | Y | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | POST | /admin/formbuilder/question | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | PUT | /admin/formbuilder/question | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | DELETE | /admin/formbuilder/question | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | POST | /admin/formbuilder/question/order | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | POST | /admin/formbuilder/section | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | PUT | /admin/formbuilder/section | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | DELETE | /admin/formbuilder/section | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | POST | /admin/formbuilder/form/:id/states | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | PUT | /admin/formbuilder/form/:id/states | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | DELETE | /admin/formbuilder/form/:id/states/:state | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+|Core | routerFormBuilder | GET | /admin/formbuilder/form/:id/tokens | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
