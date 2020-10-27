@@ -115,5 +115,15 @@
 |Core | routerForm | POST | /form/form/clone | N | N | Y | Y | Y | N | N | N | N | N | N | N | N | ACL |
 |Core | routerForm | GET | /form/submission/count | N | Y |
 |Core | routerForm | GET | /form/submission/activity | N | Y |
+|Core | routerAdminCase | GET | /admin/case | N | Y |
+|Core | routerAdminCase | GET | /admin/case/log | N | Y |
+|Core | routerAdminCase | GET | /admin/case/moderation | N | N | Y | Y | N | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
+|Core | routerAdminCase | PUT | /admin/case | N | N | Y | Y | N | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
+|Core | routerAdminCase | GET | /admin/case/resend-email | N | N | Y | Y | N | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
+|Core | routerAdminCase | POST | /admin/case/resend-email | N | N | Y | Y | N | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
+|Core | routerAdminCase | POST | /admin/case/download | N | N | Y | Y | N | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
+|Core | routerAdminCase | POST | /admin/case/download-actionlog | N | N | Y | Y | N | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
+|Core | routerAdminCase | GET | /admin/case/submission | N | N | Y | Y | N | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
+|Core | routerAdminCase | PUT | /admin/server/case | Y | | | | | | | | | | | | | check api secret |
 
 
