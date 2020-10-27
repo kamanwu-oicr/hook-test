@@ -158,7 +158,6 @@
 |Core | routerFormBuilder | PUT | /admin/formbuilder/form/:id/states | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
 |Core | routerFormBuilder | DELETE | /admin/formbuilder/form/:id/states/:state | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
 |Core | routerFormBuilder | GET | /admin/formbuilder/form/:id/tokens | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
-
 |Core | routerContent | GET | /content/github/repos | Y |
 |Core | routerContent | GET | /content/github/repos/contents | Y |
 |Core | routerContent | PUT | /content/github/repos/contents | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
