@@ -158,3 +158,29 @@
 |Core | routerFormBuilder | PUT | /admin/formbuilder/form/:id/states | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
 |Core | routerFormBuilder | DELETE | /admin/formbuilder/form/:id/states/:state | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
 |Core | routerFormBuilder | GET | /admin/formbuilder/form/:id/tokens | N | N | Y | Y | Y | Y | N | N | N | Y | N | N | N | ACL |
+
+|Core | routerContent | GET | /content/github/repos | Y |
+|Core | routerContent | GET | /content/github/repos/contents | Y |
+|Core | routerContent | PUT | /content/github/repos/contents | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerContent | PUT | /content/github/repos/contents | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerContent | DELETE | /content/github/repos/contents | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerContent | GET | /content/github/rawfile | N | Y | | | | | | | | | | | | check file path |
+|Core | routerContent | GET | /content/page/attribute | Y |
+|Core | routerContent | POST | /content/page/attribute | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerContent | PUT | /content/page/attribute | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerContent | PUT | /content/pages/attribute | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerContent | POST | /content/collection/file | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerContent | PUT | /content/collection/file | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerContent | GET | /content/content | Y |
+|Core | routerContent | GET | /content/contents | Y |
+|Core | routerContent | DELETE | /content/contents | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerContent | POST | /content/content/revert | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerContent | POST | /content/content/path-expand | Y |
+|Core | routerContent | DELETE | /content/content/draft | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerContent | POST | /content/preview | N | Y |
+|Core | routerContent | POST | /content/search | Y |
+|Core | routerContent | GET | /content/file | Y |
+|Core | routerContent | POST | /content/pandoc | N | Y |
+|Core | routerContent | POST | /content/export | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | 
+
+
