@@ -125,5 +125,15 @@
 |Core | routerAdminCase | POST | /admin/case/download-actionlog | N | N | Y | Y | N | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
 |Core | routerAdminCase | GET | /admin/case/submission | N | N | Y | Y | N | Y | Y | Y | ACL | ACL | ACL | ACL | ACL | ACL |
 |Core | routerAdminCase | PUT | /admin/server/case | Y | | | | | | | | | | | | | check api secret |
-
-
+|Core | routerPayment | POST | /payment/cases/info | N | Y |
+|Core | routerPayment | POST | /payment/cases/pay | N | Y |
+|Core | routerPayment | POST | /payment/cases/info-price | N | Y |
+|Core | routerPayment | GET | /payment/cases/:id/receipt | N | Y |
+|Core | routerPayment | GET | /payment/cases/:id/receipt-download | N | Y |
+|Core | routerPayment | POST | /payment/order/pay | N | Y |
+|Core | routerPayment | GET | /payment/order/:id/receipt | N | Y |
+|Core | routerPayment | GET | /payment/order/:id/receipt-download | N | Y |
+|Core | routerPayment | GET | /payment/user/order | N | Y |
+|Core | routerPayment | GET | /payment/admin/order | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|Core | routerPayment | POST | /payment/moneris/v1/callback/:type | Y | | | | | | | | | | | | | check date from moneris |
+|Core | routerPayment | GET | /payment/moneris/v1/callback/:type | Y | | | | | | | | | | | | | check data from moneris |
