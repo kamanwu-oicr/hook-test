@@ -98,4 +98,10 @@
 |Core | routerModeration | GET | /moderation/target/:key/content-stat | N | Y | | | | | | | | | | | | |
 |Core | routerModeration | GET | /moderation/user/:uid/target | N | Y | | | | | | | | | | | | |
 |Core | routerModeration | GET | /moderation/user/:uid/change-request-history | N | Y | | | | | | | | | | | | |
+|Core | routerProject | GET | /project/:id/people/:uid/send-invitation | N | N | Y | Y | N | Y | N | N | ACL | ACL | ACL | ACL | ACL | |
+|Core | routerProject | POST | /project/:id/people | N | N | Y | Y | N | Y | N | N | ACL | ACL | ACL | ACL | ACL | |
+|Core | routerProject | GET | /project/:id/people | N | N | Y | Y | N | Y | N | N | ACL | ACL | ACL | ACL | ACL | |
+|Core | routerProject | PUT | /project/:id/people/:uid | N | N | Y | Y | N | Y | N | N | ACL | ACL | ACL | ACL | ACL | |
+|Core | routerProject | DELETE | /project/:id/people/:uid | N | N | Y | Y | N | Y | N | N | ACL | ACL | ACL | ACL | ACL | |
+|Core | routerProject | GET | /project/:id/history | N | N | Y | Y | N | Y | N | N | ACL | ACL | ACL | ACL | ACL | |
 
