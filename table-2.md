@@ -37,3 +37,15 @@
 |CRATE | routerHookSetup | POST | /apps/crane/setup/hooks | Y | | | | | | | | | | | | | form callback api |
 |CRATE-LAB | router | GET | /apps/crate-lab/info | N | Y | | | | | | | | | | | | |
 |CRATE-LAB | router | POST | /apps/crate-lab/server/info | Y | | | | | | | | | | | | | called by remote server, check secret |
+|FACIT | routes | POST | /apps/facit/project/import | N | Y |
+|FACIT | routes | POST | /apps/facit/project/export | N | Y |
+|FACIT | routes | GET | /apps/facit/project/filters | Y |
+|FACIT | routes | GET | /apps/facit/project/import/history | N | Y |
+|ICGC-DACO | router | POST | /apps/icgcdaco/submission/validate | N | Y |
+|ICGC-DACO | router | POST | /apps/icgcdaco/submission/finalize | N | Y |
+|ICGC-DACO | router | POST | /apps/icgcdaco/submission/sign | N | Y |
+|ICGC-DACO | router | POST | /apps/icgcdaco/download-report | N | Y |
+|ICGC-DACO | router | GET | /apps/icgcdaco/application-approved | Y | | | | | | | | | | | | | anonymous do not see openid, daco officer can see it |
+|ICGC-DACO | routerCommand | GET | /apps/icgcdaco/cron/reset-case | Y |
+|ICGC-DACO | routerCommand | POST | /apps/icgcdaco/command/email-report | Y | | | | | | | | | | | | | check api secret |
+|ICGC-DACO | routerHookDaco | POST | /apps/icgcdaco/daco/hooks | N | Y | | | | | | | | | | | | form callback api |
