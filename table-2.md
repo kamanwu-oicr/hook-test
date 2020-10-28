@@ -49,3 +49,29 @@
 |ICGC-DACO | routerCommand | GET | /apps/icgcdaco/cron/reset-case | Y |
 |ICGC-DACO | routerCommand | POST | /apps/icgcdaco/command/email-report | Y | | | | | | | | | | | | | check api secret |
 |ICGC-DACO | routerHookDaco | POST | /apps/icgcdaco/daco/hooks | N | Y | | | | | | | | | | | | form callback api |
+|CUD | routes | POST | /apps/cud/group/cancel/invite | N | Y | | | | | | | | | | | | verify by token |
+|CUD | routes | POST | /apps/cud/group/accept/invite | N | Y | | | | | | | | | | | | verify by token |
+|CUD | routes | POST | /apps/cud/group/cancel/member | N | Y | | | | | | | | | | | | verify by token |
+|CUD | routes | POST | /apps/cud/group/cancel/owner | N | Y | | | | | | | | | | | | verify by token |
+|CUD | routes | POST | /apps/cud/renew/ownership | N | Y | | | | | | | | | | | | verify by token |
+|CUD | routes | GET | /apps/cud/users | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|CUD | routes | GET | /apps/cud/users/:uid | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|CUD | routes | GET | /apps/cud/users/:uid/download | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|CUD | routes | GET | /apps/cud/user/groups | N | Y |
+|CUD | routes | GET | /apps/cud/groups | N | Y |
+|CUD | routes | GET | /apps/cud/groups/history | N | Y |
+|CUD | routes | GET | /apps/cud/group/:gid | N | Y |
+|CUD | routes | GET | /apps/cud/group/:gid/member/:uid | N | Y |
+|CUD | routes | GET | /apps/cud/group/:gid/members-export | N | Y |
+|CUD | routes | GET | /apps/cud/group/:gid/download | N | Y |
+|CUD | routes | GET | /apps/cud/group/:gid/history | N | Y |
+|CUD | routes | GET | /apps/cud/group/:gid/tokens | N | Y |
+|CUD | routes | POST | /apps/cud/group/:gid/invite | N | Y |
+|CUD | routes | GET | /apps/cud/content/statistics-crowd | Y |
+|CUD | routerCommand | GET | /apps/cud/cron/sync-crowd | Y |
+|CUD | routerCommand | GET | /apps/cud/cron/reset-case | Y |
+|CUD | routerHookAddGroup | POST | /apps/cud/add-group/hooks | Y | | | | | | | | | | | | | form callback api |
+|CUD | routerHookAddUser | POST | /apps/cud/add-user/hooks | Y | | | | | | | | | | | | | form callback api |
+|CUD | routerHookEditGroup | POST | /apps/cud/edit-group/hooks | Y | | | | | | | | | | | | | form callback api |
+|CUD | routerHookEditUser | POST | /apps/cud/edit-user/hooks | Y | | | | | | | | | | | | | form callback api |
+|CUD | routerHookJoinGroup | POST | /apps/cud/join/hooks | Y | | | | | | | | | | | | | form callback api |
