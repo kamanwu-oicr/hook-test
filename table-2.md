@@ -23,5 +23,17 @@
 |AO | router | GET | /apps/ao/target/:key/member | N | Y |
 |AO | router | GET | /apps/ao/target/:key/content-stat | N | Y |
 |AO | router | GET | /apps/ao/content/profile | Y |
-|AO | routerHookMod | POST | /apps/ao/mod/hooks | Y | | | | | | | | | | | | form callback api |
+|AO | routerHookMod | POST | /apps/ao/mod/hooks | Y | | | | | | | | | | | | | form callback api |
 |AO | routerHookMailingList | POST | /apps/ao/mailinglist/hooks | Y | | | | | | | | | | | | | form callback api |
+|CRATE | router | GET | /apps/crate/setup-state | N | Y | | | | | | | | | | | | NOT IN USE |
+|CRATE | router | POST | /apps/crate/report-error | N | Y | | | | | | | | | | | | |
+|CRATE | router | POST | /apps/crate/affiliation-accept | N | Y | | | | | | | | | | | | verify by token |
+|CRATE | router | POST | /apps/crate/affiliation-cancel | N | Y | | | | | | | | | | | | verify by token |
+|CRATE | router | GET | /apps/crate/:crateType/:tryCaseNumberId/member | N | Y | | | | | | | | | | | | |
+|CRATE | router | GET | /apps/crate/:crateType/:setupCompleteCaseId/info | N | Y | | | | | | | | | | | | |
+|CRATE | router | GET | /apps/crate/user/:uid/crates | N | Y | | | | | | | | | | | | user get own if not Op |
+|CRATE | router | POST | /apps/crate/server/content | Y | | | | | | | | | | | | | called by other crate instance, check secret |
+|CRATE | routerHookTry | POST | /apps/crane/try/hooks | Y | | | | | | | | | | | | | form callback api |
+|CRATE | routerHookSetup | POST | /apps/crane/setup/hooks | Y | | | | | | | | | | | | | form callback api |
+|CRATE-LAB | router | GET | /apps/crate-lab/info | N | Y | | | | | | | | | | | | |
+|CRATE-LAB | router | POST | /apps/crate-lab/server/info | Y | | | | | | | | | | | | | called by remote server, check secret |
