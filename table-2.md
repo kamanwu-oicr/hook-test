@@ -75,3 +75,27 @@
 |CUD | routerHookEditGroup | POST | /apps/cud/edit-group/hooks | Y | | | | | | | | | | | | | form callback api |
 |CUD | routerHookEditUser | POST | /apps/cud/edit-user/hooks | Y | | | | | | | | | | | | | form callback api |
 |CUD | routerHookJoinGroup | POST | /apps/cud/join/hooks | Y | | | | | | | | | | | | | form callback api |
+|CBW | router | GET | /apps/cbw/workshop/list | Y |
+|CBW | router | GET | /apps/cbw/job/filters | Y |
+|CBW | router | GET | /apps/cbw/job/top/location | Y |
+|CBW | router | GET | /apps/cbw/slide/list | Y |
+|CBW | router | GET | /apps/cbw/person/list | Y |
+|CBW | router | GET | /apps/cbw/user/:uid/workshop-history | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | 
+|CBW | router | GET | /apps/cbw/user/:uid/workshop-history/download | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | 
+|CBW | router | GET | /apps/cbw/workshop-series/list | N | Y |
+|CBW | router | GET | /apps/cbw/workshop-series/:wsid | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | 
+|CBW | router | DELETE | /apps/cbw/workshop-series/:wsid | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | 
+|CBW | router | GET | /apps/cbw/workshop-series/:wsid/workshop/:wid | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | 
+|CBW | router | DELETE | /apps/cbw/workshop-series/:wsid/workshop/:wid | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | 
+|CBW | router | PUT | /apps/cbw/workshop-series/:wsid/workshop/:wid/status | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | 
+|CBW | router | GET | /apps/cbw/workshop-series/:wsid/case-statistics | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | 
+|CBW | router | GET | /apps/cbw/workshop-series/:wsid/case-history | N | N | Y | Y | N | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | 
+|CBW | routerHookJobPost | POST | /apps/cbw/job/hooks | Y | | | | | | | | | | | | | form callback api |
+|CBW | routerHookWorkshopApply | POST | /apps/cbw/workshop/hooks | Y | | | | | | | | | | | | | form callback api |
+|CBW | routerHookWorkshopCreate | POST | /apps/cbw/add-workshop/hooks | Y | | | | | | | | | | | | | form callback api |
+|CBW | routerHookWorkshopEdit | POST | /apps/cbw/edit-workshop/hooks | Y | | | | | | | | | | | | | form callback api |
+|CBW | routerHookWorkshopExternalCreate | POST | /apps/cbw/add-workshop-external/hooks | Y | | | | | | | | | | | | | form callback api |
+|CBW | routerHookWorkshopExternalEdit | POST | /apps/cbw/edit-workshop-external/hooks | Y | | | | | | | | | | | | | form callback api |
+|CBW | routerHookWorkshopSeriesCreate | POST | /apps/cbw/add-workshop-series/hooks | Y | | | | | | | | | | | | | form callback api |
+|CBW | routerHookWorkshopSeriesEdit | POST | /apps/cbw/edit-workshop-series/hooks | Y | | | | | | | | | | | | | form callback api |
+|CBW | routerHookWorkshopWait | POST | /apps/cbw/wait-workshop/hooks | Y | | | | | | | | | | | | | form callback api |
